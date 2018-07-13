@@ -102,6 +102,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.bbs.j
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "Jyocoin";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -135,19 +136,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 const char* const SEED_NODES[] = { 
-  "seed.jyocoin.xyz:11204",
-  "1.seed.jyocoin.xyz:11204",
-  "2.seed.jyocoin.xyz:11204",
-  "3.seed.jyocoin.xyz:11204",
-  "4.seed.jyocoin.xyz:11204",
-  "5.seed.jyocoin.xyz:11204",
-  "6.seed.jyocoin.xyz:11204",
-  "7.seed.jyocoin.xyz:11204",
-  "8.seed.jyocoin.xyz:11204",
-  "9.seed.jyocoin.xyz:11204",
-  "10.seed.jyocoin.xyz:11204",
-  "173.82.151.145:11204", 
-  "45.77.187.229:11204" 
+  "172.110.28.195:10215"
+
 };
 
 struct CheckpointData {
