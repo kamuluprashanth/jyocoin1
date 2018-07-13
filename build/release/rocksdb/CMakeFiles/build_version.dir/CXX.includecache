@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/var/www/html/jyocoin/build/release/rocksdb/build_version.cc
+build_version.h
+/var/www/html/jyocoin/build/release/rocksdb/build_version.h
+
+/var/www/html/jyocoin/external/rocksdb/util/build_version.h
+
