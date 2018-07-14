@@ -102,7 +102,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.bbs.j
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "Jyocoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210185d7eeb699d922388b608efaaa11c20cb048d54b997b1ae8ecf9b97a6d094021";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -136,7 +136,7 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 const char* const SEED_NODES[] = { 
-  "172.110.28.195:10215"
+  "172.110.28.195:36556"
 
 };
 

@@ -1,5 +1,0 @@
-2018-Jul-13 18:33:54.560913 INFO    [daemon] Jyocoin v3.1.0.1000 ()
-2018-Jul-13 18:33:54.561029 INFO    [daemon] Module folder: ./jyocoind
-2018-Jul-13 18:33:54.561144 INFO    [RocksDBWrapper] Opening DB in /home/user/.Jyocoin/DB
-2018-Jul-13 18:33:54.561572 ERROR   [RocksDBWrapper] DB Error. DB can't be opened in /home/user/.Jyocoin/DB. Error: IO error: While lock file: /home/user/.Jyocoin/DB/LOCK: Resource temporarily unavailable
-2018-Jul-13 18:33:54.561677 ERROR   [daemon] Exception: IO error
