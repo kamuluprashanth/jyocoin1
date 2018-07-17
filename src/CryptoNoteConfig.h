@@ -94,15 +94,14 @@ const uint32_t UPGRADE_WINDOW                                = EXPECTED_NUMBER_O
 static_assert(0 < UPGRADE_VOTING_THRESHOLD && UPGRADE_VOTING_THRESHOLD <= 100, "Bad UPGRADE_VOTING_THRESHOLD");
 static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 
-const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "blocks.bbs";
-const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.bbs";
-const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bbs";
-const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bbs";
-const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.bbs.json";
+const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "blocks.bin";
+const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.bin";
+const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
+const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
+const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "Jyocoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210185d7eeb699d922388b608efaaa11c20cb048d54b997b1ae8ecf9b97a6d094021";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -117,8 +116,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  100;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  11204;
-const int      RPC_DEFAULT_PORT                              =  21204;
+const int      P2P_DEFAULT_PORT                              =  18546;
+const int      RPC_DEFAULT_PORT                              =  18547;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -133,10 +132,21 @@ const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT                = 5000;          //
 const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT           = 2000;          // 2 seconds
 const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; // 2 minutes
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
-const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
+const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
-const char* const SEED_NODES[] = { 
-  "172.110.28.195:36556"
+const char* const SEED_NODES[] = {
+  "seed.bbscoin.xyz:18546",
+  "1.seed.bbscoin.xyz:18546",
+  "2.seed.bbscoin.xyz:18546",
+  "3.seed.bbscoin.xyz:18546",
+  "4.seed.bbscoin.xyz:18546",
+  "5.seed.bbscoin.xyz:18546",
+  "6.seed.bbscoin.xyz:18546",
+  "7.seed.bbscoin.xyz:18546",
+  "8.seed.bbscoin.xyz:18546",
+  "9.seed.bbscoin.xyz:18546",
+  "10.seed.bbscoin.xyz:18546",
+  "172.110.28.195:18546"
 
 };
 
@@ -146,12 +156,8 @@ struct CheckpointData {
 };
 
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
-    {54606, "18a155e5ae0a1b4992518698d1271382b566c49ed859540f3c81dc46fa5b89f6"},
-    {60000, "dd02fb33f84443584e0432c28df61b372382c9a20542a5cb6b655a7932bd7d58"},
-    {63600, "41c73113de2a37ae3a543c79083d4e509713a70a53ae5e7c70fcea641c396c56"},
-    {64550, "8554549b78dc831fdca2b46cbef83729e0288a1997998c19fcb37e17164689c7"},
-    {72580, "9fb75a9b219f884afc75c2fba08ac31ffe8ec5a188da3694edce9b094bd3741f"},
-    {94730, "ec4e91d22603815601ece440e045c5f73da41b085468a1239757795a5887f3b4"}
+    {1, "0000000000000000000000000000000000000000000000000000000000000000"}
+
 };
 
 } // CryptoNote
