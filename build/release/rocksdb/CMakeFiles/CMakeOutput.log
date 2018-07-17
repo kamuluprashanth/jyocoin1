@@ -28,15 +28,15 @@ The CXX compiler identification is GNU, found in "/var/www/html/jyocoin/build/re
 Determining if the C compiler works passed with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_adf64/fast"
+Run Build Command:"/usr/bin/make" "cmTC_3ba29/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_adf64.dir/build.make CMakeFiles/cmTC_adf64.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_3ba29.dir/build.make CMakeFiles/cmTC_3ba29.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_adf64.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_adf64.dir/testCCompiler.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_adf64
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adf64.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_adf64.dir/testCCompiler.c.o  -o cmTC_adf64 -rdynamic 
+Building C object CMakeFiles/cmTC_3ba29.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3ba29.dir/testCCompiler.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3ba29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ba29.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3ba29.dir/testCCompiler.c.o  -o cmTC_3ba29 -rdynamic 
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -44,15 +44,15 @@ make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFil
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bf49a/fast"
+Run Build Command:"/usr/bin/make" "cmTC_c267b/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_bf49a.dir/build.make CMakeFiles/cmTC_bf49a.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_c267b.dir/build.make CMakeFiles/cmTC_c267b.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bf49a.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_bf49a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_bf49a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf49a.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_bf49a.dir/CMakeCCompilerABI.c.o  -o cmTC_bf49a -rdynamic  
+Building C object CMakeFiles/cmTC_c267b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c267b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c267b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c267b.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_c267b.dir/CMakeCCompilerABI.c.o  -o cmTC_c267b -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -62,8 +62,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf49a' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyYAObH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_bf49a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_bf49a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c267b' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnoLG2j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c267b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c267b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -72,15 +72,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bf49a/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c267b/fast"]
   ignore line: [make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bf49a.dir/build.make CMakeFiles/cmTC_bf49a.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c267b.dir/build.make CMakeFiles/cmTC_c267b.dir/build]
   ignore line: [make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_bf49a.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_bf49a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_bf49a]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf49a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_bf49a.dir/CMakeCCompilerABI.c.o  -o cmTC_bf49a -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_c267b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_c267b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c267b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c267b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_c267b.dir/CMakeCCompilerABI.c.o  -o cmTC_c267b -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf49a' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyYAObH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_bf49a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_bf49a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c267b' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnoLG2j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c267b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c267b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccyYAObH.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnoLG2j.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bf49a] ==> ignore
+    arg [cmTC_c267b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_bf49a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_c267b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -160,15 +160,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0599c/fast"
+Run Build Command:"/usr/bin/make" "cmTC_0d0d1/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_0599c.dir/build.make CMakeFiles/cmTC_0599c.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_0d0d1.dir/build.make CMakeFiles/cmTC_0d0d1.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0599c.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_0599c.dir/feature_tests.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0599c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0599c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_0599c.dir/feature_tests.c.o  -o cmTC_0599c -rdynamic 
+Building C object CMakeFiles/cmTC_0d0d1.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_0d0d1.dir/feature_tests.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0d0d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d0d1.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0d0d1.dir/feature_tests.c.o  -o cmTC_0d0d1 -rdynamic 
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -182,15 +182,15 @@ make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFil
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_95a27/fast"
+Run Build Command:"/usr/bin/make" "cmTC_4d212/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_95a27.dir/build.make CMakeFiles/cmTC_95a27.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_4d212.dir/build.make CMakeFiles/cmTC_4d212.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_95a27.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_95a27.dir/feature_tests.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.c
-Linking C executable cmTC_95a27
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95a27.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_95a27.dir/feature_tests.c.o  -o cmTC_95a27 -rdynamic 
+Building C object CMakeFiles/cmTC_4d212.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_4d212.dir/feature_tests.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4d212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d212.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4d212.dir/feature_tests.c.o  -o cmTC_4d212 -rdynamic 
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -204,15 +204,15 @@ make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFil
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ebbf6/fast"
+Run Build Command:"/usr/bin/make" "cmTC_76373/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_ebbf6.dir/build.make CMakeFiles/cmTC_ebbf6.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_76373.dir/build.make CMakeFiles/cmTC_76373.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ebbf6.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_ebbf6.dir/feature_tests.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ebbf6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebbf6.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_ebbf6.dir/feature_tests.c.o  -o cmTC_ebbf6 -rdynamic 
+Building C object CMakeFiles/cmTC_76373.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_76373.dir/feature_tests.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.c
+Linking C executable cmTC_76373
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76373.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_76373.dir/feature_tests.c.o  -o cmTC_76373 -rdynamic 
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -224,15 +224,15 @@ make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFil
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_91d72/fast"
+Run Build Command:"/usr/bin/make" "cmTC_66e8d/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_91d72.dir/build.make CMakeFiles/cmTC_91d72.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_66e8d.dir/build.make CMakeFiles/cmTC_66e8d.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_91d72.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_91d72.dir/testCXXCompiler.cxx.o -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_91d72
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91d72.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_91d72.dir/testCXXCompiler.cxx.o  -o cmTC_91d72 -rdynamic 
+Building CXX object CMakeFiles/cmTC_66e8d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_66e8d.dir/testCXXCompiler.cxx.o -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_66e8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66e8d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_66e8d.dir/testCXXCompiler.cxx.o  -o cmTC_66e8d -rdynamic 
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -240,15 +240,15 @@ make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFil
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1dc15/fast"
+Run Build Command:"/usr/bin/make" "cmTC_49f60/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_1dc15.dir/build.make CMakeFiles/cmTC_1dc15.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_49f60.dir/build.make CMakeFiles/cmTC_49f60.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1dc15.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_1dc15.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_1dc15
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dc15.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_1dc15.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1dc15 -rdynamic  
+Building CXX object CMakeFiles/cmTC_49f60.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_49f60.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_49f60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49f60.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_49f60.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_49f60 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -258,8 +258,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1dc15' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc17XfJ1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1dc15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_1dc15.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49f60' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8PuAzF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_49f60 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_49f60.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -268,15 +268,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1dc15/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_49f60/fast"]
   ignore line: [make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1dc15.dir/build.make CMakeFiles/cmTC_1dc15.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_49f60.dir/build.make CMakeFiles/cmTC_49f60.dir/build]
   ignore line: [make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_1dc15.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_1dc15.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_1dc15]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dc15.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_1dc15.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1dc15 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_49f60.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_49f60.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_49f60]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49f60.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_49f60.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_49f60 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -286,13 +286,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1dc15' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc17XfJ1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1dc15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_1dc15.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49f60' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8PuAzF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_49f60 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_49f60.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc17XfJ1.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8PuAzF.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -310,7 +310,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1dc15] ==> ignore
+    arg [cmTC_49f60] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -322,7 +322,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_1dc15.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_49f60.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -354,15 +354,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_431ba/fast"
+Run Build Command:"/usr/bin/make" "cmTC_3b0ff/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_431ba.dir/build.make CMakeFiles/cmTC_431ba.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_3b0ff.dir/build.make CMakeFiles/cmTC_3b0ff.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_431ba.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_431ba.dir/feature_tests.cxx.o -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_431ba
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_431ba.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_431ba.dir/feature_tests.cxx.o  -o cmTC_431ba -rdynamic 
+Building CXX object CMakeFiles/cmTC_3b0ff.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_3b0ff.dir/feature_tests.cxx.o -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3b0ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b0ff.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_3b0ff.dir/feature_tests.cxx.o  -o cmTC_3b0ff -rdynamic 
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -429,15 +429,15 @@ make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFil
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94db5/fast"
+Run Build Command:"/usr/bin/make" "cmTC_d1ef6/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_94db5.dir/build.make CMakeFiles/cmTC_94db5.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_d1ef6.dir/build.make CMakeFiles/cmTC_d1ef6.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_94db5.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_94db5.dir/feature_tests.cxx.o -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_94db5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94db5.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_94db5.dir/feature_tests.cxx.o  -o cmTC_94db5 -rdynamic 
+Building CXX object CMakeFiles/cmTC_d1ef6.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_d1ef6.dir/feature_tests.cxx.o -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d1ef6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1ef6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d1ef6.dir/feature_tests.cxx.o  -o cmTC_d1ef6 -rdynamic 
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -504,15 +504,15 @@ make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFil
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9072f/fast"
+Run Build Command:"/usr/bin/make" "cmTC_f3ea6/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_9072f.dir/build.make CMakeFiles/cmTC_9072f.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_f3ea6.dir/build.make CMakeFiles/cmTC_f3ea6.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9072f.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_9072f.dir/feature_tests.cxx.o -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9072f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9072f.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_9072f.dir/feature_tests.cxx.o  -o cmTC_9072f -rdynamic 
+Building CXX object CMakeFiles/cmTC_f3ea6.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_f3ea6.dir/feature_tests.cxx.o -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f3ea6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3ea6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f3ea6.dir/feature_tests.cxx.o  -o cmTC_f3ea6 -rdynamic 
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -577,15 +577,15 @@ make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFil
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1df33/fast"
+Run Build Command:"/usr/bin/make" "cmTC_d7638/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_1df33.dir/build.make CMakeFiles/cmTC_1df33.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_d7638.dir/build.make CMakeFiles/cmTC_d7638.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1df33.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_1df33.dir/CheckIncludeFile.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_1df33
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1df33.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1df33.dir/CheckIncludeFile.c.o  -o cmTC_1df33 -rdynamic 
+Building C object CMakeFiles/cmTC_d7638.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d7638.dir/CheckIncludeFile.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d7638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7638.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d7638.dir/CheckIncludeFile.c.o  -o cmTC_d7638 -rdynamic 
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
@@ -593,15 +593,15 @@ make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFil
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bb8a9/fast"
+Run Build Command:"/usr/bin/make" "cmTC_4d715/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_bb8a9.dir/build.make CMakeFiles/cmTC_bb8a9.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_4d715.dir/build.make CMakeFiles/cmTC_4d715.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bb8a9.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bb8a9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bb8a9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb8a9.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_bb8a9.dir/CheckFunctionExists.c.o  -o cmTC_bb8a9 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_4d715.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4d715.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d715
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d715.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4d715.dir/CheckFunctionExists.c.o  -o cmTC_4d715 -rdynamic -lpthread 
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 

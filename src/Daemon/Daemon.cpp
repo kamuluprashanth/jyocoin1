@@ -75,7 +75,7 @@ namespace
 bool command_line_preprocessor(const boost::program_options::variables_map& vm, LoggerRef& logger);
 void print_genesis_tx_hex(const po::variables_map& vm, LoggerManager& logManager) {
   CryptoNote::Transaction tx = CryptoNote::CurrencyBuilder(logManager).generateGenesisTransaction();
-  std::string tx_hex = "013c01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101f0fe76f52bd2e70962e49de7b24ee5edc6e81473ddeb801ed34af9b4e7412426";
+  std::string tx_hex = Common::toHex(CryptoNote::toBinaryArray(tx));
   std::cout << "Add this line into your coin configuration file as is: " << std::endl;
   std::cout << "\"GENESIS_COINBASE_TX_HEX\":\"" << tx_hex << "\"," << std::endl;
   return;
