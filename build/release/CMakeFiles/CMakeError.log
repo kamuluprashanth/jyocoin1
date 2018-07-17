@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_79213/fast"
+Run Build Command:"/usr/bin/make" "cmTC_96303/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_79213.dir/build.make CMakeFiles/cmTC_79213.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_96303.dir/build.make CMakeFiles/cmTC_96303.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_79213.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -maes    -o CMakeFiles/cmTC_79213.dir/CheckSymbolExists.c.o   -c /var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_79213
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79213.dir/link.txt --verbose=1
-/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -maes     CMakeFiles/cmTC_79213.dir/CheckSymbolExists.c.o  -o cmTC_79213 -rdynamic 
-CMakeFiles/cmTC_79213.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_96303.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -maes    -o CMakeFiles/cmTC_96303.dir/CheckSymbolExists.c.o   -c /var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_96303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96303.dir/link.txt --verbose=1
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -maes     CMakeFiles/cmTC_96303.dir/CheckSymbolExists.c.o  -o cmTC_96303 -rdynamic 
+CMakeFiles/cmTC_96303.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_79213.dir/build.make:97: recipe for target 'cmTC_79213' failed
-make[2]: *** [cmTC_79213] Error 1
+CMakeFiles/cmTC_96303.dir/build.make:97: recipe for target 'cmTC_96303' failed
+make[2]: *** [cmTC_96303] Error 1
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_79213/fast' failed
-make[1]: *** [cmTC_79213/fast] Error 2
+Makefile:126: recipe for target 'cmTC_96303/fast' failed
+make[1]: *** [cmTC_96303/fast] Error 2
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp'
 
 File /var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -38,25 +38,25 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cc17f/fast"
+Run Build Command:"/usr/bin/make" "cmTC_44c3c/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_cc17f.dir/build.make CMakeFiles/cmTC_cc17f.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_44c3c.dir/build.make CMakeFiles/cmTC_44c3c.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cc17f.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -maes -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cc17f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTC_44c3c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -maes -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_44c3c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
 /usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
  char CHECK_FUNCTION_EXISTS();
  ^
-Linking C executable cmTC_cc17f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc17f.dir/link.txt --verbose=1
-/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -maes -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cc17f.dir/CheckFunctionExists.c.o  -o cmTC_cc17f -rdynamic -lpthreads 
+Linking C executable cmTC_44c3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44c3c.dir/link.txt --verbose=1
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -maes -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_44c3c.dir/CheckFunctionExists.c.o  -o cmTC_44c3c -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_cc17f.dir/build.make:97: recipe for target 'cmTC_cc17f' failed
-make[2]: *** [cmTC_cc17f] Error 1
+CMakeFiles/cmTC_44c3c.dir/build.make:97: recipe for target 'cmTC_44c3c' failed
+make[2]: *** [cmTC_44c3c] Error 1
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_cc17f/fast' failed
-make[1]: *** [cmTC_cc17f/fast] Error 2
+Makefile:126: recipe for target 'cmTC_44c3c/fast' failed
+make[1]: *** [cmTC_44c3c/fast] Error 2
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/CMakeFiles/CMakeTmp'
 
 

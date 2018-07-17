@@ -1,61 +1,32 @@
-2018-Jul-17 17:30:06.078925 INFO    [daemon] Jyocoin v3.2.0.1000 ()
-2018-Jul-17 17:30:06.079043 INFO    [daemon] Module folder: ./jyocoind
-2018-Jul-17 17:30:06.079127 INFO    [RocksDBWrapper] Opening DB in /home/user/.Jyocoin/DB
-2018-Jul-17 17:30:57.815611 INFO    [RocksDBWrapper] DB opened in /home/user/.Jyocoin/DB
-2018-Jul-17 17:30:57.816383 INFO    [daemon] Initializing core...
-2018-Jul-17 17:30:57.837637 INFO    [daemon] Core initialized OK
-2018-Jul-17 17:30:57.837696 INFO    [daemon] Initializing p2p server...
-2018-Jul-17 17:30:58.292623 INFO    [node_server] Binding on 0.0.0.0:18546
-2018-Jul-17 17:30:58.292704 INFO    [node_server] Net service binded on 0.0.0.0:18546
-2018-Jul-17 17:30:58.292750 INFO    [node_server] Attempting to add IGD port mapping.
-2018-Jul-17 17:30:59.363435 INFO    [node_server] Added IGD port mapping.
-2018-Jul-17 17:30:59.363743 INFO    [daemon] P2p server initialized OK
-2018-Jul-17 17:30:59.364015 INFO    [daemon] Starting core rpc server on address 127.0.0.1:18547
-2018-Jul-17 17:30:59.364198 INFO    [daemon] Core rpc server started ok
-2018-Jul-17 17:30:59.364323 INFO    [daemon] Starting p2p net loop...
-2018-Jul-17 17:30:59.364431 INFO    [node_server] Starting node_server
-2018-Jul-17 17:32:04.369565 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:33:11.376131 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:34:18.382265 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:35:25.388252 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:36:32.393834 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:37:39.398201 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:38:46.401201 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:39:07.705603 INFO    [node_server] Stop signal sent
-2018-Jul-17 17:39:07.705689 INFO    [node_server] Stopping NodeServer and it's0 connections...
-2018-Jul-17 17:39:11.527827 INFO    [node_server] Stop signal sent
-2018-Jul-17 17:39:52.708179 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:39:53.708394 INFO    [node_server] NodeServer loop stopped
-2018-Jul-17 17:39:53.708472 INFO    [daemon] p2p net loop stopped
-2018-Jul-17 17:39:53.708522 INFO    [daemon] Stopping core rpc server...
-2018-Jul-17 17:39:53.708604 INFO    [daemon] Deinitializing p2p...
-2018-Jul-17 17:39:53.708955 INFO    [RocksDBWrapper] Closing DB.
-2018-Jul-17 17:39:53.830219 INFO    [daemon] Node stopped.
-2018-Jul-17 17:46:18.292136 INFO    [daemon] Jyocoin v3.2.0.1000 ()
-2018-Jul-17 17:46:18.292246 INFO    [daemon] Module folder: ./jyocoind
-2018-Jul-17 17:46:18.292332 INFO    [RocksDBWrapper] Opening DB in /home/user/.Jyocoin/DB
-2018-Jul-17 17:46:18.420797 INFO    [RocksDBWrapper] DB opened in /home/user/.Jyocoin/DB
-2018-Jul-17 17:46:18.421875 INFO    [daemon] Initializing core...
-2018-Jul-17 17:46:18.425260 INFO    [daemon] Core initialized OK
-2018-Jul-17 17:46:18.425552 INFO    [daemon] Initializing p2p server...
-2018-Jul-17 17:46:18.859849 INFO    [node_server] Binding on 0.0.0.0:18546
-2018-Jul-17 17:46:18.859952 INFO    [node_server] Net service binded on 0.0.0.0:18546
-2018-Jul-17 17:46:18.860003 INFO    [node_server] Attempting to add IGD port mapping.
-2018-Jul-17 17:46:19.928586 INFO    [node_server] Added IGD port mapping.
-2018-Jul-17 17:46:19.928690 INFO    [daemon] P2p server initialized OK
-2018-Jul-17 17:46:19.928805 INFO    [daemon] Starting core rpc server on address 127.0.0.1:18547
-2018-Jul-17 17:46:19.928874 INFO    [daemon] Core rpc server started ok
-2018-Jul-17 17:46:19.928915 INFO    [daemon] Starting p2p net loop...
-2018-Jul-17 17:46:19.928946 INFO    [node_server] Starting node_server
-2018-Jul-17 17:47:24.934127 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:48:31.939914 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:49:38.945123 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:49:50.164271 INFO    [node_server] Stop signal sent
-2018-Jul-17 17:49:50.164563 INFO    [node_server] Stopping NodeServer and it's0 connections...
-2018-Jul-17 17:50:45.169756 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
-2018-Jul-17 17:50:46.170089 INFO    [node_server] NodeServer loop stopped
-2018-Jul-17 17:50:46.170305 INFO    [daemon] p2p net loop stopped
-2018-Jul-17 17:50:46.170519 INFO    [daemon] Stopping core rpc server...
-2018-Jul-17 17:50:46.170820 INFO    [daemon] Deinitializing p2p...
-2018-Jul-17 17:50:46.171901 INFO    [RocksDBWrapper] Closing DB.
-2018-Jul-17 17:50:46.289679 INFO    [daemon] Node stopped.
+2018-Jul-17 19:14:34.939215 INFO    [daemon] Jyocoin v3.2.0.1000 ()
+2018-Jul-17 19:14:34.939559 INFO    [daemon] Module folder: ./jyocoind
+2018-Jul-17 19:14:34.939881 INFO    [RocksDBWrapper] Opening DB in /home/user/.Jyocoin/DB
+2018-Jul-17 19:14:35.084853 INFO    [RocksDBWrapper] DB opened in /home/user/.Jyocoin/DB
+2018-Jul-17 19:14:35.085438 INFO    [daemon] Initializing core...
+2018-Jul-17 19:14:35.088979 INFO    [daemon] Core initialized OK
+2018-Jul-17 19:14:35.089244 INFO    [daemon] Initializing p2p server...
+2018-Jul-17 19:14:35.089606 INFO    [node_server] Binding on 0.0.0.0:18546
+2018-Jul-17 19:14:35.089844 INFO    [node_server] Net service binded on 0.0.0.0:18546
+2018-Jul-17 19:14:35.090030 INFO    [node_server] Attempting to add IGD port mapping.
+2018-Jul-17 19:14:36.165994 INFO    [node_server] Added IGD port mapping.
+2018-Jul-17 19:14:36.166242 INFO    [daemon] P2p server initialized OK
+2018-Jul-17 19:14:36.166717 INFO    [daemon] Starting core rpc server on address 127.0.0.1:18547
+2018-Jul-17 19:14:36.167041 INFO    [daemon] Core rpc server started ok
+2018-Jul-17 19:14:36.167201 INFO    [daemon] Starting p2p net loop...
+2018-Jul-17 19:14:36.167310 INFO    [node_server] Starting node_server
+2018-Jul-17 19:15:55.747375 ERROR   [node_server] [172.110.28.195:18546 OUT] Failed to invoke COMMAND_HANDSHAKE, closing connection.
+2018-Jul-17 19:15:55.747664 WARNING [node_server] Failed to HANDSHAKE with peer 172.110.28.195:18546
+2018-Jul-17 19:16:00.748411 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-17 19:16:12.749919 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-17 19:16:24.751130 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-17 19:16:36.752891 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-17 19:16:48.754486 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-17 19:16:59.238434 INFO    [node_server] Stop signal sent
+2018-Jul-17 19:16:59.238533 INFO    [node_server] Stopping NodeServer and it's0 connections...
+2018-Jul-17 19:16:59.238637 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-17 19:17:00.238759 INFO    [node_server] NodeServer loop stopped
+2018-Jul-17 19:17:00.239043 INFO    [daemon] p2p net loop stopped
+2018-Jul-17 19:17:00.239387 INFO    [daemon] Stopping core rpc server...
+2018-Jul-17 19:17:00.239583 INFO    [daemon] Deinitializing p2p...
+2018-Jul-17 19:17:00.240499 INFO    [RocksDBWrapper] Closing DB.
+2018-Jul-17 19:17:00.386200 INFO    [daemon] Node stopped.

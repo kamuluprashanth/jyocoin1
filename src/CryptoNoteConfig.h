@@ -135,17 +135,7 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
 const char* const SEED_NODES[] = {
-  "seed.bbscoin.xyz:18546",
-  "1.seed.bbscoin.xyz:18546",
-  "2.seed.bbscoin.xyz:18546",
-  "3.seed.bbscoin.xyz:18546",
-  "4.seed.bbscoin.xyz:18546",
-  "5.seed.bbscoin.xyz:18546",
-  "6.seed.bbscoin.xyz:18546",
-  "7.seed.bbscoin.xyz:18546",
-  "8.seed.bbscoin.xyz:18546",
-  "9.seed.bbscoin.xyz:18546",
-  "10.seed.bbscoin.xyz:18546",
+
   "172.110.28.195:18546"
 
 };

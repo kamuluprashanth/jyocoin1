@@ -8,17 +8,12 @@
       <change beforePath="$PROJECT_DIR$/build/release/rocksdb/CMakeFiles/CMakeError.log" afterPath="$PROJECT_DIR$/build/release/rocksdb/CMakeFiles/CMakeError.log" />
       <change beforePath="$PROJECT_DIR$/build/release/rocksdb/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/build/release/rocksdb/CMakeFiles/CMakeOutput.log" />
       <change beforePath="$PROJECT_DIR$/build/release/rocksdb/build_version.cc" afterPath="$PROJECT_DIR$/build/release/rocksdb/build_version.cc" />
-      <change beforePath="$PROJECT_DIR$/build/release/src/connectivity_tool" afterPath="$PROJECT_DIR$/build/release/src/connectivity_tool" />
       <change beforePath="$PROJECT_DIR$/build/release/src/jyocoind" afterPath="$PROJECT_DIR$/build/release/src/jyocoind" />
-      <change beforePath="$PROJECT_DIR$/build/release/src/miner" afterPath="$PROJECT_DIR$/build/release/src/miner" />
+      <change beforePath="$PROJECT_DIR$/build/release/src/jyocoind.log" afterPath="$PROJECT_DIR$/build/release/src/jyocoind.log" />
       <change beforePath="$PROJECT_DIR$/build/release/src/simplewallet" afterPath="$PROJECT_DIR$/build/release/src/simplewallet" />
       <change beforePath="$PROJECT_DIR$/build/release/src/walletd" afterPath="$PROJECT_DIR$/build/release/src/walletd" />
-      <change beforePath="$PROJECT_DIR$/build/release/version/version.h" afterPath="$PROJECT_DIR$/build/release/version/version.h" />
       <change beforePath="$PROJECT_DIR$/src/CryptoNoteConfig.h" afterPath="$PROJECT_DIR$/src/CryptoNoteConfig.h" />
-      <change beforePath="$PROJECT_DIR$/src/P2p/NetNode.cpp" afterPath="$PROJECT_DIR$/src/P2p/NetNode.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/P2p/P2pNetworks.h" afterPath="$PROJECT_DIR$/src/P2p/P2pNetworks.h" />
-      <change beforePath="$PROJECT_DIR$/src/P2p/P2pNodeConfig.cpp" afterPath="$PROJECT_DIR$/src/P2p/P2pNodeConfig.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/version.h.in" afterPath="$PROJECT_DIR$/src/version.h.in" />
+      <change beforePath="$PROJECT_DIR$/src/Daemon/Daemon.cpp" afterPath="$PROJECT_DIR$/src/Daemon/Daemon.cpp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CryptoNoteConfig.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CryptoNoteConfig.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CryptoNoteConfig.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1372">
-              <caret line="147" column="30" lean-forward="false" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
+            <state relative-caret-position="-564">
+              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockReward.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/CoreTests/BlockReward.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2272">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,16 +59,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CryptoNoteBasic.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CryptoNoteCore/CryptoNoteBasic.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -99,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Daemon.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Daemon.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Daemon/Daemon.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5796">
-              <caret line="276" column="38" lean-forward="false" selection-start-line="276" selection-start-column="32" selection-end-line="276" selection-end-column="38" />
+            <state relative-caret-position="163">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,7 +107,7 @@
       <file leaf-file-name="DaemonCommandsHandler.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Daemon/DaemonCommandsHandler.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5775">
+            <state relative-caret-position="5607">
               <caret line="275" column="20" lean-forward="false" selection-start-line="275" selection-start-column="20" selection-end-line="275" selection-end-column="20" />
               <folding />
             </state>
@@ -150,6 +145,10 @@
       <find>cut</find>
       <find>cut.</find>
       <find>CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE</find>
+      <find>GENESIS_tx</find>
+      <find>tx_hex</find>
+      <find>generateGenesisTransaction</find>
+      <find>GENESIS_</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -165,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/P2p/P2pNetworks.h" />
         <option value="$PROJECT_DIR$/src/version.h.in" />
         <option value="$PROJECT_DIR$/src/CryptoNoteConfig.h" />
+        <option value="$PROJECT_DIR$/src/Daemon/Daemon.cpp" />
       </list>
     </option>
   </component>
@@ -176,8 +176,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1354" />
-    <option name="height" value="737" />
+    <option name="x" value="-1" />
+    <option name="width" value="1602" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -211,7 +212,24 @@
               <item name="jyocoin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jyocoin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="P2p" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CryptoNoteCore" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jyocoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jyocoin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Daemon" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jyocoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jyocoin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jyocoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jyocoin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CoreTests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -225,6 +243,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../masari" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -258,25 +277,43 @@
       <updated>1531480634239</updated>
       <workItem from="1531480636499" duration="3932000" />
       <workItem from="1531544048243" duration="6180000" />
-      <workItem from="1531821886833" duration="7530000" />
+      <workItem from="1531821886833" duration="12251000" />
     </task>
+    <task id="LOCAL-00001" summary="cryptoNoteConfig modified.">
+      <created>1531830120500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531830120500</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21837000" />
+    <option name="totallyTimeSpent" value="26558000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1602" height="873" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25743854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35978112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38303694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -284,7 +321,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -294,18 +330,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cryptoNoteConfig modified." />
+    <option name="LAST_COMMIT_MESSAGE" value="cryptoNoteConfig modified." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/System/TcpListenerTests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2281">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/System/TimerTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5557">
@@ -345,6 +378,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="423" column="38" lean-forward="false" selection-start-line="423" selection-start-column="38" selection-end-line="423" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -394,6 +428,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2421">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -612,22 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Daemon/DaemonCommandsHandler.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5775">
-          <caret line="275" column="20" lean-forward="false" selection-start-line="275" selection-start-column="20" selection-end-line="275" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Daemon/Daemon.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5796">
-          <caret line="276" column="38" lean-forward="false" selection-start-line="276" selection-start-column="32" selection-end-line="276" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CryptoNoteConfig.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -662,8 +681,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CryptoNoteConfig.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1372">
-          <caret line="147" column="30" lean-forward="false" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
+        <state relative-caret-position="-564">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daemon/DaemonCommandsHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5607">
+          <caret line="275" column="20" lean-forward="false" selection-start-line="275" selection-start-column="20" selection-end-line="275" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoreTests/BlockReward.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2272">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daemon/Daemon.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
       </provider>
