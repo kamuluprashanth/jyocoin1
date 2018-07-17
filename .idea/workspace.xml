@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fec73a3f-766d-45cd-b072-ab7d5d403d8b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/release/CMakeFiles/CMakeError.log" afterPath="$PROJECT_DIR$/build/release/CMakeFiles/CMakeError.log" />
-      <change beforePath="$PROJECT_DIR$/build/release/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/build/release/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/build/release/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/build/release/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/release/rocksdb/CMakeFiles/CMakeError.log" afterPath="$PROJECT_DIR$/build/release/rocksdb/CMakeFiles/CMakeError.log" />
-      <change beforePath="$PROJECT_DIR$/build/release/rocksdb/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/build/release/rocksdb/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/build/release/rocksdb/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/build/release/rocksdb/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/release/rocksdb/build_version.cc" afterPath="$PROJECT_DIR$/build/release/rocksdb/build_version.cc" />
-      <change beforePath="$PROJECT_DIR$/build/release/src/jyocoind" afterPath="$PROJECT_DIR$/build/release/src/jyocoind" />
-      <change beforePath="$PROJECT_DIR$/build/release/src/jyocoind.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/release/src/walletd" afterPath="$PROJECT_DIR$/build/release/src/walletd" />
-      <change beforePath="$PROJECT_DIR$/src/CryptoNoteConfig.h" afterPath="$PROJECT_DIR$/src/CryptoNoteConfig.h" />
-      <change beforePath="$PROJECT_DIR$/src/Daemon/Daemon.cpp" afterPath="$PROJECT_DIR$/src/Daemon/Daemon.cpp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/CryptoNoteConfig.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="213">
-              <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -267,7 +255,7 @@
       <updated>1531480634239</updated>
       <workItem from="1531480636499" duration="3932000" />
       <workItem from="1531544048243" duration="6180000" />
-      <workItem from="1531821886833" duration="13776000" />
+      <workItem from="1531821886833" duration="13953000" />
     </task>
     <task id="LOCAL-00001" summary="cryptoNoteConfig modified.">
       <created>1531830120500</created>
@@ -283,11 +271,25 @@
       <option name="project" value="LOCAL" />
       <updated>1531835257605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="genesis transaction added">
+      <created>1531836768203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531836768203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="var tx added">
+      <created>1531836841066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531836841066</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28083000" />
+    <option name="totallyTimeSpent" value="28260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,6 +302,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1602" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25743854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -310,7 +313,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39808482" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39808482" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -330,7 +333,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cryptoNoteConfig modified." />
     <MESSAGE value="genesis transaction added" />
-    <option name="LAST_COMMIT_MESSAGE" value="genesis transaction added" />
+    <MESSAGE value="var tx added" />
+    <option name="LAST_COMMIT_MESSAGE" value="var tx added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -705,7 +709,7 @@
     <entry file="file://$PROJECT_DIR$/src/CryptoNoteConfig.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>
