@@ -102,6 +102,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "Jyocoin";
+
 const char     tx[]                             = "013c01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101f0fe76f52bd2e70962e49de7b24ee5edc6e81473ddeb801ed34af9b4e7412426";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
