@@ -103,7 +103,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 const char     CRYPTONOTE_NAME[]                             = "Jyocoin";
 
-const char     tx[]                             = "013c01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101f0fe76f52bd2e70962e49de7b24ee5edc6e81473ddeb801ed34af9b4e7412426";
+const char     tx[]                             = "013c01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101e82e43a0099e941756a759894f5fc35fa19241e42443c779652f23001d172d14";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;

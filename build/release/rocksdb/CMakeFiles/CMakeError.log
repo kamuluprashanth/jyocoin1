@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fcb8e/fast"
+Run Build Command:"/usr/bin/make" "cmTC_5a4cb/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_fcb8e.dir/build.make CMakeFiles/cmTC_fcb8e.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_5a4cb.dir/build.make CMakeFiles/cmTC_5a4cb.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fcb8e.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_fcb8e.dir/CheckSymbolExists.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_fcb8e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcb8e.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_fcb8e.dir/CheckSymbolExists.c.o  -o cmTC_fcb8e -rdynamic 
-CMakeFiles/cmTC_fcb8e.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_5a4cb.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5a4cb.dir/CheckSymbolExists.c.o   -c /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5a4cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a4cb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5a4cb.dir/CheckSymbolExists.c.o  -o cmTC_5a4cb -rdynamic 
+CMakeFiles/cmTC_5a4cb.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_fcb8e.dir/build.make:97: recipe for target 'cmTC_fcb8e' failed
-make[2]: *** [cmTC_fcb8e] Error 1
+CMakeFiles/cmTC_5a4cb.dir/build.make:97: recipe for target 'cmTC_5a4cb' failed
+make[2]: *** [cmTC_5a4cb] Error 1
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_fcb8e/fast' failed
-make[1]: *** [cmTC_fcb8e/fast] Error 2
+Makefile:126: recipe for target 'cmTC_5a4cb/fast' failed
+make[1]: *** [cmTC_5a4cb/fast] Error 2
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
 File /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -38,22 +38,22 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_09ba1/fast"
+Run Build Command:"/usr/bin/make" "cmTC_5a70a/fast"
 make[1]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_09ba1.dir/build.make CMakeFiles/cmTC_09ba1.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_5a70a.dir/build.make CMakeFiles/cmTC_5a70a.dir/build
 make[2]: Entering directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_09ba1.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_09ba1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_09ba1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09ba1.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_09ba1.dir/CheckFunctionExists.c.o  -o cmTC_09ba1 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_5a70a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5a70a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5a70a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a70a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5a70a.dir/CheckFunctionExists.c.o  -o cmTC_5a70a -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_09ba1.dir/build.make:97: recipe for target 'cmTC_09ba1' failed
-make[2]: *** [cmTC_09ba1] Error 1
+CMakeFiles/cmTC_5a70a.dir/build.make:97: recipe for target 'cmTC_5a70a' failed
+make[2]: *** [cmTC_5a70a] Error 1
 make[2]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_09ba1/fast' failed
-make[1]: *** [cmTC_09ba1/fast] Error 2
+Makefile:126: recipe for target 'cmTC_5a70a/fast' failed
+make[1]: *** [cmTC_5a70a/fast] Error 2
 make[1]: Leaving directory '/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/CMakeTmp'
 
 
