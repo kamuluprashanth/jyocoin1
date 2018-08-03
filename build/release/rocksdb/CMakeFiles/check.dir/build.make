@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin/external/rocksdb
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1/external/rocksdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release/rocksdb
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb
 
 # Utility rule file for check.
 
@@ -71,6 +71,6 @@ CMakeFiles/check.dir/clean:
 .PHONY : CMakeFiles/check.dir/clean
 
 CMakeFiles/check.dir/depend:
-	cd /var/www/html/jyocoin/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check.dir/depend
 

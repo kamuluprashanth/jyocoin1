@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DOS_LINUX -DROCKSDB_LIB_IO_POSIX -DROCKSDB_PLATFORM_POSIX
 
-C_INCLUDES = -I/var/www/html/jyocoin/external/rocksdb -I/var/www/html/jyocoin/external/rocksdb/include -isystem /var/www/html/jyocoin/external/rocksdb/third-party/gtest-1.7.0/fused-src 
+C_INCLUDES = -I/home/ubuntu/Desktop/jyocoin1/external/rocksdb -I/home/ubuntu/Desktop/jyocoin1/external/rocksdb/include -isystem /home/ubuntu/Desktop/jyocoin1/external/rocksdb/third-party/gtest-1.7.0/fused-src 
 

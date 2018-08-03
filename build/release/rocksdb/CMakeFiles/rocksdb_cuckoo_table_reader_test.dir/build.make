@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin/external/rocksdb
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1/external/rocksdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release/rocksdb
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/progress.make
 include CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/flags.make
 
 CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.o: CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/flags.make
-CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.o: /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_reader_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_reader_test.cc
+CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_reader_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_reader_test.cc
 
 CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_reader_test.cc > CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_reader_test.cc > CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.i
 
 CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_reader_test.cc -o CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_reader_test.cc -o CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.s
 
 CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.o.requires:
 
@@ -87,7 +87,7 @@ rocksdb_cuckoo_table_reader_test_OBJECTS = \
 
 # External object files for target rocksdb_cuckoo_table_reader_test
 rocksdb_cuckoo_table_reader_test_EXTERNAL_OBJECTS = \
-"/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/testharness.dir/util/testharness.cc.o"
+"/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/testharness.dir/util/testharness.cc.o"
 
 cuckoo_table_reader_test: CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/table/cuckoo_table_reader_test.cc.o
 cuckoo_table_reader_test: CMakeFiles/testharness.dir/util/testharness.cc.o
@@ -96,7 +96,7 @@ cuckoo_table_reader_test: libtestutillib.a
 cuckoo_table_reader_test: third-party/gtest-1.7.0/fused-src/gtest/libgtest.a
 cuckoo_table_reader_test: librocksdb.so.5.12.2
 cuckoo_table_reader_test: CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cuckoo_table_reader_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cuckoo_table_reader_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/clean:
 .PHONY : CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/clean
 
 CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/depend:
-	cd /var/www/html/jyocoin/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rocksdb_cuckoo_table_reader_test.dir/depend
 

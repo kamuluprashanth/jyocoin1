@@ -1,4 +1,4 @@
-# Install script for directory: /var/www/html/jyocoin/external/rocksdb
+# Install script for directory: /home/ubuntu/Desktop/jyocoin1/external/rocksdb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,11 +33,11 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/var/www/html/jyocoin/external/rocksdb/include/rocksdb")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubuntu/Desktop/jyocoin1/external/rocksdb/include/rocksdb")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/var/www/html/jyocoin/build/release/rocksdb/librocksdb.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/librocksdb.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
@@ -54,9 +54,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE SHARED_LIBRARY FILES
-    "/var/www/html/jyocoin/build/release/rocksdb/librocksdb.so.5.12.2"
-    "/var/www/html/jyocoin/build/release/rocksdb/librocksdb.so.5"
-    "/var/www/html/jyocoin/build/release/rocksdb/librocksdb.so"
+    "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/librocksdb.so.5.12.2"
+    "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/librocksdb.so.5"
+    "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/librocksdb.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/librocksdb.so.5.12.2"
@@ -76,7 +76,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/rocksdb/RocksDBTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/rocksdb/RocksDBTargets.cmake"
-         "/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/rocksdb/RocksDBTargets.cmake")
+         "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/rocksdb/RocksDBTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/rocksdb/RocksDBTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -85,23 +85,23 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/rocksdb" TYPE FILE FILES "/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/rocksdb/RocksDBTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/rocksdb" TYPE FILE FILES "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/rocksdb/RocksDBTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/rocksdb" TYPE FILE FILES "/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/rocksdb/RocksDBTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/rocksdb" TYPE FILE FILES "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/rocksdb/RocksDBTargets-noconfig.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/rocksdb" TYPE FILE FILES
-    "/var/www/html/jyocoin/build/release/rocksdb/RocksDBConfig.cmake"
-    "/var/www/html/jyocoin/build/release/rocksdb/RocksDBConfigVersion.cmake"
+    "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/RocksDBConfig.cmake"
+    "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/RocksDBConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/var/www/html/jyocoin/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/cmake_install.cmake")
-  include("/var/www/html/jyocoin/build/release/rocksdb/tools/cmake_install.cmake")
+  include("/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/cmake_install.cmake")
+  include("/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/tools/cmake_install.cmake")
 
 endif()
 
@@ -113,5 +113,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/var/www/html/jyocoin/build/release/rocksdb/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

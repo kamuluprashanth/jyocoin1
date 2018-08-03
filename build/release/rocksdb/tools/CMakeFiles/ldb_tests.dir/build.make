@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin/external/rocksdb
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1/external/rocksdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release/rocksdb
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb
 
 # Utility rule file for ldb_tests.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release/rocksdb
 include tools/CMakeFiles/ldb_tests.dir/progress.make
 
 tools/CMakeFiles/ldb_tests: tools/ldb
-	cd /var/www/html/jyocoin/build/release/rocksdb/tools && python /var/www/html/jyocoin/external/rocksdb/tools/ldb_tests.py
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/tools && python /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/ldb_tests.py
 
 ldb_tests: tools/CMakeFiles/ldb_tests
 ldb_tests: tools/CMakeFiles/ldb_tests.dir/build.make
@@ -67,10 +67,10 @@ tools/CMakeFiles/ldb_tests.dir/build: ldb_tests
 .PHONY : tools/CMakeFiles/ldb_tests.dir/build
 
 tools/CMakeFiles/ldb_tests.dir/clean:
-	cd /var/www/html/jyocoin/build/release/rocksdb/tools && $(CMAKE_COMMAND) -P CMakeFiles/ldb_tests.dir/cmake_clean.cmake
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/tools && $(CMAKE_COMMAND) -P CMakeFiles/ldb_tests.dir/cmake_clean.cmake
 .PHONY : tools/CMakeFiles/ldb_tests.dir/clean
 
 tools/CMakeFiles/ldb_tests.dir/depend:
-	cd /var/www/html/jyocoin/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/external/rocksdb/tools /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb/tools /var/www/html/jyocoin/build/release/rocksdb/tools/CMakeFiles/ldb_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/tools /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/tools/CMakeFiles/ldb_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/CMakeFiles/ldb_tests.dir/depend
 

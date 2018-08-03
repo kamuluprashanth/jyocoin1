@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin/external/rocksdb
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1/external/rocksdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release/rocksdb
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testutillib.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/testutillib.dir/progress.make
 include CMakeFiles/testutillib.dir/flags.make
 
 CMakeFiles/testutillib.dir/db/db_test_util.cc.o: CMakeFiles/testutillib.dir/flags.make
-CMakeFiles/testutillib.dir/db/db_test_util.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_test_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testutillib.dir/db/db_test_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testutillib.dir/db/db_test_util.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_test_util.cc
+CMakeFiles/testutillib.dir/db/db_test_util.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_test_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testutillib.dir/db/db_test_util.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testutillib.dir/db/db_test_util.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_test_util.cc
 
 CMakeFiles/testutillib.dir/db/db_test_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testutillib.dir/db/db_test_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_test_util.cc > CMakeFiles/testutillib.dir/db/db_test_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_test_util.cc > CMakeFiles/testutillib.dir/db/db_test_util.cc.i
 
 CMakeFiles/testutillib.dir/db/db_test_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testutillib.dir/db/db_test_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_test_util.cc -o CMakeFiles/testutillib.dir/db/db_test_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_test_util.cc -o CMakeFiles/testutillib.dir/db/db_test_util.cc.s
 
 CMakeFiles/testutillib.dir/db/db_test_util.cc.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/testutillib.dir/db/db_test_util.cc.o.provides.build: CMakeFiles/testu
 
 
 CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.o: CMakeFiles/testutillib.dir/flags.make
-CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_updater_debug.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_updater_debug.cc
+CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_updater_debug.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_updater_debug.cc
 
 CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_updater_debug.cc > CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_updater_debug.cc > CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.i
 
 CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_updater_debug.cc -o CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_updater_debug.cc -o CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.s
 
 CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/testutillib.dir/monitoring/thread_status_updater_debug.cc.o.provides.
 
 
 CMakeFiles/testutillib.dir/table/mock_table.cc.o: CMakeFiles/testutillib.dir/flags.make
-CMakeFiles/testutillib.dir/table/mock_table.cc.o: /var/www/html/jyocoin/external/rocksdb/table/mock_table.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testutillib.dir/table/mock_table.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testutillib.dir/table/mock_table.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/mock_table.cc
+CMakeFiles/testutillib.dir/table/mock_table.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/mock_table.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testutillib.dir/table/mock_table.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testutillib.dir/table/mock_table.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/mock_table.cc
 
 CMakeFiles/testutillib.dir/table/mock_table.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testutillib.dir/table/mock_table.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/mock_table.cc > CMakeFiles/testutillib.dir/table/mock_table.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/mock_table.cc > CMakeFiles/testutillib.dir/table/mock_table.cc.i
 
 CMakeFiles/testutillib.dir/table/mock_table.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testutillib.dir/table/mock_table.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/mock_table.cc -o CMakeFiles/testutillib.dir/table/mock_table.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/mock_table.cc -o CMakeFiles/testutillib.dir/table/mock_table.cc.s
 
 CMakeFiles/testutillib.dir/table/mock_table.cc.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/testutillib.dir/table/mock_table.cc.o.provides.build: CMakeFiles/test
 
 
 CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.o: CMakeFiles/testutillib.dir/flags.make
-CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.o: /var/www/html/jyocoin/external/rocksdb/util/fault_injection_test_env.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/fault_injection_test_env.cc
+CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/fault_injection_test_env.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/fault_injection_test_env.cc
 
 CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/fault_injection_test_env.cc > CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/fault_injection_test_env.cc > CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.i
 
 CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/fault_injection_test_env.cc -o CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/fault_injection_test_env.cc -o CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.s
 
 CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.o.provides.build: CM
 
 
 CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.o: CMakeFiles/testutillib.dir/flags.make
-CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/test_utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/test_utils.cc
+CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/test_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/test_utils.cc
 
 CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/test_utils.cc > CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/test_utils.cc > CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.i
 
 CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/test_utils.cc -o CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/test_utils.cc -o CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.s
 
 CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.o.requires:
 
@@ -195,7 +195,7 @@ libtestutillib.a: CMakeFiles/testutillib.dir/util/fault_injection_test_env.cc.o
 libtestutillib.a: CMakeFiles/testutillib.dir/utilities/cassandra/test_utils.cc.o
 libtestutillib.a: CMakeFiles/testutillib.dir/build.make
 libtestutillib.a: CMakeFiles/testutillib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libtestutillib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libtestutillib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/testutillib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testutillib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -217,6 +217,6 @@ CMakeFiles/testutillib.dir/clean:
 .PHONY : CMakeFiles/testutillib.dir/clean
 
 CMakeFiles/testutillib.dir/depend:
-	cd /var/www/html/jyocoin/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/testutillib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/testutillib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testutillib.dir/depend
 

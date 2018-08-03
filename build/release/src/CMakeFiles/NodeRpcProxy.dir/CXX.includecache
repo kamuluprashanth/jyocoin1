@@ -552,21 +552,21 @@ hash-ops.h
 stddef.h
 -
 
-/var/www/html/jyocoin/src/NodeRpcProxy/NodeErrors.cpp
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeErrors.cpp
 NodeErrors.h
-/var/www/html/jyocoin/src/NodeRpcProxy/NodeErrors.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeErrors.h
 
-/var/www/html/jyocoin/src/NodeRpcProxy/NodeErrors.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeErrors.h
 string
 -
 system_error
 -
 
-/var/www/html/jyocoin/src/NodeRpcProxy/NodeRpcProxy.cpp
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeRpcProxy.cpp
 NodeRpcProxy.h
-/var/www/html/jyocoin/src/NodeRpcProxy/NodeRpcProxy.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeRpcProxy.h
 NodeErrors.h
-/var/www/html/jyocoin/src/NodeRpcProxy/NodeErrors.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeErrors.h
 atomic
 -
 system_error
@@ -590,19 +590,19 @@ System/Timer.h
 CryptoNoteCore/TransactionApi.h
 -
 Common/StringTools.h
-/var/www/html/jyocoin/src/NodeRpcProxy/Common/StringTools.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/Common/StringTools.h
 CryptoNoteCore/CryptoNoteBasicImpl.h
-/var/www/html/jyocoin/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteBasicImpl.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteBasicImpl.h
 CryptoNoteCore/CryptoNoteTools.h
-/var/www/html/jyocoin/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteTools.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteTools.h
 Rpc/CoreRpcServerCommandsDefinitions.h
-/var/www/html/jyocoin/src/NodeRpcProxy/Rpc/CoreRpcServerCommandsDefinitions.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/Rpc/CoreRpcServerCommandsDefinitions.h
 Rpc/HttpClient.h
-/var/www/html/jyocoin/src/NodeRpcProxy/Rpc/HttpClient.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/Rpc/HttpClient.h
 Rpc/JsonRpc.h
-/var/www/html/jyocoin/src/NodeRpcProxy/Rpc/JsonRpc.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/Rpc/JsonRpc.h
 
-/var/www/html/jyocoin/src/NodeRpcProxy/NodeRpcProxy.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeRpcProxy.h
 atomic
 -
 condition_variable
@@ -616,9 +616,9 @@ thread
 unordered_set
 -
 Common/ObserverManager.h
-/var/www/html/jyocoin/src/NodeRpcProxy/Common/ObserverManager.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/Common/ObserverManager.h
 Logging/LoggerRef.h
-/var/www/html/jyocoin/src/NodeRpcProxy/Logging/LoggerRef.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/Logging/LoggerRef.h
 INode.h
-/var/www/html/jyocoin/src/NodeRpcProxy/INode.h
+/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/INode.h
 

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/var/www/html/jyocoin/src/HTTP/HttpParser.cpp
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpParser.cpp
 HttpParser.h
-/var/www/html/jyocoin/src/HTTP/HttpParser.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpParser.h
 algorithm
 -
 HttpParserErrorCodes.h
-/var/www/html/jyocoin/src/HTTP/HttpParserErrorCodes.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpParserErrorCodes.h
 
-/var/www/html/jyocoin/src/HTTP/HttpParser.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpParser.h
 iostream
 -
 map
@@ -22,25 +22,25 @@ map
 string
 -
 HttpRequest.h
-/var/www/html/jyocoin/src/HTTP/HttpRequest.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpRequest.h
 HttpResponse.h
-/var/www/html/jyocoin/src/HTTP/HttpResponse.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpResponse.h
 
-/var/www/html/jyocoin/src/HTTP/HttpParserErrorCodes.cpp
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpParserErrorCodes.cpp
 HttpParserErrorCodes.h
-/var/www/html/jyocoin/src/HTTP/HttpParserErrorCodes.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpParserErrorCodes.h
 
-/var/www/html/jyocoin/src/HTTP/HttpParserErrorCodes.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpParserErrorCodes.h
 string
 -
 system_error
 -
 
-/var/www/html/jyocoin/src/HTTP/HttpRequest.cpp
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpRequest.cpp
 HttpRequest.h
-/var/www/html/jyocoin/src/HTTP/HttpRequest.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpRequest.h
 
-/var/www/html/jyocoin/src/HTTP/HttpRequest.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpRequest.h
 iostream
 -
 map
@@ -48,13 +48,13 @@ map
 string
 -
 
-/var/www/html/jyocoin/src/HTTP/HttpResponse.cpp
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpResponse.cpp
 HttpResponse.h
-/var/www/html/jyocoin/src/HTTP/HttpResponse.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpResponse.h
 stdexcept
 -
 
-/var/www/html/jyocoin/src/HTTP/HttpResponse.h
+/home/ubuntu/Desktop/jyocoin1/src/HTTP/HttpResponse.h
 ostream
 -
 string

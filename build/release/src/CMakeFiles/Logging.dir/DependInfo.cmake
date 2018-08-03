@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/var/www/html/jyocoin/src/Logging/CommonLogger.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.o"
-  "/var/www/html/jyocoin/src/Logging/ConsoleLogger.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.o"
-  "/var/www/html/jyocoin/src/Logging/FileLogger.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.o"
-  "/var/www/html/jyocoin/src/Logging/ILogger.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.o"
-  "/var/www/html/jyocoin/src/Logging/LoggerGroup.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.o"
-  "/var/www/html/jyocoin/src/Logging/LoggerManager.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.o"
-  "/var/www/html/jyocoin/src/Logging/LoggerMessage.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.o"
-  "/var/www/html/jyocoin/src/Logging/LoggerRef.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.o"
-  "/var/www/html/jyocoin/src/Logging/StreamLogger.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Logging/CommonLogger.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Logging/ConsoleLogger.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Logging/FileLogger.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerGroup.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerManager.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Logging/StreamLogger.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

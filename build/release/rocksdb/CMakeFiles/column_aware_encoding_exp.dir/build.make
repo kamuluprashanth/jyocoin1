@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin/external/rocksdb
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1/external/rocksdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release/rocksdb
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb
 
 # Include any dependencies generated for this target.
 include CMakeFiles/column_aware_encoding_exp.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/column_aware_encoding_exp.dir/progress.make
 include CMakeFiles/column_aware_encoding_exp.dir/flags.make
 
 CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.o: CMakeFiles/column_aware_encoding_exp.dir/flags.make
-CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/column_aware_encoding_exp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/column_aware_encoding_exp.cc
+CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/column_aware_encoding_exp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/column_aware_encoding_exp.cc
 
 CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/column_aware_encoding_exp.cc > CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/column_aware_encoding_exp.cc > CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.i
 
 CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/column_aware_encoding_exp.cc -o CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/column_aware_encoding_exp.cc -o CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.s
 
 CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.o.requires:
 
@@ -87,7 +87,7 @@ column_aware_encoding_exp_OBJECTS = \
 
 # External object files for target column_aware_encoding_exp
 column_aware_encoding_exp_EXTERNAL_OBJECTS = \
-"/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/testharness.dir/util/testharness.cc.o"
+"/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/testharness.dir/util/testharness.cc.o"
 
 column_aware_encoding_exp: CMakeFiles/column_aware_encoding_exp.dir/utilities/column_aware_encoding_exp.cc.o
 column_aware_encoding_exp: CMakeFiles/testharness.dir/util/testharness.cc.o
@@ -95,7 +95,7 @@ column_aware_encoding_exp: CMakeFiles/column_aware_encoding_exp.dir/build.make
 column_aware_encoding_exp: third-party/gtest-1.7.0/fused-src/gtest/libgtest.a
 column_aware_encoding_exp: librocksdb.so.5.12.2
 column_aware_encoding_exp: CMakeFiles/column_aware_encoding_exp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable column_aware_encoding_exp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable column_aware_encoding_exp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/column_aware_encoding_exp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -112,6 +112,6 @@ CMakeFiles/column_aware_encoding_exp.dir/clean:
 .PHONY : CMakeFiles/column_aware_encoding_exp.dir/clean
 
 CMakeFiles/column_aware_encoding_exp.dir/depend:
-	cd /var/www/html/jyocoin/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/column_aware_encoding_exp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/column_aware_encoding_exp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/column_aware_encoding_exp.dir/depend
 

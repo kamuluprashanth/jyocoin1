@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /var/www/html/jyocoin/build/release && $(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/jyocoin/build/release/CMakeFiles /var/www/html/jyocoin/build/release/external/CMakeFiles/progress.marks
-	cd /var/www/html/jyocoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/jyocoin/build/release/CMakeFiles 0
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles /home/ubuntu/Desktop/jyocoin1/build/release/external/CMakeFiles/progress.marks
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /var/www/html/jyocoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/clean
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /var/www/html/jyocoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /var/www/html/jyocoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /var/www/html/jyocoin/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/CMakeFiles/rocksdb.dir/rule:
-	cd /var/www/html/jyocoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/CMakeFiles/rocksdb.dir/rule
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/CMakeFiles/rocksdb.dir/rule
 .PHONY : external/CMakeFiles/rocksdb.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ rocksdb: external/CMakeFiles/rocksdb.dir/rule
 
 # fast build rule for target.
 rocksdb/fast:
-	cd /var/www/html/jyocoin/build/release && $(MAKE) -f external/CMakeFiles/rocksdb.dir/build.make external/CMakeFiles/rocksdb.dir/build
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(MAKE) -f external/CMakeFiles/rocksdb.dir/build.make external/CMakeFiles/rocksdb.dir/build
 .PHONY : rocksdb/fast
 
 # Help Target
@@ -157,6 +157,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /var/www/html/jyocoin/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

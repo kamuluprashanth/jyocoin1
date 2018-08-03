@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/var/www/html/jyocoin/src/InProcessNode/InProcessNode.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.o"
-  "/var/www/html/jyocoin/src/InProcessNode/InProcessNodeErrors.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/InProcessNode/InProcessNode.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/InProcessNode/InProcessNodeErrors.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

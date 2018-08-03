@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/var/www/html/jyocoin/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/IP2pNodeInternal.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/LevinProtocol.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/NetNode.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/NetNodeConfig.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/P2pConnectionProxy.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/P2pContext.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/P2pContextOwner.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/P2pInterfaces.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/P2pNode.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/P2pNodeConfig.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.o"
-  "/var/www/html/jyocoin/src/P2p/PeerListManager.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/IP2pNodeInternal.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/LevinProtocol.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/NetNode.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/NetNodeConfig.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/P2pConnectionProxy.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContext.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContextOwner.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/P2pInterfaces.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNode.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNodeConfig.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/P2p/PeerListManager.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -37,12 +37,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/var/www/html/jyocoin/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
-  "/var/www/html/jyocoin/build/release/src/CMakeFiles/Logging.dir/DependInfo.cmake"
-  "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake"
-  "/var/www/html/jyocoin/build/release/src/CMakeFiles/Common.dir/DependInfo.cmake"
-  "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
-  "/var/www/html/jyocoin/build/release/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
+  "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
+  "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Logging.dir/DependInfo.cmake"
+  "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake"
+  "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Common.dir/DependInfo.cmake"
+  "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
+  "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

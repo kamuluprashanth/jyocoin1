@@ -54,9 +54,9 @@ cstdint
 string
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/Dispatcher.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Dispatcher.cpp
 Dispatcher.h
-/var/www/html/jyocoin/src/Platform/Linux/System/Dispatcher.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Dispatcher.h
 cassert
 -
 sys/epoll.h
@@ -74,9 +74,9 @@ ucontext.h
 unistd.h
 -
 ErrorMessage.h
-/var/www/html/jyocoin/src/Platform/Linux/System/ErrorMessage.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/ErrorMessage.h
 
-/var/www/html/jyocoin/src/Platform/Linux/System/Dispatcher.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Dispatcher.h
 cstddef
 -
 functional
@@ -86,21 +86,21 @@ queue
 stack
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/ErrorMessage.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/ErrorMessage.cpp
 ErrorMessage.h
-/var/www/html/jyocoin/src/Platform/Linux/System/ErrorMessage.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/ErrorMessage.h
 cerrno
 -
 cstring
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/ErrorMessage.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/ErrorMessage.h
 string
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/Ipv4Resolver.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Ipv4Resolver.cpp
 Ipv4Resolver.h
-/var/www/html/jyocoin/src/Platform/Linux/System/Ipv4Resolver.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Ipv4Resolver.h
 cassert
 -
 random
@@ -118,13 +118,13 @@ System/InterruptedException.h
 System/Ipv4Address.h
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/Ipv4Resolver.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Ipv4Resolver.h
 string
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpConnection.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpConnection.cpp
 TcpConnection.h
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpConnection.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpConnection.h
 arpa/inet.h
 -
 cassert
@@ -140,7 +140,7 @@ System/InterruptedException.h
 System/Ipv4Address.h
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpConnection.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpConnection.h
 cstddef
 -
 cstdint
@@ -148,11 +148,11 @@ cstdint
 string
 -
 Dispatcher.h
-/var/www/html/jyocoin/src/Platform/Linux/System/Dispatcher.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Dispatcher.h
 
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpConnector.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpConnector.cpp
 TcpConnector.h
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpConnector.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpConnector.h
 cassert
 -
 stdexcept
@@ -170,21 +170,21 @@ System/InterruptedException.h
 System/Ipv4Address.h
 -
 Dispatcher.h
-/var/www/html/jyocoin/src/Platform/Linux/System/Dispatcher.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Dispatcher.h
 ErrorMessage.h
-/var/www/html/jyocoin/src/Platform/Linux/System/ErrorMessage.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/ErrorMessage.h
 TcpConnection.h
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpConnection.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpConnection.h
 
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpConnector.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpConnector.h
 cstdint
 -
 string
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpListener.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpListener.cpp
 TcpListener.h
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpListener.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpListener.h
 cassert
 -
 stdexcept
@@ -200,9 +200,9 @@ unistd.h
 string.h
 -
 Dispatcher.h
-/var/www/html/jyocoin/src/Platform/Linux/System/Dispatcher.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Dispatcher.h
 TcpConnection.h
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpConnection.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpConnection.h
 System/ErrorMessage.h
 -
 System/InterruptedException.h
@@ -210,15 +210,15 @@ System/InterruptedException.h
 System/Ipv4Address.h
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/TcpListener.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpListener.h
 cstdint
 -
 string
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/Timer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Timer.cpp
 Timer.h
-/var/www/html/jyocoin/src/Platform/Linux/System/Timer.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Timer.h
 cassert
 -
 stdexcept
@@ -230,19 +230,19 @@ sys/epoll.h
 unistd.h
 -
 Dispatcher.h
-/var/www/html/jyocoin/src/Platform/Linux/System/Dispatcher.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Dispatcher.h
 System/ErrorMessage.h
 -
 System/InterruptedException.h
 -
 
-/var/www/html/jyocoin/src/Platform/Linux/System/Timer.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Timer.h
 chrono
 -
 
-/var/www/html/jyocoin/src/Platform/Posix/System/MemoryMappedFile.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Posix/System/MemoryMappedFile.cpp
 MemoryMappedFile.h
-/var/www/html/jyocoin/src/Platform/Posix/System/MemoryMappedFile.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Posix/System/MemoryMappedFile.h
 fcntl.h
 -
 stdio.h
@@ -258,9 +258,9 @@ sys/types.h
 cassert
 -
 Common/ScopeExit.h
-/var/www/html/jyocoin/src/Platform/Posix/System/Common/ScopeExit.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Posix/System/Common/ScopeExit.h
 
-/var/www/html/jyocoin/src/Platform/Posix/System/MemoryMappedFile.h
+/home/ubuntu/Desktop/jyocoin1/src/Platform/Posix/System/MemoryMappedFile.h
 cstdint
 -
 string
@@ -268,23 +268,23 @@ string
 system_error
 -
 
-/var/www/html/jyocoin/src/System/ContextGroup.cpp
+/home/ubuntu/Desktop/jyocoin1/src/System/ContextGroup.cpp
 ContextGroup.h
-/var/www/html/jyocoin/src/System/ContextGroup.h
+/home/ubuntu/Desktop/jyocoin1/src/System/ContextGroup.h
 cassert
 -
 
-/var/www/html/jyocoin/src/System/ContextGroup.h
+/home/ubuntu/Desktop/jyocoin1/src/System/ContextGroup.h
 System/Dispatcher.h
 -
 
-/var/www/html/jyocoin/src/System/ContextGroupTimeout.cpp
+/home/ubuntu/Desktop/jyocoin1/src/System/ContextGroupTimeout.cpp
 ContextGroupTimeout.h
-/var/www/html/jyocoin/src/System/ContextGroupTimeout.h
+/home/ubuntu/Desktop/jyocoin1/src/System/ContextGroupTimeout.h
 System/InterruptedException.h
 -
 
-/var/www/html/jyocoin/src/System/ContextGroupTimeout.h
+/home/ubuntu/Desktop/jyocoin1/src/System/ContextGroupTimeout.h
 chrono
 -
 System/ContextGroup.h
@@ -292,9 +292,9 @@ System/ContextGroup.h
 System/Timer.h
 -
 
-/var/www/html/jyocoin/src/System/Event.cpp
+/home/ubuntu/Desktop/jyocoin1/src/System/Event.cpp
 Event.h
-/var/www/html/jyocoin/src/System/Event.h
+/home/ubuntu/Desktop/jyocoin1/src/System/Event.h
 cassert
 -
 System/Dispatcher.h
@@ -302,39 +302,39 @@ System/Dispatcher.h
 System/InterruptedException.h
 -
 
-/var/www/html/jyocoin/src/System/Event.h
+/home/ubuntu/Desktop/jyocoin1/src/System/Event.h
 
-/var/www/html/jyocoin/src/System/EventLock.cpp
+/home/ubuntu/Desktop/jyocoin1/src/System/EventLock.cpp
 EventLock.h
-/var/www/html/jyocoin/src/System/EventLock.h
+/home/ubuntu/Desktop/jyocoin1/src/System/EventLock.h
 System/Event.h
 -
 
-/var/www/html/jyocoin/src/System/EventLock.h
+/home/ubuntu/Desktop/jyocoin1/src/System/EventLock.h
 
-/var/www/html/jyocoin/src/System/InterruptedException.cpp
+/home/ubuntu/Desktop/jyocoin1/src/System/InterruptedException.cpp
 InterruptedException.h
-/var/www/html/jyocoin/src/System/InterruptedException.h
+/home/ubuntu/Desktop/jyocoin1/src/System/InterruptedException.h
 
-/var/www/html/jyocoin/src/System/InterruptedException.h
+/home/ubuntu/Desktop/jyocoin1/src/System/InterruptedException.h
 exception
 -
 
-/var/www/html/jyocoin/src/System/Ipv4Address.cpp
+/home/ubuntu/Desktop/jyocoin1/src/System/Ipv4Address.cpp
 Ipv4Address.h
-/var/www/html/jyocoin/src/System/Ipv4Address.h
+/home/ubuntu/Desktop/jyocoin1/src/System/Ipv4Address.h
 stdexcept
 -
 
-/var/www/html/jyocoin/src/System/Ipv4Address.h
+/home/ubuntu/Desktop/jyocoin1/src/System/Ipv4Address.h
 cstdint
 -
 string
 -
 
-/var/www/html/jyocoin/src/System/RemoteEventLock.cpp
+/home/ubuntu/Desktop/jyocoin1/src/System/RemoteEventLock.cpp
 RemoteEventLock.h
-/var/www/html/jyocoin/src/System/RemoteEventLock.h
+/home/ubuntu/Desktop/jyocoin1/src/System/RemoteEventLock.h
 cassert
 -
 mutex
@@ -346,15 +346,15 @@ System/Dispatcher.h
 System/Event.h
 -
 
-/var/www/html/jyocoin/src/System/RemoteEventLock.h
+/home/ubuntu/Desktop/jyocoin1/src/System/RemoteEventLock.h
 
-/var/www/html/jyocoin/src/System/TcpStream.cpp
+/home/ubuntu/Desktop/jyocoin1/src/System/TcpStream.cpp
 TcpStream.h
-/var/www/html/jyocoin/src/System/TcpStream.h
+/home/ubuntu/Desktop/jyocoin1/src/System/TcpStream.h
 System/TcpConnection.h
 -
 
-/var/www/html/jyocoin/src/System/TcpStream.h
+/home/ubuntu/Desktop/jyocoin1/src/System/TcpStream.h
 array
 -
 cstdint

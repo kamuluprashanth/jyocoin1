@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin/external/rocksdb
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1/external/rocksdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release/rocksdb
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rocksdb.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/rocksdb.dir/progress.make
 include CMakeFiles/rocksdb.dir/flags.make
 
 CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o: /var/www/html/jyocoin/external/rocksdb/cache/clock_cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o -c /var/www/html/jyocoin/external/rocksdb/cache/clock_cache.cc
+CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/clock_cache.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/clock_cache.cc
 
 CMakeFiles/rocksdb.dir/cache/clock_cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/cache/clock_cache.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/cache/clock_cache.cc > CMakeFiles/rocksdb.dir/cache/clock_cache.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/clock_cache.cc > CMakeFiles/rocksdb.dir/cache/clock_cache.cc.i
 
 CMakeFiles/rocksdb.dir/cache/clock_cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/cache/clock_cache.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/cache/clock_cache.cc -o CMakeFiles/rocksdb.dir/cache/clock_cache.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/clock_cache.cc -o CMakeFiles/rocksdb.dir/cache/clock_cache.cc.s
 
 CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o: /var/www/html/jyocoin/external/rocksdb/cache/lru_cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o -c /var/www/html/jyocoin/external/rocksdb/cache/lru_cache.cc
+CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/lru_cache.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/lru_cache.cc
 
 CMakeFiles/rocksdb.dir/cache/lru_cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/cache/lru_cache.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/cache/lru_cache.cc > CMakeFiles/rocksdb.dir/cache/lru_cache.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/lru_cache.cc > CMakeFiles/rocksdb.dir/cache/lru_cache.cc.i
 
 CMakeFiles/rocksdb.dir/cache/lru_cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/cache/lru_cache.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/cache/lru_cache.cc -o CMakeFiles/rocksdb.dir/cache/lru_cache.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/lru_cache.cc -o CMakeFiles/rocksdb.dir/cache/lru_cache.cc.s
 
 CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o: /var/www/html/jyocoin/external/rocksdb/cache/sharded_cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o -c /var/www/html/jyocoin/external/rocksdb/cache/sharded_cache.cc
+CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/sharded_cache.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/sharded_cache.cc
 
 CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/cache/sharded_cache.cc > CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/sharded_cache.cc > CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.i
 
 CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/cache/sharded_cache.cc -o CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/cache/sharded_cache.cc -o CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.s
 
 CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/db/builder.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/builder.cc.o: /var/www/html/jyocoin/external/rocksdb/db/builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rocksdb.dir/db/builder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/builder.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/builder.cc
+CMakeFiles/rocksdb.dir/db/builder.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rocksdb.dir/db/builder.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/builder.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/builder.cc
 
 CMakeFiles/rocksdb.dir/db/builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/builder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/builder.cc > CMakeFiles/rocksdb.dir/db/builder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/builder.cc > CMakeFiles/rocksdb.dir/db/builder.cc.i
 
 CMakeFiles/rocksdb.dir/db/builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/builder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/builder.cc -o CMakeFiles/rocksdb.dir/db/builder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/builder.cc -o CMakeFiles/rocksdb.dir/db/builder.cc.s
 
 CMakeFiles/rocksdb.dir/db/builder.cc.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/rocksdb.dir/db/builder.cc.o.provides.build: CMakeFiles/rocksdb.dir/db
 
 
 CMakeFiles/rocksdb.dir/db/c.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/c.cc.o: /var/www/html/jyocoin/external/rocksdb/db/c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rocksdb.dir/db/c.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/c.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/c.cc
+CMakeFiles/rocksdb.dir/db/c.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rocksdb.dir/db/c.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/c.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/c.cc
 
 CMakeFiles/rocksdb.dir/db/c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/c.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/c.cc > CMakeFiles/rocksdb.dir/db/c.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/c.cc > CMakeFiles/rocksdb.dir/db/c.cc.i
 
 CMakeFiles/rocksdb.dir/db/c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/c.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/c.cc -o CMakeFiles/rocksdb.dir/db/c.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/c.cc -o CMakeFiles/rocksdb.dir/db/c.cc.s
 
 CMakeFiles/rocksdb.dir/db/c.cc.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/rocksdb.dir/db/c.cc.o.provides.build: CMakeFiles/rocksdb.dir/db/c.cc.
 
 
 CMakeFiles/rocksdb.dir/db/column_family.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/column_family.cc.o: /var/www/html/jyocoin/external/rocksdb/db/column_family.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rocksdb.dir/db/column_family.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/column_family.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/column_family.cc
+CMakeFiles/rocksdb.dir/db/column_family.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/column_family.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rocksdb.dir/db/column_family.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/column_family.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/column_family.cc
 
 CMakeFiles/rocksdb.dir/db/column_family.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/column_family.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/column_family.cc > CMakeFiles/rocksdb.dir/db/column_family.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/column_family.cc > CMakeFiles/rocksdb.dir/db/column_family.cc.i
 
 CMakeFiles/rocksdb.dir/db/column_family.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/column_family.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/column_family.cc -o CMakeFiles/rocksdb.dir/db/column_family.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/column_family.cc -o CMakeFiles/rocksdb.dir/db/column_family.cc.s
 
 CMakeFiles/rocksdb.dir/db/column_family.cc.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/rocksdb.dir/db/column_family.cc.o.provides.build: CMakeFiles/rocksdb.
 
 
 CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/db/compacted_db_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/compacted_db_impl.cc
+CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compacted_db_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compacted_db_impl.cc
 
 CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/compacted_db_impl.cc > CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compacted_db_impl.cc > CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.i
 
 CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/compacted_db_impl.cc -o CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compacted_db_impl.cc -o CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.s
 
 CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.o.provides.build: CMakeFiles/rock
 
 
 CMakeFiles/rocksdb.dir/db/compaction.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/compaction.cc.o: /var/www/html/jyocoin/external/rocksdb/db/compaction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/rocksdb.dir/db/compaction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compaction.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/compaction.cc
+CMakeFiles/rocksdb.dir/db/compaction.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/rocksdb.dir/db/compaction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compaction.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction.cc
 
 CMakeFiles/rocksdb.dir/db/compaction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/compaction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/compaction.cc > CMakeFiles/rocksdb.dir/db/compaction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction.cc > CMakeFiles/rocksdb.dir/db/compaction.cc.i
 
 CMakeFiles/rocksdb.dir/db/compaction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/compaction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/compaction.cc -o CMakeFiles/rocksdb.dir/db/compaction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction.cc -o CMakeFiles/rocksdb.dir/db/compaction.cc.s
 
 CMakeFiles/rocksdb.dir/db/compaction.cc.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/rocksdb.dir/db/compaction.cc.o.provides.build: CMakeFiles/rocksdb.dir
 
 
 CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.o: /var/www/html/jyocoin/external/rocksdb/db/compaction_iterator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/compaction_iterator.cc
+CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_iterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_iterator.cc
 
 CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/compaction_iterator.cc > CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_iterator.cc > CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.i
 
 CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/compaction_iterator.cc -o CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_iterator.cc -o CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.s
 
 CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.o.requires:
 
@@ -274,17 +274,17 @@ CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.o.provides.build: CMakeFiles/ro
 
 
 CMakeFiles/rocksdb.dir/db/compaction_job.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/compaction_job.cc.o: /var/www/html/jyocoin/external/rocksdb/db/compaction_job.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/rocksdb.dir/db/compaction_job.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compaction_job.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/compaction_job.cc
+CMakeFiles/rocksdb.dir/db/compaction_job.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_job.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/rocksdb.dir/db/compaction_job.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compaction_job.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_job.cc
 
 CMakeFiles/rocksdb.dir/db/compaction_job.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/compaction_job.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/compaction_job.cc > CMakeFiles/rocksdb.dir/db/compaction_job.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_job.cc > CMakeFiles/rocksdb.dir/db/compaction_job.cc.i
 
 CMakeFiles/rocksdb.dir/db/compaction_job.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/compaction_job.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/compaction_job.cc -o CMakeFiles/rocksdb.dir/db/compaction_job.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_job.cc -o CMakeFiles/rocksdb.dir/db/compaction_job.cc.s
 
 CMakeFiles/rocksdb.dir/db/compaction_job.cc.o.requires:
 
@@ -298,17 +298,17 @@ CMakeFiles/rocksdb.dir/db/compaction_job.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/db/compaction_picker.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/compaction_picker.cc.o: /var/www/html/jyocoin/external/rocksdb/db/compaction_picker.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/rocksdb.dir/db/compaction_picker.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compaction_picker.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/compaction_picker.cc
+CMakeFiles/rocksdb.dir/db/compaction_picker.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_picker.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/rocksdb.dir/db/compaction_picker.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compaction_picker.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_picker.cc
 
 CMakeFiles/rocksdb.dir/db/compaction_picker.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/compaction_picker.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/compaction_picker.cc > CMakeFiles/rocksdb.dir/db/compaction_picker.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_picker.cc > CMakeFiles/rocksdb.dir/db/compaction_picker.cc.i
 
 CMakeFiles/rocksdb.dir/db/compaction_picker.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/compaction_picker.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/compaction_picker.cc -o CMakeFiles/rocksdb.dir/db/compaction_picker.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_picker.cc -o CMakeFiles/rocksdb.dir/db/compaction_picker.cc.s
 
 CMakeFiles/rocksdb.dir/db/compaction_picker.cc.o.requires:
 
@@ -322,17 +322,17 @@ CMakeFiles/rocksdb.dir/db/compaction_picker.cc.o.provides.build: CMakeFiles/rock
 
 
 CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.o: /var/www/html/jyocoin/external/rocksdb/db/compaction_picker_universal.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/compaction_picker_universal.cc
+CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_picker_universal.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_picker_universal.cc
 
 CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/compaction_picker_universal.cc > CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_picker_universal.cc > CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.i
 
 CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/compaction_picker_universal.cc -o CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/compaction_picker_universal.cc -o CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.s
 
 CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.o.requires:
 
@@ -346,17 +346,17 @@ CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.o.provides.build: CMake
 
 
 CMakeFiles/rocksdb.dir/db/convenience.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/convenience.cc.o: /var/www/html/jyocoin/external/rocksdb/db/convenience.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/rocksdb.dir/db/convenience.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/convenience.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/convenience.cc
+CMakeFiles/rocksdb.dir/db/convenience.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/convenience.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/rocksdb.dir/db/convenience.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/convenience.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/convenience.cc
 
 CMakeFiles/rocksdb.dir/db/convenience.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/convenience.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/convenience.cc > CMakeFiles/rocksdb.dir/db/convenience.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/convenience.cc > CMakeFiles/rocksdb.dir/db/convenience.cc.i
 
 CMakeFiles/rocksdb.dir/db/convenience.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/convenience.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/convenience.cc -o CMakeFiles/rocksdb.dir/db/convenience.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/convenience.cc -o CMakeFiles/rocksdb.dir/db/convenience.cc.s
 
 CMakeFiles/rocksdb.dir/db/convenience.cc.o.requires:
 
@@ -370,17 +370,17 @@ CMakeFiles/rocksdb.dir/db/convenience.cc.o.provides.build: CMakeFiles/rocksdb.di
 
 
 CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_filesnapshot.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_filesnapshot.cc
+CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_filesnapshot.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_filesnapshot.cc
 
 CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_filesnapshot.cc > CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_filesnapshot.cc > CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_filesnapshot.cc -o CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_filesnapshot.cc -o CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o.requires:
 
@@ -394,17 +394,17 @@ CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o.provides.build: CMakeFiles/rocksd
 
 
 CMakeFiles/rocksdb.dir/db/db_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_impl.cc
+CMakeFiles/rocksdb.dir/db/db_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl.cc
 
 CMakeFiles/rocksdb.dir/db/db_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_impl.cc > CMakeFiles/rocksdb.dir/db/db_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl.cc > CMakeFiles/rocksdb.dir/db/db_impl.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_impl.cc -o CMakeFiles/rocksdb.dir/db/db_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl.cc -o CMakeFiles/rocksdb.dir/db/db_impl.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_impl.cc.o.requires:
 
@@ -418,17 +418,17 @@ CMakeFiles/rocksdb.dir/db/db_impl.cc.o.provides.build: CMakeFiles/rocksdb.dir/db
 
 
 CMakeFiles/rocksdb.dir/db/db_impl_write.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_impl_write.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_impl_write.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_write.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_write.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_impl_write.cc
+CMakeFiles/rocksdb.dir/db/db_impl_write.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_write.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_write.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_write.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_write.cc
 
 CMakeFiles/rocksdb.dir/db/db_impl_write.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_impl_write.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_impl_write.cc > CMakeFiles/rocksdb.dir/db/db_impl_write.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_write.cc > CMakeFiles/rocksdb.dir/db/db_impl_write.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_impl_write.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_impl_write.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_impl_write.cc -o CMakeFiles/rocksdb.dir/db/db_impl_write.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_write.cc -o CMakeFiles/rocksdb.dir/db/db_impl_write.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_impl_write.cc.o.requires:
 
@@ -442,17 +442,17 @@ CMakeFiles/rocksdb.dir/db/db_impl_write.cc.o.provides.build: CMakeFiles/rocksdb.
 
 
 CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_impl_compaction_flush.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_impl_compaction_flush.cc
+CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_compaction_flush.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_compaction_flush.cc
 
 CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_impl_compaction_flush.cc > CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_compaction_flush.cc > CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_impl_compaction_flush.cc -o CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_compaction_flush.cc -o CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.o.requires:
 
@@ -466,17 +466,17 @@ CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.o.provides.build: CMakeFil
 
 
 CMakeFiles/rocksdb.dir/db/db_impl_files.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_impl_files.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_impl_files.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_files.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_files.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_impl_files.cc
+CMakeFiles/rocksdb.dir/db/db_impl_files.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_files.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_files.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_files.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_files.cc
 
 CMakeFiles/rocksdb.dir/db/db_impl_files.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_impl_files.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_impl_files.cc > CMakeFiles/rocksdb.dir/db/db_impl_files.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_files.cc > CMakeFiles/rocksdb.dir/db/db_impl_files.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_impl_files.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_impl_files.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_impl_files.cc -o CMakeFiles/rocksdb.dir/db/db_impl_files.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_files.cc -o CMakeFiles/rocksdb.dir/db/db_impl_files.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_impl_files.cc.o.requires:
 
@@ -490,17 +490,17 @@ CMakeFiles/rocksdb.dir/db/db_impl_files.cc.o.provides.build: CMakeFiles/rocksdb.
 
 
 CMakeFiles/rocksdb.dir/db/db_impl_open.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_impl_open.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_impl_open.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_open.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_open.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_impl_open.cc
+CMakeFiles/rocksdb.dir/db/db_impl_open.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_open.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_open.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_open.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_open.cc
 
 CMakeFiles/rocksdb.dir/db/db_impl_open.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_impl_open.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_impl_open.cc > CMakeFiles/rocksdb.dir/db/db_impl_open.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_open.cc > CMakeFiles/rocksdb.dir/db/db_impl_open.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_impl_open.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_impl_open.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_impl_open.cc -o CMakeFiles/rocksdb.dir/db/db_impl_open.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_open.cc -o CMakeFiles/rocksdb.dir/db/db_impl_open.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_impl_open.cc.o.requires:
 
@@ -514,17 +514,17 @@ CMakeFiles/rocksdb.dir/db/db_impl_open.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_impl_debug.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_impl_debug.cc
+CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_debug.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_debug.cc
 
 CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_impl_debug.cc > CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_debug.cc > CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_impl_debug.cc -o CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_debug.cc -o CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.o.requires:
 
@@ -538,17 +538,17 @@ CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.o.provides.build: CMakeFiles/rocksdb.
 
 
 CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_impl_experimental.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_impl_experimental.cc
+CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_experimental.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_experimental.cc
 
 CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_impl_experimental.cc > CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_experimental.cc > CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_impl_experimental.cc -o CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_experimental.cc -o CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.o.requires:
 
@@ -562,17 +562,17 @@ CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.o.provides.build: CMakeFiles/r
 
 
 CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_impl_readonly.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_impl_readonly.cc
+CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_readonly.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_readonly.cc
 
 CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_impl_readonly.cc > CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_readonly.cc > CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_impl_readonly.cc -o CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_impl_readonly.cc -o CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.o.requires:
 
@@ -586,17 +586,17 @@ CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_info_dumper.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_info_dumper.cc
+CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_info_dumper.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_info_dumper.cc
 
 CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_info_dumper.cc > CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_info_dumper.cc > CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_info_dumper.cc -o CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_info_dumper.cc -o CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o.requires:
 
@@ -610,17 +610,17 @@ CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/db/db_iter.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/db_iter.cc.o: /var/www/html/jyocoin/external/rocksdb/db/db_iter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/rocksdb.dir/db/db_iter.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_iter.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/db_iter.cc
+CMakeFiles/rocksdb.dir/db/db_iter.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_iter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/rocksdb.dir/db/db_iter.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/db_iter.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_iter.cc
 
 CMakeFiles/rocksdb.dir/db/db_iter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/db_iter.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/db_iter.cc > CMakeFiles/rocksdb.dir/db/db_iter.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_iter.cc > CMakeFiles/rocksdb.dir/db/db_iter.cc.i
 
 CMakeFiles/rocksdb.dir/db/db_iter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/db_iter.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/db_iter.cc -o CMakeFiles/rocksdb.dir/db/db_iter.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/db_iter.cc -o CMakeFiles/rocksdb.dir/db/db_iter.cc.s
 
 CMakeFiles/rocksdb.dir/db/db_iter.cc.o.requires:
 
@@ -634,17 +634,17 @@ CMakeFiles/rocksdb.dir/db/db_iter.cc.o.provides.build: CMakeFiles/rocksdb.dir/db
 
 
 CMakeFiles/rocksdb.dir/db/dbformat.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/dbformat.cc.o: /var/www/html/jyocoin/external/rocksdb/db/dbformat.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/rocksdb.dir/db/dbformat.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/dbformat.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/dbformat.cc
+CMakeFiles/rocksdb.dir/db/dbformat.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/dbformat.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/rocksdb.dir/db/dbformat.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/dbformat.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/dbformat.cc
 
 CMakeFiles/rocksdb.dir/db/dbformat.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/dbformat.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/dbformat.cc > CMakeFiles/rocksdb.dir/db/dbformat.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/dbformat.cc > CMakeFiles/rocksdb.dir/db/dbformat.cc.i
 
 CMakeFiles/rocksdb.dir/db/dbformat.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/dbformat.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/dbformat.cc -o CMakeFiles/rocksdb.dir/db/dbformat.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/dbformat.cc -o CMakeFiles/rocksdb.dir/db/dbformat.cc.s
 
 CMakeFiles/rocksdb.dir/db/dbformat.cc.o.requires:
 
@@ -658,17 +658,17 @@ CMakeFiles/rocksdb.dir/db/dbformat.cc.o.provides.build: CMakeFiles/rocksdb.dir/d
 
 
 CMakeFiles/rocksdb.dir/db/event_helpers.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/event_helpers.cc.o: /var/www/html/jyocoin/external/rocksdb/db/event_helpers.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/rocksdb.dir/db/event_helpers.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/event_helpers.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/event_helpers.cc
+CMakeFiles/rocksdb.dir/db/event_helpers.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/event_helpers.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/rocksdb.dir/db/event_helpers.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/event_helpers.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/event_helpers.cc
 
 CMakeFiles/rocksdb.dir/db/event_helpers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/event_helpers.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/event_helpers.cc > CMakeFiles/rocksdb.dir/db/event_helpers.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/event_helpers.cc > CMakeFiles/rocksdb.dir/db/event_helpers.cc.i
 
 CMakeFiles/rocksdb.dir/db/event_helpers.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/event_helpers.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/event_helpers.cc -o CMakeFiles/rocksdb.dir/db/event_helpers.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/event_helpers.cc -o CMakeFiles/rocksdb.dir/db/event_helpers.cc.s
 
 CMakeFiles/rocksdb.dir/db/event_helpers.cc.o.requires:
 
@@ -682,17 +682,17 @@ CMakeFiles/rocksdb.dir/db/event_helpers.cc.o.provides.build: CMakeFiles/rocksdb.
 
 
 CMakeFiles/rocksdb.dir/db/experimental.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/experimental.cc.o: /var/www/html/jyocoin/external/rocksdb/db/experimental.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/rocksdb.dir/db/experimental.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/experimental.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/experimental.cc
+CMakeFiles/rocksdb.dir/db/experimental.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/experimental.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/rocksdb.dir/db/experimental.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/experimental.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/experimental.cc
 
 CMakeFiles/rocksdb.dir/db/experimental.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/experimental.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/experimental.cc > CMakeFiles/rocksdb.dir/db/experimental.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/experimental.cc > CMakeFiles/rocksdb.dir/db/experimental.cc.i
 
 CMakeFiles/rocksdb.dir/db/experimental.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/experimental.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/experimental.cc -o CMakeFiles/rocksdb.dir/db/experimental.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/experimental.cc -o CMakeFiles/rocksdb.dir/db/experimental.cc.s
 
 CMakeFiles/rocksdb.dir/db/experimental.cc.o.requires:
 
@@ -706,17 +706,17 @@ CMakeFiles/rocksdb.dir/db/experimental.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o: /var/www/html/jyocoin/external/rocksdb/db/external_sst_file_ingestion_job.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/external_sst_file_ingestion_job.cc
+CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/external_sst_file_ingestion_job.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/external_sst_file_ingestion_job.cc
 
 CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/external_sst_file_ingestion_job.cc > CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/external_sst_file_ingestion_job.cc > CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.i
 
 CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/external_sst_file_ingestion_job.cc -o CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/external_sst_file_ingestion_job.cc -o CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.s
 
 CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o.requires:
 
@@ -730,17 +730,17 @@ CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o.provides.build: C
 
 
 CMakeFiles/rocksdb.dir/db/file_indexer.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/file_indexer.cc.o: /var/www/html/jyocoin/external/rocksdb/db/file_indexer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/rocksdb.dir/db/file_indexer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/file_indexer.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/file_indexer.cc
+CMakeFiles/rocksdb.dir/db/file_indexer.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/file_indexer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/rocksdb.dir/db/file_indexer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/file_indexer.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/file_indexer.cc
 
 CMakeFiles/rocksdb.dir/db/file_indexer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/file_indexer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/file_indexer.cc > CMakeFiles/rocksdb.dir/db/file_indexer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/file_indexer.cc > CMakeFiles/rocksdb.dir/db/file_indexer.cc.i
 
 CMakeFiles/rocksdb.dir/db/file_indexer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/file_indexer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/file_indexer.cc -o CMakeFiles/rocksdb.dir/db/file_indexer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/file_indexer.cc -o CMakeFiles/rocksdb.dir/db/file_indexer.cc.s
 
 CMakeFiles/rocksdb.dir/db/file_indexer.cc.o.requires:
 
@@ -754,17 +754,17 @@ CMakeFiles/rocksdb.dir/db/file_indexer.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/db/flush_job.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/flush_job.cc.o: /var/www/html/jyocoin/external/rocksdb/db/flush_job.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/rocksdb.dir/db/flush_job.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/flush_job.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/flush_job.cc
+CMakeFiles/rocksdb.dir/db/flush_job.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/flush_job.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/rocksdb.dir/db/flush_job.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/flush_job.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/flush_job.cc
 
 CMakeFiles/rocksdb.dir/db/flush_job.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/flush_job.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/flush_job.cc > CMakeFiles/rocksdb.dir/db/flush_job.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/flush_job.cc > CMakeFiles/rocksdb.dir/db/flush_job.cc.i
 
 CMakeFiles/rocksdb.dir/db/flush_job.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/flush_job.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/flush_job.cc -o CMakeFiles/rocksdb.dir/db/flush_job.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/flush_job.cc -o CMakeFiles/rocksdb.dir/db/flush_job.cc.s
 
 CMakeFiles/rocksdb.dir/db/flush_job.cc.o.requires:
 
@@ -778,17 +778,17 @@ CMakeFiles/rocksdb.dir/db/flush_job.cc.o.provides.build: CMakeFiles/rocksdb.dir/
 
 
 CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o: /var/www/html/jyocoin/external/rocksdb/db/flush_scheduler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/flush_scheduler.cc
+CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/flush_scheduler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/flush_scheduler.cc
 
 CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/flush_scheduler.cc > CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/flush_scheduler.cc > CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.i
 
 CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/flush_scheduler.cc -o CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/flush_scheduler.cc -o CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.s
 
 CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o.requires:
 
@@ -802,17 +802,17 @@ CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o.provides.build: CMakeFiles/rocksd
 
 
 CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o: /var/www/html/jyocoin/external/rocksdb/db/forward_iterator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/forward_iterator.cc
+CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/forward_iterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/forward_iterator.cc
 
 CMakeFiles/rocksdb.dir/db/forward_iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/forward_iterator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/forward_iterator.cc > CMakeFiles/rocksdb.dir/db/forward_iterator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/forward_iterator.cc > CMakeFiles/rocksdb.dir/db/forward_iterator.cc.i
 
 CMakeFiles/rocksdb.dir/db/forward_iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/forward_iterator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/forward_iterator.cc -o CMakeFiles/rocksdb.dir/db/forward_iterator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/forward_iterator.cc -o CMakeFiles/rocksdb.dir/db/forward_iterator.cc.s
 
 CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o.requires:
 
@@ -826,17 +826,17 @@ CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/db/internal_stats.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/internal_stats.cc.o: /var/www/html/jyocoin/external/rocksdb/db/internal_stats.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/rocksdb.dir/db/internal_stats.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/internal_stats.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/internal_stats.cc
+CMakeFiles/rocksdb.dir/db/internal_stats.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/internal_stats.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/rocksdb.dir/db/internal_stats.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/internal_stats.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/internal_stats.cc
 
 CMakeFiles/rocksdb.dir/db/internal_stats.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/internal_stats.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/internal_stats.cc > CMakeFiles/rocksdb.dir/db/internal_stats.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/internal_stats.cc > CMakeFiles/rocksdb.dir/db/internal_stats.cc.i
 
 CMakeFiles/rocksdb.dir/db/internal_stats.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/internal_stats.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/internal_stats.cc -o CMakeFiles/rocksdb.dir/db/internal_stats.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/internal_stats.cc -o CMakeFiles/rocksdb.dir/db/internal_stats.cc.s
 
 CMakeFiles/rocksdb.dir/db/internal_stats.cc.o.requires:
 
@@ -850,17 +850,17 @@ CMakeFiles/rocksdb.dir/db/internal_stats.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/db/log_reader.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/log_reader.cc.o: /var/www/html/jyocoin/external/rocksdb/db/log_reader.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/rocksdb.dir/db/log_reader.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/log_reader.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/log_reader.cc
+CMakeFiles/rocksdb.dir/db/log_reader.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/log_reader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/rocksdb.dir/db/log_reader.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/log_reader.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/log_reader.cc
 
 CMakeFiles/rocksdb.dir/db/log_reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/log_reader.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/log_reader.cc > CMakeFiles/rocksdb.dir/db/log_reader.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/log_reader.cc > CMakeFiles/rocksdb.dir/db/log_reader.cc.i
 
 CMakeFiles/rocksdb.dir/db/log_reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/log_reader.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/log_reader.cc -o CMakeFiles/rocksdb.dir/db/log_reader.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/log_reader.cc -o CMakeFiles/rocksdb.dir/db/log_reader.cc.s
 
 CMakeFiles/rocksdb.dir/db/log_reader.cc.o.requires:
 
@@ -874,17 +874,17 @@ CMakeFiles/rocksdb.dir/db/log_reader.cc.o.provides.build: CMakeFiles/rocksdb.dir
 
 
 CMakeFiles/rocksdb.dir/db/log_writer.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/log_writer.cc.o: /var/www/html/jyocoin/external/rocksdb/db/log_writer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/rocksdb.dir/db/log_writer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/log_writer.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/log_writer.cc
+CMakeFiles/rocksdb.dir/db/log_writer.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/log_writer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/rocksdb.dir/db/log_writer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/log_writer.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/log_writer.cc
 
 CMakeFiles/rocksdb.dir/db/log_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/log_writer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/log_writer.cc > CMakeFiles/rocksdb.dir/db/log_writer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/log_writer.cc > CMakeFiles/rocksdb.dir/db/log_writer.cc.i
 
 CMakeFiles/rocksdb.dir/db/log_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/log_writer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/log_writer.cc -o CMakeFiles/rocksdb.dir/db/log_writer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/log_writer.cc -o CMakeFiles/rocksdb.dir/db/log_writer.cc.s
 
 CMakeFiles/rocksdb.dir/db/log_writer.cc.o.requires:
 
@@ -898,17 +898,17 @@ CMakeFiles/rocksdb.dir/db/log_writer.cc.o.provides.build: CMakeFiles/rocksdb.dir
 
 
 CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o: /var/www/html/jyocoin/external/rocksdb/db/malloc_stats.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/malloc_stats.cc
+CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/malloc_stats.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/malloc_stats.cc
 
 CMakeFiles/rocksdb.dir/db/malloc_stats.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/malloc_stats.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/malloc_stats.cc > CMakeFiles/rocksdb.dir/db/malloc_stats.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/malloc_stats.cc > CMakeFiles/rocksdb.dir/db/malloc_stats.cc.i
 
 CMakeFiles/rocksdb.dir/db/malloc_stats.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/malloc_stats.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/malloc_stats.cc -o CMakeFiles/rocksdb.dir/db/malloc_stats.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/malloc_stats.cc -o CMakeFiles/rocksdb.dir/db/malloc_stats.cc.s
 
 CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o.requires:
 
@@ -922,17 +922,17 @@ CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/db/managed_iterator.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/managed_iterator.cc.o: /var/www/html/jyocoin/external/rocksdb/db/managed_iterator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/rocksdb.dir/db/managed_iterator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/managed_iterator.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/managed_iterator.cc
+CMakeFiles/rocksdb.dir/db/managed_iterator.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/managed_iterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/rocksdb.dir/db/managed_iterator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/managed_iterator.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/managed_iterator.cc
 
 CMakeFiles/rocksdb.dir/db/managed_iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/managed_iterator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/managed_iterator.cc > CMakeFiles/rocksdb.dir/db/managed_iterator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/managed_iterator.cc > CMakeFiles/rocksdb.dir/db/managed_iterator.cc.i
 
 CMakeFiles/rocksdb.dir/db/managed_iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/managed_iterator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/managed_iterator.cc -o CMakeFiles/rocksdb.dir/db/managed_iterator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/managed_iterator.cc -o CMakeFiles/rocksdb.dir/db/managed_iterator.cc.s
 
 CMakeFiles/rocksdb.dir/db/managed_iterator.cc.o.requires:
 
@@ -946,17 +946,17 @@ CMakeFiles/rocksdb.dir/db/managed_iterator.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/db/memtable.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/memtable.cc.o: /var/www/html/jyocoin/external/rocksdb/db/memtable.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/rocksdb.dir/db/memtable.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/memtable.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/memtable.cc
+CMakeFiles/rocksdb.dir/db/memtable.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/memtable.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/rocksdb.dir/db/memtable.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/memtable.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/memtable.cc
 
 CMakeFiles/rocksdb.dir/db/memtable.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/memtable.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/memtable.cc > CMakeFiles/rocksdb.dir/db/memtable.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/memtable.cc > CMakeFiles/rocksdb.dir/db/memtable.cc.i
 
 CMakeFiles/rocksdb.dir/db/memtable.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/memtable.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/memtable.cc -o CMakeFiles/rocksdb.dir/db/memtable.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/memtable.cc -o CMakeFiles/rocksdb.dir/db/memtable.cc.s
 
 CMakeFiles/rocksdb.dir/db/memtable.cc.o.requires:
 
@@ -970,17 +970,17 @@ CMakeFiles/rocksdb.dir/db/memtable.cc.o.provides.build: CMakeFiles/rocksdb.dir/d
 
 
 CMakeFiles/rocksdb.dir/db/memtable_list.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/memtable_list.cc.o: /var/www/html/jyocoin/external/rocksdb/db/memtable_list.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/rocksdb.dir/db/memtable_list.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/memtable_list.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/memtable_list.cc
+CMakeFiles/rocksdb.dir/db/memtable_list.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/memtable_list.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/rocksdb.dir/db/memtable_list.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/memtable_list.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/memtable_list.cc
 
 CMakeFiles/rocksdb.dir/db/memtable_list.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/memtable_list.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/memtable_list.cc > CMakeFiles/rocksdb.dir/db/memtable_list.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/memtable_list.cc > CMakeFiles/rocksdb.dir/db/memtable_list.cc.i
 
 CMakeFiles/rocksdb.dir/db/memtable_list.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/memtable_list.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/memtable_list.cc -o CMakeFiles/rocksdb.dir/db/memtable_list.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/memtable_list.cc -o CMakeFiles/rocksdb.dir/db/memtable_list.cc.s
 
 CMakeFiles/rocksdb.dir/db/memtable_list.cc.o.requires:
 
@@ -994,17 +994,17 @@ CMakeFiles/rocksdb.dir/db/memtable_list.cc.o.provides.build: CMakeFiles/rocksdb.
 
 
 CMakeFiles/rocksdb.dir/db/merge_helper.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/merge_helper.cc.o: /var/www/html/jyocoin/external/rocksdb/db/merge_helper.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/rocksdb.dir/db/merge_helper.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/merge_helper.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/merge_helper.cc
+CMakeFiles/rocksdb.dir/db/merge_helper.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/merge_helper.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/rocksdb.dir/db/merge_helper.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/merge_helper.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/merge_helper.cc
 
 CMakeFiles/rocksdb.dir/db/merge_helper.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/merge_helper.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/merge_helper.cc > CMakeFiles/rocksdb.dir/db/merge_helper.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/merge_helper.cc > CMakeFiles/rocksdb.dir/db/merge_helper.cc.i
 
 CMakeFiles/rocksdb.dir/db/merge_helper.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/merge_helper.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/merge_helper.cc -o CMakeFiles/rocksdb.dir/db/merge_helper.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/merge_helper.cc -o CMakeFiles/rocksdb.dir/db/merge_helper.cc.s
 
 CMakeFiles/rocksdb.dir/db/merge_helper.cc.o.requires:
 
@@ -1018,17 +1018,17 @@ CMakeFiles/rocksdb.dir/db/merge_helper.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/db/merge_operator.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/merge_operator.cc.o: /var/www/html/jyocoin/external/rocksdb/db/merge_operator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/rocksdb.dir/db/merge_operator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/merge_operator.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/merge_operator.cc
+CMakeFiles/rocksdb.dir/db/merge_operator.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/merge_operator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/rocksdb.dir/db/merge_operator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/merge_operator.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/merge_operator.cc
 
 CMakeFiles/rocksdb.dir/db/merge_operator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/merge_operator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/merge_operator.cc > CMakeFiles/rocksdb.dir/db/merge_operator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/merge_operator.cc > CMakeFiles/rocksdb.dir/db/merge_operator.cc.i
 
 CMakeFiles/rocksdb.dir/db/merge_operator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/merge_operator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/merge_operator.cc -o CMakeFiles/rocksdb.dir/db/merge_operator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/merge_operator.cc -o CMakeFiles/rocksdb.dir/db/merge_operator.cc.s
 
 CMakeFiles/rocksdb.dir/db/merge_operator.cc.o.requires:
 
@@ -1042,17 +1042,17 @@ CMakeFiles/rocksdb.dir/db/merge_operator.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o: /var/www/html/jyocoin/external/rocksdb/db/range_del_aggregator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/range_del_aggregator.cc
+CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/range_del_aggregator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/range_del_aggregator.cc
 
 CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/range_del_aggregator.cc > CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/range_del_aggregator.cc > CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.i
 
 CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/range_del_aggregator.cc -o CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/range_del_aggregator.cc -o CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.s
 
 CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o.requires:
 
@@ -1066,17 +1066,17 @@ CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o.provides.build: CMakeFiles/r
 
 
 CMakeFiles/rocksdb.dir/db/repair.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/repair.cc.o: /var/www/html/jyocoin/external/rocksdb/db/repair.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/rocksdb.dir/db/repair.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/repair.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/repair.cc
+CMakeFiles/rocksdb.dir/db/repair.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/repair.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/rocksdb.dir/db/repair.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/repair.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/repair.cc
 
 CMakeFiles/rocksdb.dir/db/repair.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/repair.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/repair.cc > CMakeFiles/rocksdb.dir/db/repair.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/repair.cc > CMakeFiles/rocksdb.dir/db/repair.cc.i
 
 CMakeFiles/rocksdb.dir/db/repair.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/repair.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/repair.cc -o CMakeFiles/rocksdb.dir/db/repair.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/repair.cc -o CMakeFiles/rocksdb.dir/db/repair.cc.s
 
 CMakeFiles/rocksdb.dir/db/repair.cc.o.requires:
 
@@ -1090,17 +1090,17 @@ CMakeFiles/rocksdb.dir/db/repair.cc.o.provides.build: CMakeFiles/rocksdb.dir/db/
 
 
 CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/db/snapshot_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/snapshot_impl.cc
+CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/snapshot_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/snapshot_impl.cc
 
 CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/snapshot_impl.cc > CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/snapshot_impl.cc > CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.i
 
 CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/snapshot_impl.cc -o CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/snapshot_impl.cc -o CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.s
 
 CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o.requires:
 
@@ -1114,17 +1114,17 @@ CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o.provides.build: CMakeFiles/rocksdb.
 
 
 CMakeFiles/rocksdb.dir/db/table_cache.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/table_cache.cc.o: /var/www/html/jyocoin/external/rocksdb/db/table_cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/rocksdb.dir/db/table_cache.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/table_cache.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/table_cache.cc
+CMakeFiles/rocksdb.dir/db/table_cache.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/table_cache.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/rocksdb.dir/db/table_cache.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/table_cache.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/table_cache.cc
 
 CMakeFiles/rocksdb.dir/db/table_cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/table_cache.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/table_cache.cc > CMakeFiles/rocksdb.dir/db/table_cache.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/table_cache.cc > CMakeFiles/rocksdb.dir/db/table_cache.cc.i
 
 CMakeFiles/rocksdb.dir/db/table_cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/table_cache.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/table_cache.cc -o CMakeFiles/rocksdb.dir/db/table_cache.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/table_cache.cc -o CMakeFiles/rocksdb.dir/db/table_cache.cc.s
 
 CMakeFiles/rocksdb.dir/db/table_cache.cc.o.requires:
 
@@ -1138,17 +1138,17 @@ CMakeFiles/rocksdb.dir/db/table_cache.cc.o.provides.build: CMakeFiles/rocksdb.di
 
 
 CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o: /var/www/html/jyocoin/external/rocksdb/db/table_properties_collector.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/table_properties_collector.cc
+CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/table_properties_collector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/table_properties_collector.cc
 
 CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/table_properties_collector.cc > CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/table_properties_collector.cc > CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.i
 
 CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/table_properties_collector.cc -o CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/table_properties_collector.cc -o CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.s
 
 CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o.requires:
 
@@ -1162,17 +1162,17 @@ CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o.provides.build: CMakeF
 
 
 CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/db/transaction_log_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/transaction_log_impl.cc
+CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/transaction_log_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/transaction_log_impl.cc
 
 CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/transaction_log_impl.cc > CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/transaction_log_impl.cc > CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.i
 
 CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/transaction_log_impl.cc -o CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/transaction_log_impl.cc -o CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.s
 
 CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o.requires:
 
@@ -1186,17 +1186,17 @@ CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o.provides.build: CMakeFiles/r
 
 
 CMakeFiles/rocksdb.dir/db/version_builder.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/version_builder.cc.o: /var/www/html/jyocoin/external/rocksdb/db/version_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/rocksdb.dir/db/version_builder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/version_builder.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/version_builder.cc
+CMakeFiles/rocksdb.dir/db/version_builder.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/rocksdb.dir/db/version_builder.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/version_builder.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_builder.cc
 
 CMakeFiles/rocksdb.dir/db/version_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/version_builder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/version_builder.cc > CMakeFiles/rocksdb.dir/db/version_builder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_builder.cc > CMakeFiles/rocksdb.dir/db/version_builder.cc.i
 
 CMakeFiles/rocksdb.dir/db/version_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/version_builder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/version_builder.cc -o CMakeFiles/rocksdb.dir/db/version_builder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_builder.cc -o CMakeFiles/rocksdb.dir/db/version_builder.cc.s
 
 CMakeFiles/rocksdb.dir/db/version_builder.cc.o.requires:
 
@@ -1210,17 +1210,17 @@ CMakeFiles/rocksdb.dir/db/version_builder.cc.o.provides.build: CMakeFiles/rocksd
 
 
 CMakeFiles/rocksdb.dir/db/version_edit.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/version_edit.cc.o: /var/www/html/jyocoin/external/rocksdb/db/version_edit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/rocksdb.dir/db/version_edit.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/version_edit.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/version_edit.cc
+CMakeFiles/rocksdb.dir/db/version_edit.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_edit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/rocksdb.dir/db/version_edit.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/version_edit.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_edit.cc
 
 CMakeFiles/rocksdb.dir/db/version_edit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/version_edit.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/version_edit.cc > CMakeFiles/rocksdb.dir/db/version_edit.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_edit.cc > CMakeFiles/rocksdb.dir/db/version_edit.cc.i
 
 CMakeFiles/rocksdb.dir/db/version_edit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/version_edit.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/version_edit.cc -o CMakeFiles/rocksdb.dir/db/version_edit.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_edit.cc -o CMakeFiles/rocksdb.dir/db/version_edit.cc.s
 
 CMakeFiles/rocksdb.dir/db/version_edit.cc.o.requires:
 
@@ -1234,17 +1234,17 @@ CMakeFiles/rocksdb.dir/db/version_edit.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/db/version_set.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/version_set.cc.o: /var/www/html/jyocoin/external/rocksdb/db/version_set.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/rocksdb.dir/db/version_set.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/version_set.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/version_set.cc
+CMakeFiles/rocksdb.dir/db/version_set.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_set.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/rocksdb.dir/db/version_set.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/version_set.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_set.cc
 
 CMakeFiles/rocksdb.dir/db/version_set.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/version_set.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/version_set.cc > CMakeFiles/rocksdb.dir/db/version_set.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_set.cc > CMakeFiles/rocksdb.dir/db/version_set.cc.i
 
 CMakeFiles/rocksdb.dir/db/version_set.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/version_set.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/version_set.cc -o CMakeFiles/rocksdb.dir/db/version_set.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/version_set.cc -o CMakeFiles/rocksdb.dir/db/version_set.cc.s
 
 CMakeFiles/rocksdb.dir/db/version_set.cc.o.requires:
 
@@ -1258,17 +1258,17 @@ CMakeFiles/rocksdb.dir/db/version_set.cc.o.provides.build: CMakeFiles/rocksdb.di
 
 
 CMakeFiles/rocksdb.dir/db/wal_manager.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/wal_manager.cc.o: /var/www/html/jyocoin/external/rocksdb/db/wal_manager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/rocksdb.dir/db/wal_manager.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/wal_manager.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/wal_manager.cc
+CMakeFiles/rocksdb.dir/db/wal_manager.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/wal_manager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/rocksdb.dir/db/wal_manager.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/wal_manager.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/wal_manager.cc
 
 CMakeFiles/rocksdb.dir/db/wal_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/wal_manager.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/wal_manager.cc > CMakeFiles/rocksdb.dir/db/wal_manager.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/wal_manager.cc > CMakeFiles/rocksdb.dir/db/wal_manager.cc.i
 
 CMakeFiles/rocksdb.dir/db/wal_manager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/wal_manager.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/wal_manager.cc -o CMakeFiles/rocksdb.dir/db/wal_manager.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/wal_manager.cc -o CMakeFiles/rocksdb.dir/db/wal_manager.cc.s
 
 CMakeFiles/rocksdb.dir/db/wal_manager.cc.o.requires:
 
@@ -1282,17 +1282,17 @@ CMakeFiles/rocksdb.dir/db/wal_manager.cc.o.provides.build: CMakeFiles/rocksdb.di
 
 
 CMakeFiles/rocksdb.dir/db/write_batch.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/write_batch.cc.o: /var/www/html/jyocoin/external/rocksdb/db/write_batch.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/rocksdb.dir/db/write_batch.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/write_batch.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/write_batch.cc
+CMakeFiles/rocksdb.dir/db/write_batch.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_batch.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/rocksdb.dir/db/write_batch.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/write_batch.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_batch.cc
 
 CMakeFiles/rocksdb.dir/db/write_batch.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/write_batch.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/write_batch.cc > CMakeFiles/rocksdb.dir/db/write_batch.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_batch.cc > CMakeFiles/rocksdb.dir/db/write_batch.cc.i
 
 CMakeFiles/rocksdb.dir/db/write_batch.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/write_batch.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/write_batch.cc -o CMakeFiles/rocksdb.dir/db/write_batch.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_batch.cc -o CMakeFiles/rocksdb.dir/db/write_batch.cc.s
 
 CMakeFiles/rocksdb.dir/db/write_batch.cc.o.requires:
 
@@ -1306,17 +1306,17 @@ CMakeFiles/rocksdb.dir/db/write_batch.cc.o.provides.build: CMakeFiles/rocksdb.di
 
 
 CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o: /var/www/html/jyocoin/external/rocksdb/db/write_batch_base.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/write_batch_base.cc
+CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_batch_base.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_batch_base.cc
 
 CMakeFiles/rocksdb.dir/db/write_batch_base.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/write_batch_base.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/write_batch_base.cc > CMakeFiles/rocksdb.dir/db/write_batch_base.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_batch_base.cc > CMakeFiles/rocksdb.dir/db/write_batch_base.cc.i
 
 CMakeFiles/rocksdb.dir/db/write_batch_base.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/write_batch_base.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/write_batch_base.cc -o CMakeFiles/rocksdb.dir/db/write_batch_base.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_batch_base.cc -o CMakeFiles/rocksdb.dir/db/write_batch_base.cc.s
 
 CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o.requires:
 
@@ -1330,17 +1330,17 @@ CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/db/write_controller.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/write_controller.cc.o: /var/www/html/jyocoin/external/rocksdb/db/write_controller.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/rocksdb.dir/db/write_controller.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/write_controller.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/write_controller.cc
+CMakeFiles/rocksdb.dir/db/write_controller.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_controller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/rocksdb.dir/db/write_controller.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/write_controller.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_controller.cc
 
 CMakeFiles/rocksdb.dir/db/write_controller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/write_controller.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/write_controller.cc > CMakeFiles/rocksdb.dir/db/write_controller.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_controller.cc > CMakeFiles/rocksdb.dir/db/write_controller.cc.i
 
 CMakeFiles/rocksdb.dir/db/write_controller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/write_controller.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/write_controller.cc -o CMakeFiles/rocksdb.dir/db/write_controller.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_controller.cc -o CMakeFiles/rocksdb.dir/db/write_controller.cc.s
 
 CMakeFiles/rocksdb.dir/db/write_controller.cc.o.requires:
 
@@ -1354,17 +1354,17 @@ CMakeFiles/rocksdb.dir/db/write_controller.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/db/write_thread.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/db/write_thread.cc.o: /var/www/html/jyocoin/external/rocksdb/db/write_thread.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/rocksdb.dir/db/write_thread.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/write_thread.cc.o -c /var/www/html/jyocoin/external/rocksdb/db/write_thread.cc
+CMakeFiles/rocksdb.dir/db/write_thread.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_thread.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/rocksdb.dir/db/write_thread.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/db/write_thread.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_thread.cc
 
 CMakeFiles/rocksdb.dir/db/write_thread.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/db/write_thread.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/db/write_thread.cc > CMakeFiles/rocksdb.dir/db/write_thread.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_thread.cc > CMakeFiles/rocksdb.dir/db/write_thread.cc.i
 
 CMakeFiles/rocksdb.dir/db/write_thread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/db/write_thread.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/db/write_thread.cc -o CMakeFiles/rocksdb.dir/db/write_thread.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/db/write_thread.cc -o CMakeFiles/rocksdb.dir/db/write_thread.cc.s
 
 CMakeFiles/rocksdb.dir/db/write_thread.cc.o.requires:
 
@@ -1378,17 +1378,17 @@ CMakeFiles/rocksdb.dir/db/write_thread.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/env/env.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/env/env.cc.o: /var/www/html/jyocoin/external/rocksdb/env/env.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/rocksdb.dir/env/env.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/env.cc.o -c /var/www/html/jyocoin/external/rocksdb/env/env.cc
+CMakeFiles/rocksdb.dir/env/env.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/rocksdb.dir/env/env.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/env.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env.cc
 
 CMakeFiles/rocksdb.dir/env/env.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/env/env.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/env/env.cc > CMakeFiles/rocksdb.dir/env/env.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env.cc > CMakeFiles/rocksdb.dir/env/env.cc.i
 
 CMakeFiles/rocksdb.dir/env/env.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/env/env.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/env/env.cc -o CMakeFiles/rocksdb.dir/env/env.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env.cc -o CMakeFiles/rocksdb.dir/env/env.cc.s
 
 CMakeFiles/rocksdb.dir/env/env.cc.o.requires:
 
@@ -1402,17 +1402,17 @@ CMakeFiles/rocksdb.dir/env/env.cc.o.provides.build: CMakeFiles/rocksdb.dir/env/e
 
 
 CMakeFiles/rocksdb.dir/env/env_chroot.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/env/env_chroot.cc.o: /var/www/html/jyocoin/external/rocksdb/env/env_chroot.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/rocksdb.dir/env/env_chroot.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/env_chroot.cc.o -c /var/www/html/jyocoin/external/rocksdb/env/env_chroot.cc
+CMakeFiles/rocksdb.dir/env/env_chroot.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_chroot.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/rocksdb.dir/env/env_chroot.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/env_chroot.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_chroot.cc
 
 CMakeFiles/rocksdb.dir/env/env_chroot.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/env/env_chroot.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/env/env_chroot.cc > CMakeFiles/rocksdb.dir/env/env_chroot.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_chroot.cc > CMakeFiles/rocksdb.dir/env/env_chroot.cc.i
 
 CMakeFiles/rocksdb.dir/env/env_chroot.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/env/env_chroot.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/env/env_chroot.cc -o CMakeFiles/rocksdb.dir/env/env_chroot.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_chroot.cc -o CMakeFiles/rocksdb.dir/env/env_chroot.cc.s
 
 CMakeFiles/rocksdb.dir/env/env_chroot.cc.o.requires:
 
@@ -1426,17 +1426,17 @@ CMakeFiles/rocksdb.dir/env/env_chroot.cc.o.provides.build: CMakeFiles/rocksdb.di
 
 
 CMakeFiles/rocksdb.dir/env/env_encryption.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/env/env_encryption.cc.o: /var/www/html/jyocoin/external/rocksdb/env/env_encryption.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/rocksdb.dir/env/env_encryption.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/env_encryption.cc.o -c /var/www/html/jyocoin/external/rocksdb/env/env_encryption.cc
+CMakeFiles/rocksdb.dir/env/env_encryption.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_encryption.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/rocksdb.dir/env/env_encryption.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/env_encryption.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_encryption.cc
 
 CMakeFiles/rocksdb.dir/env/env_encryption.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/env/env_encryption.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/env/env_encryption.cc > CMakeFiles/rocksdb.dir/env/env_encryption.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_encryption.cc > CMakeFiles/rocksdb.dir/env/env_encryption.cc.i
 
 CMakeFiles/rocksdb.dir/env/env_encryption.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/env/env_encryption.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/env/env_encryption.cc -o CMakeFiles/rocksdb.dir/env/env_encryption.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_encryption.cc -o CMakeFiles/rocksdb.dir/env/env_encryption.cc.s
 
 CMakeFiles/rocksdb.dir/env/env_encryption.cc.o.requires:
 
@@ -1450,17 +1450,17 @@ CMakeFiles/rocksdb.dir/env/env_encryption.cc.o.provides.build: CMakeFiles/rocksd
 
 
 CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o: /var/www/html/jyocoin/external/rocksdb/env/env_hdfs.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o -c /var/www/html/jyocoin/external/rocksdb/env/env_hdfs.cc
+CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_hdfs.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_hdfs.cc
 
 CMakeFiles/rocksdb.dir/env/env_hdfs.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/env/env_hdfs.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/env/env_hdfs.cc > CMakeFiles/rocksdb.dir/env/env_hdfs.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_hdfs.cc > CMakeFiles/rocksdb.dir/env/env_hdfs.cc.i
 
 CMakeFiles/rocksdb.dir/env/env_hdfs.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/env/env_hdfs.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/env/env_hdfs.cc -o CMakeFiles/rocksdb.dir/env/env_hdfs.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_hdfs.cc -o CMakeFiles/rocksdb.dir/env/env_hdfs.cc.s
 
 CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o.requires:
 
@@ -1474,17 +1474,17 @@ CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o.provides.build: CMakeFiles/rocksdb.dir/
 
 
 CMakeFiles/rocksdb.dir/env/mock_env.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/env/mock_env.cc.o: /var/www/html/jyocoin/external/rocksdb/env/mock_env.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/rocksdb.dir/env/mock_env.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/mock_env.cc.o -c /var/www/html/jyocoin/external/rocksdb/env/mock_env.cc
+CMakeFiles/rocksdb.dir/env/mock_env.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/mock_env.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/rocksdb.dir/env/mock_env.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/mock_env.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/mock_env.cc
 
 CMakeFiles/rocksdb.dir/env/mock_env.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/env/mock_env.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/env/mock_env.cc > CMakeFiles/rocksdb.dir/env/mock_env.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/mock_env.cc > CMakeFiles/rocksdb.dir/env/mock_env.cc.i
 
 CMakeFiles/rocksdb.dir/env/mock_env.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/env/mock_env.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/env/mock_env.cc -o CMakeFiles/rocksdb.dir/env/mock_env.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/mock_env.cc -o CMakeFiles/rocksdb.dir/env/mock_env.cc.s
 
 CMakeFiles/rocksdb.dir/env/mock_env.cc.o.requires:
 
@@ -1498,17 +1498,17 @@ CMakeFiles/rocksdb.dir/env/mock_env.cc.o.provides.build: CMakeFiles/rocksdb.dir/
 
 
 CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o: /var/www/html/jyocoin/external/rocksdb/memtable/alloc_tracker.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o -c /var/www/html/jyocoin/external/rocksdb/memtable/alloc_tracker.cc
+CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/alloc_tracker.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/alloc_tracker.cc
 
 CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/memtable/alloc_tracker.cc > CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/alloc_tracker.cc > CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.i
 
 CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/memtable/alloc_tracker.cc -o CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/alloc_tracker.cc -o CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.s
 
 CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o.requires:
 
@@ -1522,17 +1522,17 @@ CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o.provides.build: CMakeFiles/ro
 
 
 CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.o: /var/www/html/jyocoin/external/rocksdb/memtable/hash_cuckoo_rep.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.o -c /var/www/html/jyocoin/external/rocksdb/memtable/hash_cuckoo_rep.cc
+CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_cuckoo_rep.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_cuckoo_rep.cc
 
 CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/memtable/hash_cuckoo_rep.cc > CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_cuckoo_rep.cc > CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.i
 
 CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/memtable/hash_cuckoo_rep.cc -o CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_cuckoo_rep.cc -o CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.s
 
 CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.o.requires:
 
@@ -1546,17 +1546,17 @@ CMakeFiles/rocksdb.dir/memtable/hash_cuckoo_rep.cc.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o: /var/www/html/jyocoin/external/rocksdb/memtable/hash_linklist_rep.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o -c /var/www/html/jyocoin/external/rocksdb/memtable/hash_linklist_rep.cc
+CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_linklist_rep.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_linklist_rep.cc
 
 CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/memtable/hash_linklist_rep.cc > CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_linklist_rep.cc > CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.i
 
 CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/memtable/hash_linklist_rep.cc -o CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_linklist_rep.cc -o CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.s
 
 CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o.requires:
 
@@ -1570,17 +1570,17 @@ CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o.provides.build: CMakeFile
 
 
 CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o: /var/www/html/jyocoin/external/rocksdb/memtable/hash_skiplist_rep.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o -c /var/www/html/jyocoin/external/rocksdb/memtable/hash_skiplist_rep.cc
+CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_skiplist_rep.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_skiplist_rep.cc
 
 CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/memtable/hash_skiplist_rep.cc > CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_skiplist_rep.cc > CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.i
 
 CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/memtable/hash_skiplist_rep.cc -o CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/hash_skiplist_rep.cc -o CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.s
 
 CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o.requires:
 
@@ -1594,17 +1594,17 @@ CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o.provides.build: CMakeFile
 
 
 CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o: /var/www/html/jyocoin/external/rocksdb/memtable/skiplistrep.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o -c /var/www/html/jyocoin/external/rocksdb/memtable/skiplistrep.cc
+CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/skiplistrep.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/skiplistrep.cc
 
 CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/memtable/skiplistrep.cc > CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/skiplistrep.cc > CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.i
 
 CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/memtable/skiplistrep.cc -o CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/skiplistrep.cc -o CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.s
 
 CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o.requires:
 
@@ -1618,17 +1618,17 @@ CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o.provides.build: CMakeFiles/rock
 
 
 CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o: /var/www/html/jyocoin/external/rocksdb/memtable/vectorrep.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o -c /var/www/html/jyocoin/external/rocksdb/memtable/vectorrep.cc
+CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/vectorrep.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/vectorrep.cc
 
 CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/memtable/vectorrep.cc > CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/vectorrep.cc > CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.i
 
 CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/memtable/vectorrep.cc -o CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/vectorrep.cc -o CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.s
 
 CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o.requires:
 
@@ -1642,17 +1642,17 @@ CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o.provides.build: CMakeFiles/rocksd
 
 
 CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o: /var/www/html/jyocoin/external/rocksdb/memtable/write_buffer_manager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o -c /var/www/html/jyocoin/external/rocksdb/memtable/write_buffer_manager.cc
+CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/write_buffer_manager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/write_buffer_manager.cc
 
 CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/memtable/write_buffer_manager.cc > CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/write_buffer_manager.cc > CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.i
 
 CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/memtable/write_buffer_manager.cc -o CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/memtable/write_buffer_manager.cc -o CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.s
 
 CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o.requires:
 
@@ -1666,17 +1666,17 @@ CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o.provides.build: CMakeF
 
 
 CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/histogram.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/histogram.cc
+CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/histogram.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/histogram.cc
 
 CMakeFiles/rocksdb.dir/monitoring/histogram.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/histogram.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/histogram.cc > CMakeFiles/rocksdb.dir/monitoring/histogram.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/histogram.cc > CMakeFiles/rocksdb.dir/monitoring/histogram.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/histogram.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/histogram.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/histogram.cc -o CMakeFiles/rocksdb.dir/monitoring/histogram.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/histogram.cc -o CMakeFiles/rocksdb.dir/monitoring/histogram.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o.requires:
 
@@ -1690,17 +1690,17 @@ CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o.provides.build: CMakeFiles/rock
 
 
 CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/histogram_windowing.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/histogram_windowing.cc
+CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/histogram_windowing.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/histogram_windowing.cc
 
 CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/histogram_windowing.cc > CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/histogram_windowing.cc > CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/histogram_windowing.cc -o CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/histogram_windowing.cc -o CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o.requires:
 
@@ -1714,17 +1714,17 @@ CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o.provides.build: CMake
 
 
 CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/instrumented_mutex.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/instrumented_mutex.cc
+CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/instrumented_mutex.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/instrumented_mutex.cc
 
 CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/instrumented_mutex.cc > CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/instrumented_mutex.cc > CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/instrumented_mutex.cc -o CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/instrumented_mutex.cc -o CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o.requires:
 
@@ -1738,17 +1738,17 @@ CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o.provides.build: CMakeF
 
 
 CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/iostats_context.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/iostats_context.cc
+CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/iostats_context.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/iostats_context.cc
 
 CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/iostats_context.cc > CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/iostats_context.cc > CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/iostats_context.cc -o CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/iostats_context.cc -o CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o.requires:
 
@@ -1762,17 +1762,17 @@ CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o.provides.build: CMakeFile
 
 
 CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/perf_context.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/perf_context.cc
+CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/perf_context.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/perf_context.cc
 
 CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/perf_context.cc > CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/perf_context.cc > CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/perf_context.cc -o CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/perf_context.cc -o CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o.requires:
 
@@ -1786,17 +1786,17 @@ CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o.provides.build: CMakeFiles/r
 
 
 CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/perf_level.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/perf_level.cc
+CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/perf_level.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/perf_level.cc
 
 CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/perf_level.cc > CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/perf_level.cc > CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/perf_level.cc -o CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/perf_level.cc -o CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o.requires:
 
@@ -1810,17 +1810,17 @@ CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o.provides.build: CMakeFiles/roc
 
 
 CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/statistics.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/statistics.cc
+CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/statistics.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/statistics.cc
 
 CMakeFiles/rocksdb.dir/monitoring/statistics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/statistics.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/statistics.cc > CMakeFiles/rocksdb.dir/monitoring/statistics.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/statistics.cc > CMakeFiles/rocksdb.dir/monitoring/statistics.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/statistics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/statistics.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/statistics.cc -o CMakeFiles/rocksdb.dir/monitoring/statistics.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/statistics.cc -o CMakeFiles/rocksdb.dir/monitoring/statistics.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o.requires:
 
@@ -1834,17 +1834,17 @@ CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o.provides.build: CMakeFiles/roc
 
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_impl.cc
+CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_impl.cc
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_impl.cc > CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_impl.cc > CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_impl.cc -o CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_impl.cc -o CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o.requires:
 
@@ -1858,17 +1858,17 @@ CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o.provides.build: CMakeF
 
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_updater.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_updater.cc
+CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_updater.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_updater.cc
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_updater.cc > CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_updater.cc > CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_updater.cc -o CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_updater.cc -o CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o.requires:
 
@@ -1882,17 +1882,17 @@ CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o.provides.build: CMa
 
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_util.cc
+CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_util.cc
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_util.cc > CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_util.cc > CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_util.cc -o CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_util.cc -o CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o.requires:
 
@@ -1906,17 +1906,17 @@ CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o.provides.build: CMakeF
 
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o: /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_util_debug.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o -c /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_util_debug.cc
+CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_util_debug.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_util_debug.cc
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_util_debug.cc > CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_util_debug.cc > CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.i
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/monitoring/thread_status_util_debug.cc -o CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/monitoring/thread_status_util_debug.cc -o CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.s
 
 CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o.requires:
 
@@ -1930,17 +1930,17 @@ CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o.provides.build: 
 
 
 CMakeFiles/rocksdb.dir/options/cf_options.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/options/cf_options.cc.o: /var/www/html/jyocoin/external/rocksdb/options/cf_options.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/rocksdb.dir/options/cf_options.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/cf_options.cc.o -c /var/www/html/jyocoin/external/rocksdb/options/cf_options.cc
+CMakeFiles/rocksdb.dir/options/cf_options.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/cf_options.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/rocksdb.dir/options/cf_options.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/cf_options.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/cf_options.cc
 
 CMakeFiles/rocksdb.dir/options/cf_options.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/options/cf_options.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/options/cf_options.cc > CMakeFiles/rocksdb.dir/options/cf_options.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/cf_options.cc > CMakeFiles/rocksdb.dir/options/cf_options.cc.i
 
 CMakeFiles/rocksdb.dir/options/cf_options.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/options/cf_options.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/options/cf_options.cc -o CMakeFiles/rocksdb.dir/options/cf_options.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/cf_options.cc -o CMakeFiles/rocksdb.dir/options/cf_options.cc.s
 
 CMakeFiles/rocksdb.dir/options/cf_options.cc.o.requires:
 
@@ -1954,17 +1954,17 @@ CMakeFiles/rocksdb.dir/options/cf_options.cc.o.provides.build: CMakeFiles/rocksd
 
 
 CMakeFiles/rocksdb.dir/options/db_options.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/options/db_options.cc.o: /var/www/html/jyocoin/external/rocksdb/options/db_options.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/rocksdb.dir/options/db_options.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/db_options.cc.o -c /var/www/html/jyocoin/external/rocksdb/options/db_options.cc
+CMakeFiles/rocksdb.dir/options/db_options.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/db_options.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/rocksdb.dir/options/db_options.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/db_options.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/db_options.cc
 
 CMakeFiles/rocksdb.dir/options/db_options.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/options/db_options.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/options/db_options.cc > CMakeFiles/rocksdb.dir/options/db_options.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/db_options.cc > CMakeFiles/rocksdb.dir/options/db_options.cc.i
 
 CMakeFiles/rocksdb.dir/options/db_options.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/options/db_options.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/options/db_options.cc -o CMakeFiles/rocksdb.dir/options/db_options.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/db_options.cc -o CMakeFiles/rocksdb.dir/options/db_options.cc.s
 
 CMakeFiles/rocksdb.dir/options/db_options.cc.o.requires:
 
@@ -1978,17 +1978,17 @@ CMakeFiles/rocksdb.dir/options/db_options.cc.o.provides.build: CMakeFiles/rocksd
 
 
 CMakeFiles/rocksdb.dir/options/options.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/options/options.cc.o: /var/www/html/jyocoin/external/rocksdb/options/options.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/rocksdb.dir/options/options.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/options.cc.o -c /var/www/html/jyocoin/external/rocksdb/options/options.cc
+CMakeFiles/rocksdb.dir/options/options.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/rocksdb.dir/options/options.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/options.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options.cc
 
 CMakeFiles/rocksdb.dir/options/options.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/options/options.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/options/options.cc > CMakeFiles/rocksdb.dir/options/options.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options.cc > CMakeFiles/rocksdb.dir/options/options.cc.i
 
 CMakeFiles/rocksdb.dir/options/options.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/options/options.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/options/options.cc -o CMakeFiles/rocksdb.dir/options/options.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options.cc -o CMakeFiles/rocksdb.dir/options/options.cc.s
 
 CMakeFiles/rocksdb.dir/options/options.cc.o.requires:
 
@@ -2002,17 +2002,17 @@ CMakeFiles/rocksdb.dir/options/options.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/options/options_helper.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/options/options_helper.cc.o: /var/www/html/jyocoin/external/rocksdb/options/options_helper.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/rocksdb.dir/options/options_helper.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/options_helper.cc.o -c /var/www/html/jyocoin/external/rocksdb/options/options_helper.cc
+CMakeFiles/rocksdb.dir/options/options_helper.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_helper.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/rocksdb.dir/options/options_helper.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/options_helper.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_helper.cc
 
 CMakeFiles/rocksdb.dir/options/options_helper.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/options/options_helper.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/options/options_helper.cc > CMakeFiles/rocksdb.dir/options/options_helper.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_helper.cc > CMakeFiles/rocksdb.dir/options/options_helper.cc.i
 
 CMakeFiles/rocksdb.dir/options/options_helper.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/options/options_helper.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/options/options_helper.cc -o CMakeFiles/rocksdb.dir/options/options_helper.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_helper.cc -o CMakeFiles/rocksdb.dir/options/options_helper.cc.s
 
 CMakeFiles/rocksdb.dir/options/options_helper.cc.o.requires:
 
@@ -2026,17 +2026,17 @@ CMakeFiles/rocksdb.dir/options/options_helper.cc.o.provides.build: CMakeFiles/ro
 
 
 CMakeFiles/rocksdb.dir/options/options_parser.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/options/options_parser.cc.o: /var/www/html/jyocoin/external/rocksdb/options/options_parser.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/rocksdb.dir/options/options_parser.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/options_parser.cc.o -c /var/www/html/jyocoin/external/rocksdb/options/options_parser.cc
+CMakeFiles/rocksdb.dir/options/options_parser.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/rocksdb.dir/options/options_parser.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/options_parser.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_parser.cc
 
 CMakeFiles/rocksdb.dir/options/options_parser.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/options/options_parser.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/options/options_parser.cc > CMakeFiles/rocksdb.dir/options/options_parser.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_parser.cc > CMakeFiles/rocksdb.dir/options/options_parser.cc.i
 
 CMakeFiles/rocksdb.dir/options/options_parser.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/options/options_parser.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/options/options_parser.cc -o CMakeFiles/rocksdb.dir/options/options_parser.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_parser.cc -o CMakeFiles/rocksdb.dir/options/options_parser.cc.s
 
 CMakeFiles/rocksdb.dir/options/options_parser.cc.o.requires:
 
@@ -2050,17 +2050,17 @@ CMakeFiles/rocksdb.dir/options/options_parser.cc.o.provides.build: CMakeFiles/ro
 
 
 CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.o: /var/www/html/jyocoin/external/rocksdb/options/options_sanity_check.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.o -c /var/www/html/jyocoin/external/rocksdb/options/options_sanity_check.cc
+CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_sanity_check.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_sanity_check.cc
 
 CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/options/options_sanity_check.cc > CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_sanity_check.cc > CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.i
 
 CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/options/options_sanity_check.cc -o CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/options/options_sanity_check.cc -o CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.s
 
 CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.o.requires:
 
@@ -2074,17 +2074,17 @@ CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.o.provides.build: CMakeFi
 
 
 CMakeFiles/rocksdb.dir/port/stack_trace.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/port/stack_trace.cc.o: /var/www/html/jyocoin/external/rocksdb/port/stack_trace.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/rocksdb.dir/port/stack_trace.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/port/stack_trace.cc.o -c /var/www/html/jyocoin/external/rocksdb/port/stack_trace.cc
+CMakeFiles/rocksdb.dir/port/stack_trace.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/port/stack_trace.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/rocksdb.dir/port/stack_trace.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/port/stack_trace.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/port/stack_trace.cc
 
 CMakeFiles/rocksdb.dir/port/stack_trace.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/port/stack_trace.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/port/stack_trace.cc > CMakeFiles/rocksdb.dir/port/stack_trace.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/port/stack_trace.cc > CMakeFiles/rocksdb.dir/port/stack_trace.cc.i
 
 CMakeFiles/rocksdb.dir/port/stack_trace.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/port/stack_trace.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/port/stack_trace.cc -o CMakeFiles/rocksdb.dir/port/stack_trace.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/port/stack_trace.cc -o CMakeFiles/rocksdb.dir/port/stack_trace.cc.s
 
 CMakeFiles/rocksdb.dir/port/stack_trace.cc.o.requires:
 
@@ -2098,17 +2098,17 @@ CMakeFiles/rocksdb.dir/port/stack_trace.cc.o.provides.build: CMakeFiles/rocksdb.
 
 
 CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.o: /var/www/html/jyocoin/external/rocksdb/table/adaptive_table_factory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/adaptive_table_factory.cc
+CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/adaptive_table_factory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/adaptive_table_factory.cc
 
 CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/adaptive_table_factory.cc > CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/adaptive_table_factory.cc > CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.i
 
 CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/adaptive_table_factory.cc -o CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/adaptive_table_factory.cc -o CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.s
 
 CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.o.requires:
 
@@ -2122,17 +2122,17 @@ CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.o.provides.build: CMakeFi
 
 
 CMakeFiles/rocksdb.dir/table/block.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/block.cc.o: /var/www/html/jyocoin/external/rocksdb/table/block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/rocksdb.dir/table/block.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/block.cc
+CMakeFiles/rocksdb.dir/table/block.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/rocksdb.dir/table/block.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block.cc
 
 CMakeFiles/rocksdb.dir/table/block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/block.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/block.cc > CMakeFiles/rocksdb.dir/table/block.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block.cc > CMakeFiles/rocksdb.dir/table/block.cc.i
 
 CMakeFiles/rocksdb.dir/table/block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/block.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/block.cc -o CMakeFiles/rocksdb.dir/table/block.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block.cc -o CMakeFiles/rocksdb.dir/table/block.cc.s
 
 CMakeFiles/rocksdb.dir/table/block.cc.o.requires:
 
@@ -2146,17 +2146,17 @@ CMakeFiles/rocksdb.dir/table/block.cc.o.provides.build: CMakeFiles/rocksdb.dir/t
 
 
 CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.o: /var/www/html/jyocoin/external/rocksdb/table/block_based_filter_block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/block_based_filter_block.cc
+CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_filter_block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_filter_block.cc
 
 CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/block_based_filter_block.cc > CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_filter_block.cc > CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.i
 
 CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/block_based_filter_block.cc -o CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_filter_block.cc -o CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.s
 
 CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.o.requires:
 
@@ -2170,17 +2170,17 @@ CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.o.provides.build: CMake
 
 
 CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.o: /var/www/html/jyocoin/external/rocksdb/table/block_based_table_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/block_based_table_builder.cc
+CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_builder.cc
 
 CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/block_based_table_builder.cc > CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_builder.cc > CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.i
 
 CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/block_based_table_builder.cc -o CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_builder.cc -o CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.s
 
 CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.o.requires:
 
@@ -2194,17 +2194,17 @@ CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.o.provides.build: CMak
 
 
 CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.o: /var/www/html/jyocoin/external/rocksdb/table/block_based_table_factory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/block_based_table_factory.cc
+CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_factory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_factory.cc
 
 CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/block_based_table_factory.cc > CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_factory.cc > CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.i
 
 CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/block_based_table_factory.cc -o CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_factory.cc -o CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.s
 
 CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.o.requires:
 
@@ -2218,17 +2218,17 @@ CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.o.provides.build: CMak
 
 
 CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.o: /var/www/html/jyocoin/external/rocksdb/table/block_based_table_reader.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/block_based_table_reader.cc
+CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_reader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_reader.cc
 
 CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/block_based_table_reader.cc > CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_reader.cc > CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.i
 
 CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/block_based_table_reader.cc -o CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_based_table_reader.cc -o CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.s
 
 CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.o.requires:
 
@@ -2242,17 +2242,17 @@ CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.o.provides.build: CMake
 
 
 CMakeFiles/rocksdb.dir/table/block_builder.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/block_builder.cc.o: /var/www/html/jyocoin/external/rocksdb/table/block_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/rocksdb.dir/table/block_builder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_builder.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/block_builder.cc
+CMakeFiles/rocksdb.dir/table/block_builder.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/rocksdb.dir/table/block_builder.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_builder.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_builder.cc
 
 CMakeFiles/rocksdb.dir/table/block_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/block_builder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/block_builder.cc > CMakeFiles/rocksdb.dir/table/block_builder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_builder.cc > CMakeFiles/rocksdb.dir/table/block_builder.cc.i
 
 CMakeFiles/rocksdb.dir/table/block_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/block_builder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/block_builder.cc -o CMakeFiles/rocksdb.dir/table/block_builder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_builder.cc -o CMakeFiles/rocksdb.dir/table/block_builder.cc.s
 
 CMakeFiles/rocksdb.dir/table/block_builder.cc.o.requires:
 
@@ -2266,17 +2266,17 @@ CMakeFiles/rocksdb.dir/table/block_builder.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o: /var/www/html/jyocoin/external/rocksdb/table/block_fetcher.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/block_fetcher.cc
+CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_fetcher.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_fetcher.cc
 
 CMakeFiles/rocksdb.dir/table/block_fetcher.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/block_fetcher.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/block_fetcher.cc > CMakeFiles/rocksdb.dir/table/block_fetcher.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_fetcher.cc > CMakeFiles/rocksdb.dir/table/block_fetcher.cc.i
 
 CMakeFiles/rocksdb.dir/table/block_fetcher.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/block_fetcher.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/block_fetcher.cc -o CMakeFiles/rocksdb.dir/table/block_fetcher.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_fetcher.cc -o CMakeFiles/rocksdb.dir/table/block_fetcher.cc.s
 
 CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o.requires:
 
@@ -2290,17 +2290,17 @@ CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.o: /var/www/html/jyocoin/external/rocksdb/table/block_prefix_index.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/block_prefix_index.cc
+CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_prefix_index.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_prefix_index.cc
 
 CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/block_prefix_index.cc > CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_prefix_index.cc > CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.i
 
 CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/block_prefix_index.cc -o CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/block_prefix_index.cc -o CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.s
 
 CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.o.requires:
 
@@ -2314,17 +2314,17 @@ CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/rocksdb.dir/table/bloom_block.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/bloom_block.cc.o: /var/www/html/jyocoin/external/rocksdb/table/bloom_block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/rocksdb.dir/table/bloom_block.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/bloom_block.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/bloom_block.cc
+CMakeFiles/rocksdb.dir/table/bloom_block.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/bloom_block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/rocksdb.dir/table/bloom_block.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/bloom_block.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/bloom_block.cc
 
 CMakeFiles/rocksdb.dir/table/bloom_block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/bloom_block.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/bloom_block.cc > CMakeFiles/rocksdb.dir/table/bloom_block.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/bloom_block.cc > CMakeFiles/rocksdb.dir/table/bloom_block.cc.i
 
 CMakeFiles/rocksdb.dir/table/bloom_block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/bloom_block.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/bloom_block.cc -o CMakeFiles/rocksdb.dir/table/bloom_block.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/bloom_block.cc -o CMakeFiles/rocksdb.dir/table/bloom_block.cc.s
 
 CMakeFiles/rocksdb.dir/table/bloom_block.cc.o.requires:
 
@@ -2338,17 +2338,17 @@ CMakeFiles/rocksdb.dir/table/bloom_block.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.o: /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_builder.cc
+CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_builder.cc
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_builder.cc > CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_builder.cc > CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.i
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_builder.cc -o CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_builder.cc -o CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.s
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.o.requires:
 
@@ -2362,17 +2362,17 @@ CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.o.provides.build: CMakeFile
 
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.o: /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_factory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_factory.cc
+CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_factory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_factory.cc
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_factory.cc > CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_factory.cc > CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.i
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_factory.cc -o CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_factory.cc -o CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.s
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.o.requires:
 
@@ -2386,17 +2386,17 @@ CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.o.provides.build: CMakeFile
 
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.o: /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_reader.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_reader.cc
+CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_reader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_reader.cc
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_reader.cc > CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_reader.cc > CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.i
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/cuckoo_table_reader.cc -o CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/cuckoo_table_reader.cc -o CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.s
 
 CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.o.requires:
 
@@ -2410,17 +2410,17 @@ CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.o.provides.build: CMakeFiles
 
 
 CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.o: /var/www/html/jyocoin/external/rocksdb/table/flush_block_policy.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/flush_block_policy.cc
+CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/flush_block_policy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/flush_block_policy.cc
 
 CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/flush_block_policy.cc > CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/flush_block_policy.cc > CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.i
 
 CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/flush_block_policy.cc -o CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/flush_block_policy.cc -o CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.s
 
 CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.o.requires:
 
@@ -2434,17 +2434,17 @@ CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/rocksdb.dir/table/format.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/format.cc.o: /var/www/html/jyocoin/external/rocksdb/table/format.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/rocksdb.dir/table/format.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/format.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/format.cc
+CMakeFiles/rocksdb.dir/table/format.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/format.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/rocksdb.dir/table/format.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/format.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/format.cc
 
 CMakeFiles/rocksdb.dir/table/format.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/format.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/format.cc > CMakeFiles/rocksdb.dir/table/format.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/format.cc > CMakeFiles/rocksdb.dir/table/format.cc.i
 
 CMakeFiles/rocksdb.dir/table/format.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/format.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/format.cc -o CMakeFiles/rocksdb.dir/table/format.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/format.cc -o CMakeFiles/rocksdb.dir/table/format.cc.s
 
 CMakeFiles/rocksdb.dir/table/format.cc.o.requires:
 
@@ -2458,17 +2458,17 @@ CMakeFiles/rocksdb.dir/table/format.cc.o.provides.build: CMakeFiles/rocksdb.dir/
 
 
 CMakeFiles/rocksdb.dir/table/full_filter_block.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/full_filter_block.cc.o: /var/www/html/jyocoin/external/rocksdb/table/full_filter_block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/rocksdb.dir/table/full_filter_block.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/full_filter_block.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/full_filter_block.cc
+CMakeFiles/rocksdb.dir/table/full_filter_block.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/full_filter_block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/rocksdb.dir/table/full_filter_block.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/full_filter_block.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/full_filter_block.cc
 
 CMakeFiles/rocksdb.dir/table/full_filter_block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/full_filter_block.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/full_filter_block.cc > CMakeFiles/rocksdb.dir/table/full_filter_block.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/full_filter_block.cc > CMakeFiles/rocksdb.dir/table/full_filter_block.cc.i
 
 CMakeFiles/rocksdb.dir/table/full_filter_block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/full_filter_block.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/full_filter_block.cc -o CMakeFiles/rocksdb.dir/table/full_filter_block.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/full_filter_block.cc -o CMakeFiles/rocksdb.dir/table/full_filter_block.cc.s
 
 CMakeFiles/rocksdb.dir/table/full_filter_block.cc.o.requires:
 
@@ -2482,17 +2482,17 @@ CMakeFiles/rocksdb.dir/table/full_filter_block.cc.o.provides.build: CMakeFiles/r
 
 
 CMakeFiles/rocksdb.dir/table/get_context.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/get_context.cc.o: /var/www/html/jyocoin/external/rocksdb/table/get_context.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/rocksdb.dir/table/get_context.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/get_context.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/get_context.cc
+CMakeFiles/rocksdb.dir/table/get_context.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/get_context.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/rocksdb.dir/table/get_context.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/get_context.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/get_context.cc
 
 CMakeFiles/rocksdb.dir/table/get_context.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/get_context.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/get_context.cc > CMakeFiles/rocksdb.dir/table/get_context.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/get_context.cc > CMakeFiles/rocksdb.dir/table/get_context.cc.i
 
 CMakeFiles/rocksdb.dir/table/get_context.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/get_context.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/get_context.cc -o CMakeFiles/rocksdb.dir/table/get_context.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/get_context.cc -o CMakeFiles/rocksdb.dir/table/get_context.cc.s
 
 CMakeFiles/rocksdb.dir/table/get_context.cc.o.requires:
 
@@ -2506,17 +2506,17 @@ CMakeFiles/rocksdb.dir/table/get_context.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/table/index_builder.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/index_builder.cc.o: /var/www/html/jyocoin/external/rocksdb/table/index_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/rocksdb.dir/table/index_builder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/index_builder.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/index_builder.cc
+CMakeFiles/rocksdb.dir/table/index_builder.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/index_builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/rocksdb.dir/table/index_builder.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/index_builder.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/index_builder.cc
 
 CMakeFiles/rocksdb.dir/table/index_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/index_builder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/index_builder.cc > CMakeFiles/rocksdb.dir/table/index_builder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/index_builder.cc > CMakeFiles/rocksdb.dir/table/index_builder.cc.i
 
 CMakeFiles/rocksdb.dir/table/index_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/index_builder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/index_builder.cc -o CMakeFiles/rocksdb.dir/table/index_builder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/index_builder.cc -o CMakeFiles/rocksdb.dir/table/index_builder.cc.s
 
 CMakeFiles/rocksdb.dir/table/index_builder.cc.o.requires:
 
@@ -2530,17 +2530,17 @@ CMakeFiles/rocksdb.dir/table/index_builder.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/table/iterator.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/iterator.cc.o: /var/www/html/jyocoin/external/rocksdb/table/iterator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/rocksdb.dir/table/iterator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/iterator.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/iterator.cc
+CMakeFiles/rocksdb.dir/table/iterator.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/iterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/rocksdb.dir/table/iterator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/iterator.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/iterator.cc
 
 CMakeFiles/rocksdb.dir/table/iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/iterator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/iterator.cc > CMakeFiles/rocksdb.dir/table/iterator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/iterator.cc > CMakeFiles/rocksdb.dir/table/iterator.cc.i
 
 CMakeFiles/rocksdb.dir/table/iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/iterator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/iterator.cc -o CMakeFiles/rocksdb.dir/table/iterator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/iterator.cc -o CMakeFiles/rocksdb.dir/table/iterator.cc.s
 
 CMakeFiles/rocksdb.dir/table/iterator.cc.o.requires:
 
@@ -2554,17 +2554,17 @@ CMakeFiles/rocksdb.dir/table/iterator.cc.o.provides.build: CMakeFiles/rocksdb.di
 
 
 CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o: /var/www/html/jyocoin/external/rocksdb/table/merging_iterator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/merging_iterator.cc
+CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/merging_iterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/merging_iterator.cc
 
 CMakeFiles/rocksdb.dir/table/merging_iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/merging_iterator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/merging_iterator.cc > CMakeFiles/rocksdb.dir/table/merging_iterator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/merging_iterator.cc > CMakeFiles/rocksdb.dir/table/merging_iterator.cc.i
 
 CMakeFiles/rocksdb.dir/table/merging_iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/merging_iterator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/merging_iterator.cc -o CMakeFiles/rocksdb.dir/table/merging_iterator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/merging_iterator.cc -o CMakeFiles/rocksdb.dir/table/merging_iterator.cc.s
 
 CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o.requires:
 
@@ -2578,17 +2578,17 @@ CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o.provides.build: CMakeFiles/ro
 
 
 CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o: /var/www/html/jyocoin/external/rocksdb/table/meta_blocks.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/meta_blocks.cc
+CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/meta_blocks.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/meta_blocks.cc
 
 CMakeFiles/rocksdb.dir/table/meta_blocks.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/meta_blocks.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/meta_blocks.cc > CMakeFiles/rocksdb.dir/table/meta_blocks.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/meta_blocks.cc > CMakeFiles/rocksdb.dir/table/meta_blocks.cc.i
 
 CMakeFiles/rocksdb.dir/table/meta_blocks.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/meta_blocks.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/meta_blocks.cc -o CMakeFiles/rocksdb.dir/table/meta_blocks.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/meta_blocks.cc -o CMakeFiles/rocksdb.dir/table/meta_blocks.cc.s
 
 CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o.requires:
 
@@ -2602,17 +2602,17 @@ CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.o: /var/www/html/jyocoin/external/rocksdb/table/partitioned_filter_block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/partitioned_filter_block.cc
+CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/partitioned_filter_block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/partitioned_filter_block.cc
 
 CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/partitioned_filter_block.cc > CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/partitioned_filter_block.cc > CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.i
 
 CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/partitioned_filter_block.cc -o CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/partitioned_filter_block.cc -o CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.s
 
 CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.o.requires:
 
@@ -2626,17 +2626,17 @@ CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.o.provides.build: CMake
 
 
 CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o: /var/www/html/jyocoin/external/rocksdb/table/persistent_cache_helper.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/persistent_cache_helper.cc
+CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/persistent_cache_helper.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/persistent_cache_helper.cc
 
 CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/persistent_cache_helper.cc > CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/persistent_cache_helper.cc > CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.i
 
 CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/persistent_cache_helper.cc -o CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/persistent_cache_helper.cc -o CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.s
 
 CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o.requires:
 
@@ -2650,17 +2650,17 @@ CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o.provides.build: CMakeF
 
 
 CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.o: /var/www/html/jyocoin/external/rocksdb/table/plain_table_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/plain_table_builder.cc
+CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_builder.cc
 
 CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/plain_table_builder.cc > CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_builder.cc > CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.i
 
 CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/plain_table_builder.cc -o CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_builder.cc -o CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.s
 
 CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.o.requires:
 
@@ -2674,17 +2674,17 @@ CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.o.provides.build: CMakeFiles
 
 
 CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.o: /var/www/html/jyocoin/external/rocksdb/table/plain_table_factory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/plain_table_factory.cc
+CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_factory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_factory.cc
 
 CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/plain_table_factory.cc > CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_factory.cc > CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.i
 
 CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/plain_table_factory.cc -o CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_factory.cc -o CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.s
 
 CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.o.requires:
 
@@ -2698,17 +2698,17 @@ CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.o.provides.build: CMakeFiles
 
 
 CMakeFiles/rocksdb.dir/table/plain_table_index.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/plain_table_index.cc.o: /var/www/html/jyocoin/external/rocksdb/table/plain_table_index.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_index.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/plain_table_index.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/plain_table_index.cc
+CMakeFiles/rocksdb.dir/table/plain_table_index.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_index.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_index.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/plain_table_index.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_index.cc
 
 CMakeFiles/rocksdb.dir/table/plain_table_index.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/plain_table_index.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/plain_table_index.cc > CMakeFiles/rocksdb.dir/table/plain_table_index.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_index.cc > CMakeFiles/rocksdb.dir/table/plain_table_index.cc.i
 
 CMakeFiles/rocksdb.dir/table/plain_table_index.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/plain_table_index.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/plain_table_index.cc -o CMakeFiles/rocksdb.dir/table/plain_table_index.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_index.cc -o CMakeFiles/rocksdb.dir/table/plain_table_index.cc.s
 
 CMakeFiles/rocksdb.dir/table/plain_table_index.cc.o.requires:
 
@@ -2722,17 +2722,17 @@ CMakeFiles/rocksdb.dir/table/plain_table_index.cc.o.provides.build: CMakeFiles/r
 
 
 CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.o: /var/www/html/jyocoin/external/rocksdb/table/plain_table_key_coding.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/plain_table_key_coding.cc
+CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_key_coding.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_key_coding.cc
 
 CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/plain_table_key_coding.cc > CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_key_coding.cc > CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.i
 
 CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/plain_table_key_coding.cc -o CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_key_coding.cc -o CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.s
 
 CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.o.requires:
 
@@ -2746,17 +2746,17 @@ CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.o.provides.build: CMakeFi
 
 
 CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.o: /var/www/html/jyocoin/external/rocksdb/table/plain_table_reader.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/plain_table_reader.cc
+CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_reader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_reader.cc
 
 CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/plain_table_reader.cc > CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_reader.cc > CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.i
 
 CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/plain_table_reader.cc -o CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/plain_table_reader.cc -o CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.s
 
 CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.o.requires:
 
@@ -2770,17 +2770,17 @@ CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o: /var/www/html/jyocoin/external/rocksdb/table/sst_file_writer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/sst_file_writer.cc
+CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/sst_file_writer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/sst_file_writer.cc
 
 CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/sst_file_writer.cc > CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/sst_file_writer.cc > CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.i
 
 CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/sst_file_writer.cc -o CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/sst_file_writer.cc -o CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.s
 
 CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o.requires:
 
@@ -2794,17 +2794,17 @@ CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o.provides.build: CMakeFiles/roc
 
 
 CMakeFiles/rocksdb.dir/table/table_properties.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/table_properties.cc.o: /var/www/html/jyocoin/external/rocksdb/table/table_properties.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/rocksdb.dir/table/table_properties.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/table_properties.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/table_properties.cc
+CMakeFiles/rocksdb.dir/table/table_properties.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/table_properties.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/rocksdb.dir/table/table_properties.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/table_properties.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/table_properties.cc
 
 CMakeFiles/rocksdb.dir/table/table_properties.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/table_properties.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/table_properties.cc > CMakeFiles/rocksdb.dir/table/table_properties.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/table_properties.cc > CMakeFiles/rocksdb.dir/table/table_properties.cc.i
 
 CMakeFiles/rocksdb.dir/table/table_properties.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/table_properties.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/table_properties.cc -o CMakeFiles/rocksdb.dir/table/table_properties.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/table_properties.cc -o CMakeFiles/rocksdb.dir/table/table_properties.cc.s
 
 CMakeFiles/rocksdb.dir/table/table_properties.cc.o.requires:
 
@@ -2818,17 +2818,17 @@ CMakeFiles/rocksdb.dir/table/table_properties.cc.o.provides.build: CMakeFiles/ro
 
 
 CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o: /var/www/html/jyocoin/external/rocksdb/table/two_level_iterator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o -c /var/www/html/jyocoin/external/rocksdb/table/two_level_iterator.cc
+CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/two_level_iterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/two_level_iterator.cc
 
 CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/table/two_level_iterator.cc > CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/two_level_iterator.cc > CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.i
 
 CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/table/two_level_iterator.cc -o CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/table/two_level_iterator.cc -o CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.s
 
 CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o.requires:
 
@@ -2842,17 +2842,17 @@ CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.o: /var/www/html/jyocoin/external/rocksdb/tools/db_bench_tool.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.o -c /var/www/html/jyocoin/external/rocksdb/tools/db_bench_tool.cc
+CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/db_bench_tool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/db_bench_tool.cc
 
 CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/tools/db_bench_tool.cc > CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/db_bench_tool.cc > CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.i
 
 CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/tools/db_bench_tool.cc -o CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/db_bench_tool.cc -o CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.s
 
 CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.o.requires:
 
@@ -2866,17 +2866,17 @@ CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o: /var/www/html/jyocoin/external/rocksdb/tools/dump/db_dump_tool.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o -c /var/www/html/jyocoin/external/rocksdb/tools/dump/db_dump_tool.cc
+CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/dump/db_dump_tool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/dump/db_dump_tool.cc
 
 CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/tools/dump/db_dump_tool.cc > CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/dump/db_dump_tool.cc > CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.i
 
 CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/tools/dump/db_dump_tool.cc -o CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/dump/db_dump_tool.cc -o CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.s
 
 CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o.requires:
 
@@ -2890,17 +2890,17 @@ CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o.provides.build: CMakeFiles/r
 
 
 CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o: /var/www/html/jyocoin/external/rocksdb/tools/ldb_cmd.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o -c /var/www/html/jyocoin/external/rocksdb/tools/ldb_cmd.cc
+CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/ldb_cmd.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/ldb_cmd.cc
 
 CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/tools/ldb_cmd.cc > CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/ldb_cmd.cc > CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.i
 
 CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/tools/ldb_cmd.cc -o CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/ldb_cmd.cc -o CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.s
 
 CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o.requires:
 
@@ -2914,17 +2914,17 @@ CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o.provides.build: CMakeFiles/rocksdb.dir
 
 
 CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o: /var/www/html/jyocoin/external/rocksdb/tools/ldb_tool.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o -c /var/www/html/jyocoin/external/rocksdb/tools/ldb_tool.cc
+CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/ldb_tool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/ldb_tool.cc
 
 CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/tools/ldb_tool.cc > CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/ldb_tool.cc > CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.i
 
 CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/tools/ldb_tool.cc -o CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/ldb_tool.cc -o CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.s
 
 CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o.requires:
 
@@ -2938,17 +2938,17 @@ CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o.provides.build: CMakeFiles/rocksdb.di
 
 
 CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o: /var/www/html/jyocoin/external/rocksdb/tools/sst_dump_tool.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o -c /var/www/html/jyocoin/external/rocksdb/tools/sst_dump_tool.cc
+CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/sst_dump_tool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/sst_dump_tool.cc
 
 CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/tools/sst_dump_tool.cc > CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/sst_dump_tool.cc > CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.i
 
 CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/tools/sst_dump_tool.cc -o CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools/sst_dump_tool.cc -o CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.s
 
 CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o.requires:
 
@@ -2962,17 +2962,17 @@ CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/util/arena.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/arena.cc.o: /var/www/html/jyocoin/external/rocksdb/util/arena.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/rocksdb.dir/util/arena.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/arena.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/arena.cc
+CMakeFiles/rocksdb.dir/util/arena.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/arena.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/rocksdb.dir/util/arena.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/arena.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/arena.cc
 
 CMakeFiles/rocksdb.dir/util/arena.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/arena.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/arena.cc > CMakeFiles/rocksdb.dir/util/arena.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/arena.cc > CMakeFiles/rocksdb.dir/util/arena.cc.i
 
 CMakeFiles/rocksdb.dir/util/arena.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/arena.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/arena.cc -o CMakeFiles/rocksdb.dir/util/arena.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/arena.cc -o CMakeFiles/rocksdb.dir/util/arena.cc.s
 
 CMakeFiles/rocksdb.dir/util/arena.cc.o.requires:
 
@@ -2986,17 +2986,17 @@ CMakeFiles/rocksdb.dir/util/arena.cc.o.provides.build: CMakeFiles/rocksdb.dir/ut
 
 
 CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.o: /var/www/html/jyocoin/external/rocksdb/util/auto_roll_logger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/auto_roll_logger.cc
+CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/auto_roll_logger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/auto_roll_logger.cc
 
 CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/auto_roll_logger.cc > CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/auto_roll_logger.cc > CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.i
 
 CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/auto_roll_logger.cc -o CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/auto_roll_logger.cc -o CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.s
 
 CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.o.requires:
 
@@ -3010,17 +3010,17 @@ CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.o.provides.build: CMakeFiles/roc
 
 
 CMakeFiles/rocksdb.dir/util/bloom.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/bloom.cc.o: /var/www/html/jyocoin/external/rocksdb/util/bloom.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/rocksdb.dir/util/bloom.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/bloom.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/bloom.cc
+CMakeFiles/rocksdb.dir/util/bloom.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/bloom.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/rocksdb.dir/util/bloom.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/bloom.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/bloom.cc
 
 CMakeFiles/rocksdb.dir/util/bloom.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/bloom.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/bloom.cc > CMakeFiles/rocksdb.dir/util/bloom.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/bloom.cc > CMakeFiles/rocksdb.dir/util/bloom.cc.i
 
 CMakeFiles/rocksdb.dir/util/bloom.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/bloom.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/bloom.cc -o CMakeFiles/rocksdb.dir/util/bloom.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/bloom.cc -o CMakeFiles/rocksdb.dir/util/bloom.cc.s
 
 CMakeFiles/rocksdb.dir/util/bloom.cc.o.requires:
 
@@ -3034,17 +3034,17 @@ CMakeFiles/rocksdb.dir/util/bloom.cc.o.provides.build: CMakeFiles/rocksdb.dir/ut
 
 
 CMakeFiles/rocksdb.dir/util/coding.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/coding.cc.o: /var/www/html/jyocoin/external/rocksdb/util/coding.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/rocksdb.dir/util/coding.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/coding.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/coding.cc
+CMakeFiles/rocksdb.dir/util/coding.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/coding.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/rocksdb.dir/util/coding.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/coding.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/coding.cc
 
 CMakeFiles/rocksdb.dir/util/coding.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/coding.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/coding.cc > CMakeFiles/rocksdb.dir/util/coding.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/coding.cc > CMakeFiles/rocksdb.dir/util/coding.cc.i
 
 CMakeFiles/rocksdb.dir/util/coding.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/coding.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/coding.cc -o CMakeFiles/rocksdb.dir/util/coding.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/coding.cc -o CMakeFiles/rocksdb.dir/util/coding.cc.s
 
 CMakeFiles/rocksdb.dir/util/coding.cc.o.requires:
 
@@ -3058,17 +3058,17 @@ CMakeFiles/rocksdb.dir/util/coding.cc.o.provides.build: CMakeFiles/rocksdb.dir/u
 
 
 CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/util/compaction_job_stats_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/compaction_job_stats_impl.cc
+CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/compaction_job_stats_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/compaction_job_stats_impl.cc
 
 CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/compaction_job_stats_impl.cc > CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/compaction_job_stats_impl.cc > CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.i
 
 CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/compaction_job_stats_impl.cc -o CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/compaction_job_stats_impl.cc -o CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.s
 
 CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o.requires:
 
@@ -3082,17 +3082,17 @@ CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o.provides.build: CMake
 
 
 CMakeFiles/rocksdb.dir/util/comparator.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/comparator.cc.o: /var/www/html/jyocoin/external/rocksdb/util/comparator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/rocksdb.dir/util/comparator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/comparator.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/comparator.cc
+CMakeFiles/rocksdb.dir/util/comparator.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/comparator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/rocksdb.dir/util/comparator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/comparator.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/comparator.cc
 
 CMakeFiles/rocksdb.dir/util/comparator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/comparator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/comparator.cc > CMakeFiles/rocksdb.dir/util/comparator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/comparator.cc > CMakeFiles/rocksdb.dir/util/comparator.cc.i
 
 CMakeFiles/rocksdb.dir/util/comparator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/comparator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/comparator.cc -o CMakeFiles/rocksdb.dir/util/comparator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/comparator.cc -o CMakeFiles/rocksdb.dir/util/comparator.cc.s
 
 CMakeFiles/rocksdb.dir/util/comparator.cc.o.requires:
 
@@ -3106,17 +3106,17 @@ CMakeFiles/rocksdb.dir/util/comparator.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.o: /var/www/html/jyocoin/external/rocksdb/util/concurrent_arena.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/concurrent_arena.cc
+CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/concurrent_arena.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/concurrent_arena.cc
 
 CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/concurrent_arena.cc > CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/concurrent_arena.cc > CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.i
 
 CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/concurrent_arena.cc -o CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/concurrent_arena.cc -o CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.s
 
 CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.o.requires:
 
@@ -3130,17 +3130,17 @@ CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.o.provides.build: CMakeFiles/roc
 
 
 CMakeFiles/rocksdb.dir/util/crc32c.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/crc32c.cc.o: /var/www/html/jyocoin/external/rocksdb/util/crc32c.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/rocksdb.dir/util/crc32c.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/crc32c.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/crc32c.cc
+CMakeFiles/rocksdb.dir/util/crc32c.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/crc32c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/rocksdb.dir/util/crc32c.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/crc32c.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/crc32c.cc
 
 CMakeFiles/rocksdb.dir/util/crc32c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/crc32c.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/crc32c.cc > CMakeFiles/rocksdb.dir/util/crc32c.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/crc32c.cc > CMakeFiles/rocksdb.dir/util/crc32c.cc.i
 
 CMakeFiles/rocksdb.dir/util/crc32c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/crc32c.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/crc32c.cc -o CMakeFiles/rocksdb.dir/util/crc32c.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/crc32c.cc -o CMakeFiles/rocksdb.dir/util/crc32c.cc.s
 
 CMakeFiles/rocksdb.dir/util/crc32c.cc.o.requires:
 
@@ -3154,17 +3154,17 @@ CMakeFiles/rocksdb.dir/util/crc32c.cc.o.provides.build: CMakeFiles/rocksdb.dir/u
 
 
 CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.o: /var/www/html/jyocoin/external/rocksdb/util/delete_scheduler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/delete_scheduler.cc
+CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/delete_scheduler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/delete_scheduler.cc
 
 CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/delete_scheduler.cc > CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/delete_scheduler.cc > CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.i
 
 CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/delete_scheduler.cc -o CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/delete_scheduler.cc -o CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.s
 
 CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.o.requires:
 
@@ -3178,17 +3178,17 @@ CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.o.provides.build: CMakeFiles/roc
 
 
 CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o: /var/www/html/jyocoin/external/rocksdb/util/dynamic_bloom.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/dynamic_bloom.cc
+CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/dynamic_bloom.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/dynamic_bloom.cc
 
 CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/dynamic_bloom.cc > CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/dynamic_bloom.cc > CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.i
 
 CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/dynamic_bloom.cc -o CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/dynamic_bloom.cc -o CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.s
 
 CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o.requires:
 
@@ -3202,17 +3202,17 @@ CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o.provides.build: CMakeFiles/rocksd
 
 
 CMakeFiles/rocksdb.dir/util/event_logger.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/event_logger.cc.o: /var/www/html/jyocoin/external/rocksdb/util/event_logger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/rocksdb.dir/util/event_logger.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/event_logger.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/event_logger.cc
+CMakeFiles/rocksdb.dir/util/event_logger.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/event_logger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/rocksdb.dir/util/event_logger.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/event_logger.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/event_logger.cc
 
 CMakeFiles/rocksdb.dir/util/event_logger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/event_logger.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/event_logger.cc > CMakeFiles/rocksdb.dir/util/event_logger.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/event_logger.cc > CMakeFiles/rocksdb.dir/util/event_logger.cc.i
 
 CMakeFiles/rocksdb.dir/util/event_logger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/event_logger.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/event_logger.cc -o CMakeFiles/rocksdb.dir/util/event_logger.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/event_logger.cc -o CMakeFiles/rocksdb.dir/util/event_logger.cc.s
 
 CMakeFiles/rocksdb.dir/util/event_logger.cc.o.requires:
 
@@ -3226,17 +3226,17 @@ CMakeFiles/rocksdb.dir/util/event_logger.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.o: /var/www/html/jyocoin/external/rocksdb/util/file_reader_writer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/file_reader_writer.cc
+CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/file_reader_writer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/file_reader_writer.cc
 
 CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/file_reader_writer.cc > CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/file_reader_writer.cc > CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.i
 
 CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/file_reader_writer.cc -o CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/file_reader_writer.cc -o CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.s
 
 CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.o.requires:
 
@@ -3250,17 +3250,17 @@ CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.o.provides.build: CMakeFiles/r
 
 
 CMakeFiles/rocksdb.dir/util/file_util.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/file_util.cc.o: /var/www/html/jyocoin/external/rocksdb/util/file_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/rocksdb.dir/util/file_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/file_util.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/file_util.cc
+CMakeFiles/rocksdb.dir/util/file_util.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/file_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/rocksdb.dir/util/file_util.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/file_util.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/file_util.cc
 
 CMakeFiles/rocksdb.dir/util/file_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/file_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/file_util.cc > CMakeFiles/rocksdb.dir/util/file_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/file_util.cc > CMakeFiles/rocksdb.dir/util/file_util.cc.i
 
 CMakeFiles/rocksdb.dir/util/file_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/file_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/file_util.cc -o CMakeFiles/rocksdb.dir/util/file_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/file_util.cc -o CMakeFiles/rocksdb.dir/util/file_util.cc.s
 
 CMakeFiles/rocksdb.dir/util/file_util.cc.o.requires:
 
@@ -3274,17 +3274,17 @@ CMakeFiles/rocksdb.dir/util/file_util.cc.o.provides.build: CMakeFiles/rocksdb.di
 
 
 CMakeFiles/rocksdb.dir/util/filename.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/filename.cc.o: /var/www/html/jyocoin/external/rocksdb/util/filename.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/rocksdb.dir/util/filename.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/filename.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/filename.cc
+CMakeFiles/rocksdb.dir/util/filename.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/filename.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/rocksdb.dir/util/filename.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/filename.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/filename.cc
 
 CMakeFiles/rocksdb.dir/util/filename.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/filename.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/filename.cc > CMakeFiles/rocksdb.dir/util/filename.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/filename.cc > CMakeFiles/rocksdb.dir/util/filename.cc.i
 
 CMakeFiles/rocksdb.dir/util/filename.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/filename.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/filename.cc -o CMakeFiles/rocksdb.dir/util/filename.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/filename.cc -o CMakeFiles/rocksdb.dir/util/filename.cc.s
 
 CMakeFiles/rocksdb.dir/util/filename.cc.o.requires:
 
@@ -3298,17 +3298,17 @@ CMakeFiles/rocksdb.dir/util/filename.cc.o.provides.build: CMakeFiles/rocksdb.dir
 
 
 CMakeFiles/rocksdb.dir/util/filter_policy.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/filter_policy.cc.o: /var/www/html/jyocoin/external/rocksdb/util/filter_policy.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/rocksdb.dir/util/filter_policy.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/filter_policy.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/filter_policy.cc
+CMakeFiles/rocksdb.dir/util/filter_policy.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/filter_policy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/rocksdb.dir/util/filter_policy.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/filter_policy.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/filter_policy.cc
 
 CMakeFiles/rocksdb.dir/util/filter_policy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/filter_policy.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/filter_policy.cc > CMakeFiles/rocksdb.dir/util/filter_policy.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/filter_policy.cc > CMakeFiles/rocksdb.dir/util/filter_policy.cc.i
 
 CMakeFiles/rocksdb.dir/util/filter_policy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/filter_policy.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/filter_policy.cc -o CMakeFiles/rocksdb.dir/util/filter_policy.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/filter_policy.cc -o CMakeFiles/rocksdb.dir/util/filter_policy.cc.s
 
 CMakeFiles/rocksdb.dir/util/filter_policy.cc.o.requires:
 
@@ -3322,17 +3322,17 @@ CMakeFiles/rocksdb.dir/util/filter_policy.cc.o.provides.build: CMakeFiles/rocksd
 
 
 CMakeFiles/rocksdb.dir/util/hash.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/hash.cc.o: /var/www/html/jyocoin/external/rocksdb/util/hash.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/rocksdb.dir/util/hash.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/hash.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/hash.cc
+CMakeFiles/rocksdb.dir/util/hash.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/hash.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/rocksdb.dir/util/hash.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/hash.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/hash.cc
 
 CMakeFiles/rocksdb.dir/util/hash.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/hash.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/hash.cc > CMakeFiles/rocksdb.dir/util/hash.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/hash.cc > CMakeFiles/rocksdb.dir/util/hash.cc.i
 
 CMakeFiles/rocksdb.dir/util/hash.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/hash.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/hash.cc -o CMakeFiles/rocksdb.dir/util/hash.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/hash.cc -o CMakeFiles/rocksdb.dir/util/hash.cc.s
 
 CMakeFiles/rocksdb.dir/util/hash.cc.o.requires:
 
@@ -3346,17 +3346,17 @@ CMakeFiles/rocksdb.dir/util/hash.cc.o.provides.build: CMakeFiles/rocksdb.dir/uti
 
 
 CMakeFiles/rocksdb.dir/util/log_buffer.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/log_buffer.cc.o: /var/www/html/jyocoin/external/rocksdb/util/log_buffer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/rocksdb.dir/util/log_buffer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/log_buffer.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/log_buffer.cc
+CMakeFiles/rocksdb.dir/util/log_buffer.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/log_buffer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/rocksdb.dir/util/log_buffer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/log_buffer.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/log_buffer.cc
 
 CMakeFiles/rocksdb.dir/util/log_buffer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/log_buffer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/log_buffer.cc > CMakeFiles/rocksdb.dir/util/log_buffer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/log_buffer.cc > CMakeFiles/rocksdb.dir/util/log_buffer.cc.i
 
 CMakeFiles/rocksdb.dir/util/log_buffer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/log_buffer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/log_buffer.cc -o CMakeFiles/rocksdb.dir/util/log_buffer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/log_buffer.cc -o CMakeFiles/rocksdb.dir/util/log_buffer.cc.s
 
 CMakeFiles/rocksdb.dir/util/log_buffer.cc.o.requires:
 
@@ -3370,17 +3370,17 @@ CMakeFiles/rocksdb.dir/util/log_buffer.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/util/murmurhash.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/murmurhash.cc.o: /var/www/html/jyocoin/external/rocksdb/util/murmurhash.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/rocksdb.dir/util/murmurhash.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/murmurhash.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/murmurhash.cc
+CMakeFiles/rocksdb.dir/util/murmurhash.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/murmurhash.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/rocksdb.dir/util/murmurhash.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/murmurhash.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/murmurhash.cc
 
 CMakeFiles/rocksdb.dir/util/murmurhash.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/murmurhash.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/murmurhash.cc > CMakeFiles/rocksdb.dir/util/murmurhash.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/murmurhash.cc > CMakeFiles/rocksdb.dir/util/murmurhash.cc.i
 
 CMakeFiles/rocksdb.dir/util/murmurhash.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/murmurhash.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/murmurhash.cc -o CMakeFiles/rocksdb.dir/util/murmurhash.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/murmurhash.cc -o CMakeFiles/rocksdb.dir/util/murmurhash.cc.s
 
 CMakeFiles/rocksdb.dir/util/murmurhash.cc.o.requires:
 
@@ -3394,17 +3394,17 @@ CMakeFiles/rocksdb.dir/util/murmurhash.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/util/random.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/random.cc.o: /var/www/html/jyocoin/external/rocksdb/util/random.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/rocksdb.dir/util/random.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/random.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/random.cc
+CMakeFiles/rocksdb.dir/util/random.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/random.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/rocksdb.dir/util/random.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/random.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/random.cc
 
 CMakeFiles/rocksdb.dir/util/random.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/random.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/random.cc > CMakeFiles/rocksdb.dir/util/random.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/random.cc > CMakeFiles/rocksdb.dir/util/random.cc.i
 
 CMakeFiles/rocksdb.dir/util/random.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/random.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/random.cc -o CMakeFiles/rocksdb.dir/util/random.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/random.cc -o CMakeFiles/rocksdb.dir/util/random.cc.s
 
 CMakeFiles/rocksdb.dir/util/random.cc.o.requires:
 
@@ -3418,17 +3418,17 @@ CMakeFiles/rocksdb.dir/util/random.cc.o.provides.build: CMakeFiles/rocksdb.dir/u
 
 
 CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o: /var/www/html/jyocoin/external/rocksdb/util/rate_limiter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/rate_limiter.cc
+CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/rate_limiter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/rate_limiter.cc
 
 CMakeFiles/rocksdb.dir/util/rate_limiter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/rate_limiter.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/rate_limiter.cc > CMakeFiles/rocksdb.dir/util/rate_limiter.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/rate_limiter.cc > CMakeFiles/rocksdb.dir/util/rate_limiter.cc.i
 
 CMakeFiles/rocksdb.dir/util/rate_limiter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/rate_limiter.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/rate_limiter.cc -o CMakeFiles/rocksdb.dir/util/rate_limiter.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/rate_limiter.cc -o CMakeFiles/rocksdb.dir/util/rate_limiter.cc.s
 
 CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o.requires:
 
@@ -3442,17 +3442,17 @@ CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/util/slice.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/slice.cc.o: /var/www/html/jyocoin/external/rocksdb/util/slice.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/rocksdb.dir/util/slice.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/slice.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/slice.cc
+CMakeFiles/rocksdb.dir/util/slice.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/slice.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/rocksdb.dir/util/slice.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/slice.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/slice.cc
 
 CMakeFiles/rocksdb.dir/util/slice.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/slice.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/slice.cc > CMakeFiles/rocksdb.dir/util/slice.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/slice.cc > CMakeFiles/rocksdb.dir/util/slice.cc.i
 
 CMakeFiles/rocksdb.dir/util/slice.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/slice.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/slice.cc -o CMakeFiles/rocksdb.dir/util/slice.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/slice.cc -o CMakeFiles/rocksdb.dir/util/slice.cc.s
 
 CMakeFiles/rocksdb.dir/util/slice.cc.o.requires:
 
@@ -3466,17 +3466,17 @@ CMakeFiles/rocksdb.dir/util/slice.cc.o.provides.build: CMakeFiles/rocksdb.dir/ut
 
 
 CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/util/sst_file_manager_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/sst_file_manager_impl.cc
+CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/sst_file_manager_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/sst_file_manager_impl.cc
 
 CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/sst_file_manager_impl.cc > CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/sst_file_manager_impl.cc > CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.i
 
 CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/sst_file_manager_impl.cc -o CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/sst_file_manager_impl.cc -o CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.s
 
 CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.o.requires:
 
@@ -3490,17 +3490,17 @@ CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.o.provides.build: CMakeFile
 
 
 CMakeFiles/rocksdb.dir/util/status.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/status.cc.o: /var/www/html/jyocoin/external/rocksdb/util/status.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/rocksdb.dir/util/status.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/status.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/status.cc
+CMakeFiles/rocksdb.dir/util/status.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/status.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/rocksdb.dir/util/status.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/status.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/status.cc
 
 CMakeFiles/rocksdb.dir/util/status.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/status.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/status.cc > CMakeFiles/rocksdb.dir/util/status.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/status.cc > CMakeFiles/rocksdb.dir/util/status.cc.i
 
 CMakeFiles/rocksdb.dir/util/status.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/status.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/status.cc -o CMakeFiles/rocksdb.dir/util/status.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/status.cc -o CMakeFiles/rocksdb.dir/util/status.cc.s
 
 CMakeFiles/rocksdb.dir/util/status.cc.o.requires:
 
@@ -3514,17 +3514,17 @@ CMakeFiles/rocksdb.dir/util/status.cc.o.provides.build: CMakeFiles/rocksdb.dir/u
 
 
 CMakeFiles/rocksdb.dir/util/status_message.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/status_message.cc.o: /var/www/html/jyocoin/external/rocksdb/util/status_message.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/rocksdb.dir/util/status_message.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/status_message.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/status_message.cc
+CMakeFiles/rocksdb.dir/util/status_message.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/status_message.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/rocksdb.dir/util/status_message.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/status_message.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/status_message.cc
 
 CMakeFiles/rocksdb.dir/util/status_message.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/status_message.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/status_message.cc > CMakeFiles/rocksdb.dir/util/status_message.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/status_message.cc > CMakeFiles/rocksdb.dir/util/status_message.cc.i
 
 CMakeFiles/rocksdb.dir/util/status_message.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/status_message.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/status_message.cc -o CMakeFiles/rocksdb.dir/util/status_message.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/status_message.cc -o CMakeFiles/rocksdb.dir/util/status_message.cc.s
 
 CMakeFiles/rocksdb.dir/util/status_message.cc.o.requires:
 
@@ -3538,17 +3538,17 @@ CMakeFiles/rocksdb.dir/util/status_message.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/util/string_util.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/string_util.cc.o: /var/www/html/jyocoin/external/rocksdb/util/string_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/rocksdb.dir/util/string_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/string_util.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/string_util.cc
+CMakeFiles/rocksdb.dir/util/string_util.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/string_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/rocksdb.dir/util/string_util.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/string_util.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/string_util.cc
 
 CMakeFiles/rocksdb.dir/util/string_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/string_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/string_util.cc > CMakeFiles/rocksdb.dir/util/string_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/string_util.cc > CMakeFiles/rocksdb.dir/util/string_util.cc.i
 
 CMakeFiles/rocksdb.dir/util/string_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/string_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/string_util.cc -o CMakeFiles/rocksdb.dir/util/string_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/string_util.cc -o CMakeFiles/rocksdb.dir/util/string_util.cc.s
 
 CMakeFiles/rocksdb.dir/util/string_util.cc.o.requires:
 
@@ -3562,17 +3562,17 @@ CMakeFiles/rocksdb.dir/util/string_util.cc.o.provides.build: CMakeFiles/rocksdb.
 
 
 CMakeFiles/rocksdb.dir/util/sync_point.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/sync_point.cc.o: /var/www/html/jyocoin/external/rocksdb/util/sync_point.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/rocksdb.dir/util/sync_point.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/sync_point.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/sync_point.cc
+CMakeFiles/rocksdb.dir/util/sync_point.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/sync_point.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/rocksdb.dir/util/sync_point.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/sync_point.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/sync_point.cc
 
 CMakeFiles/rocksdb.dir/util/sync_point.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/sync_point.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/sync_point.cc > CMakeFiles/rocksdb.dir/util/sync_point.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/sync_point.cc > CMakeFiles/rocksdb.dir/util/sync_point.cc.i
 
 CMakeFiles/rocksdb.dir/util/sync_point.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/sync_point.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/sync_point.cc -o CMakeFiles/rocksdb.dir/util/sync_point.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/sync_point.cc -o CMakeFiles/rocksdb.dir/util/sync_point.cc.s
 
 CMakeFiles/rocksdb.dir/util/sync_point.cc.o.requires:
 
@@ -3586,17 +3586,17 @@ CMakeFiles/rocksdb.dir/util/sync_point.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/util/testutil.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/testutil.cc.o: /var/www/html/jyocoin/external/rocksdb/util/testutil.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/rocksdb.dir/util/testutil.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/testutil.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/testutil.cc
+CMakeFiles/rocksdb.dir/util/testutil.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/testutil.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/rocksdb.dir/util/testutil.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/testutil.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/testutil.cc
 
 CMakeFiles/rocksdb.dir/util/testutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/testutil.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/testutil.cc > CMakeFiles/rocksdb.dir/util/testutil.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/testutil.cc > CMakeFiles/rocksdb.dir/util/testutil.cc.i
 
 CMakeFiles/rocksdb.dir/util/testutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/testutil.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/testutil.cc -o CMakeFiles/rocksdb.dir/util/testutil.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/testutil.cc -o CMakeFiles/rocksdb.dir/util/testutil.cc.s
 
 CMakeFiles/rocksdb.dir/util/testutil.cc.o.requires:
 
@@ -3610,17 +3610,17 @@ CMakeFiles/rocksdb.dir/util/testutil.cc.o.provides.build: CMakeFiles/rocksdb.dir
 
 
 CMakeFiles/rocksdb.dir/util/thread_local.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/thread_local.cc.o: /var/www/html/jyocoin/external/rocksdb/util/thread_local.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/rocksdb.dir/util/thread_local.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/thread_local.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/thread_local.cc
+CMakeFiles/rocksdb.dir/util/thread_local.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/thread_local.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/rocksdb.dir/util/thread_local.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/thread_local.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/thread_local.cc
 
 CMakeFiles/rocksdb.dir/util/thread_local.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/thread_local.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/thread_local.cc > CMakeFiles/rocksdb.dir/util/thread_local.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/thread_local.cc > CMakeFiles/rocksdb.dir/util/thread_local.cc.i
 
 CMakeFiles/rocksdb.dir/util/thread_local.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/thread_local.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/thread_local.cc -o CMakeFiles/rocksdb.dir/util/thread_local.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/thread_local.cc -o CMakeFiles/rocksdb.dir/util/thread_local.cc.s
 
 CMakeFiles/rocksdb.dir/util/thread_local.cc.o.requires:
 
@@ -3634,17 +3634,17 @@ CMakeFiles/rocksdb.dir/util/thread_local.cc.o.provides.build: CMakeFiles/rocksdb
 
 
 CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o: /var/www/html/jyocoin/external/rocksdb/util/threadpool_imp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/threadpool_imp.cc
+CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/threadpool_imp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/threadpool_imp.cc
 
 CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/threadpool_imp.cc > CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/threadpool_imp.cc > CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.i
 
 CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/threadpool_imp.cc -o CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/threadpool_imp.cc -o CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.s
 
 CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o.requires:
 
@@ -3658,17 +3658,17 @@ CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.o: /var/www/html/jyocoin/external/rocksdb/util/transaction_test_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/transaction_test_util.cc
+CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/transaction_test_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/transaction_test_util.cc
 
 CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/transaction_test_util.cc > CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/transaction_test_util.cc > CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.i
 
 CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/transaction_test_util.cc -o CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/transaction_test_util.cc -o CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.s
 
 CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.o.requires:
 
@@ -3682,17 +3682,17 @@ CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.o.provides.build: CMakeFile
 
 
 CMakeFiles/rocksdb.dir/util/xxhash.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/util/xxhash.cc.o: /var/www/html/jyocoin/external/rocksdb/util/xxhash.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/rocksdb.dir/util/xxhash.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/xxhash.cc.o -c /var/www/html/jyocoin/external/rocksdb/util/xxhash.cc
+CMakeFiles/rocksdb.dir/util/xxhash.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/xxhash.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/rocksdb.dir/util/xxhash.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/util/xxhash.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/xxhash.cc
 
 CMakeFiles/rocksdb.dir/util/xxhash.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/util/xxhash.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/util/xxhash.cc > CMakeFiles/rocksdb.dir/util/xxhash.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/xxhash.cc > CMakeFiles/rocksdb.dir/util/xxhash.cc.i
 
 CMakeFiles/rocksdb.dir/util/xxhash.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/util/xxhash.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/util/xxhash.cc -o CMakeFiles/rocksdb.dir/util/xxhash.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/xxhash.cc -o CMakeFiles/rocksdb.dir/util/xxhash.cc.s
 
 CMakeFiles/rocksdb.dir/util/xxhash.cc.o.requires:
 
@@ -3706,17 +3706,17 @@ CMakeFiles/rocksdb.dir/util/xxhash.cc.o.provides.build: CMakeFiles/rocksdb.dir/u
 
 
 CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/backupable/backupable_db.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/backupable/backupable_db.cc
+CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/backupable/backupable_db.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/backupable/backupable_db.cc
 
 CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/backupable/backupable_db.cc > CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/backupable/backupable_db.cc > CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/backupable/backupable_db.cc -o CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/backupable/backupable_db.cc -o CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o.requires:
 
@@ -3730,17 +3730,17 @@ CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o.provides.build: C
 
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_db.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_db.cc
+CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_db.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_db.cc
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_db.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_db.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_db.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_db.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o.requires:
 
@@ -3754,17 +3754,17 @@ CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o.provides.build: CMakeFiles
 
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_db_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_db_impl.cc
+CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_db_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_db_impl.cc
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_db_impl.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_db_impl.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_db_impl.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_db_impl.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o.requires:
 
@@ -3778,17 +3778,17 @@ CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o.provides.build: CMake
 
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_dump_tool.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_dump_tool.cc
+CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_dump_tool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_dump_tool.cc
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_dump_tool.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_dump_tool.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_dump_tool.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_dump_tool.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o.requires:
 
@@ -3802,17 +3802,17 @@ CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o.provides.build: CMa
 
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_file.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_file.cc
+CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_file.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_file.cc
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_file.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_file.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_file.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_file.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o.requires:
 
@@ -3826,17 +3826,17 @@ CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o.provides.build: CMakeFil
 
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_reader.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_reader.cc
+CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_reader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_reader.cc
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_reader.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_reader.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_reader.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_reader.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.o.requires:
 
@@ -3850,17 +3850,17 @@ CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.o.provides.build: CM
 
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_writer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_writer.cc
+CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_writer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_writer.cc
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_writer.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_writer.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_writer.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_writer.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.o.requires:
 
@@ -3874,17 +3874,17 @@ CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.o.provides.build: CM
 
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_format.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_format.cc
+CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_format.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_format.cc
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_format.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_format.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/blob_log_format.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/blob_log_format.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.o.requires:
 
@@ -3898,17 +3898,17 @@ CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.o.provides.build: CM
 
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/ttl_extractor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/ttl_extractor.cc
+CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/ttl_extractor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/ttl_extractor.cc
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/ttl_extractor.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/ttl_extractor.cc > CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/blob_db/ttl_extractor.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/blob_db/ttl_extractor.cc -o CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.o.requires:
 
@@ -3922,17 +3922,17 @@ CMakeFiles/rocksdb.dir/utilities/blob_db/ttl_extractor.cc.o.provides.build: CMak
 
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc
+CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc > CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc > CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc -o CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/cassandra_compaction_filter.cc -o CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o.requires:
 
@@ -3946,17 +3946,17 @@ CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o.prov
 
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/format.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/format.cc
+CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/format.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/format.cc
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/format.cc > CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/format.cc > CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/format.cc -o CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/format.cc -o CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o.requires:
 
@@ -3970,17 +3970,17 @@ CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o.provides.build: CMakeFile
 
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/merge_operator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/merge_operator.cc
+CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/merge_operator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/merge_operator.cc
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/merge_operator.cc > CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/merge_operator.cc > CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/cassandra/merge_operator.cc -o CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/cassandra/merge_operator.cc -o CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o.requires:
 
@@ -3994,17 +3994,17 @@ CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o.provides.build: C
 
 
 CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/checkpoint/checkpoint_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/checkpoint/checkpoint_impl.cc
+CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/checkpoint/checkpoint_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/checkpoint/checkpoint_impl.cc
 
 CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/checkpoint/checkpoint_impl.cc > CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/checkpoint/checkpoint_impl.cc > CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/checkpoint/checkpoint_impl.cc -o CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/checkpoint/checkpoint_impl.cc -o CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o.requires:
 
@@ -4018,17 +4018,17 @@ CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o.provides.build:
 
 
 CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/col_buf_decoder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/col_buf_decoder.cc
+CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/col_buf_decoder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/col_buf_decoder.cc
 
 CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/col_buf_decoder.cc > CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/col_buf_decoder.cc > CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/col_buf_decoder.cc -o CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/col_buf_decoder.cc -o CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.o.requires:
 
@@ -4042,17 +4042,17 @@ CMakeFiles/rocksdb.dir/utilities/col_buf_decoder.cc.o.provides.build: CMakeFiles
 
 
 CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/col_buf_encoder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/col_buf_encoder.cc
+CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/col_buf_encoder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/col_buf_encoder.cc
 
 CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/col_buf_encoder.cc > CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/col_buf_encoder.cc > CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/col_buf_encoder.cc -o CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/col_buf_encoder.cc -o CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.o.requires:
 
@@ -4066,17 +4066,17 @@ CMakeFiles/rocksdb.dir/utilities/col_buf_encoder.cc.o.provides.build: CMakeFiles
 
 
 CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/column_aware_encoding_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/column_aware_encoding_util.cc
+CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/column_aware_encoding_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/column_aware_encoding_util.cc
 
 CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/column_aware_encoding_util.cc > CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/column_aware_encoding_util.cc > CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/column_aware_encoding_util.cc -o CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/column_aware_encoding_util.cc -o CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.o.requires:
 
@@ -4090,17 +4090,17 @@ CMakeFiles/rocksdb.dir/utilities/column_aware_encoding_util.cc.o.provides.build:
 
 
 CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc
+CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc
 
 CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc > CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc > CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc -o CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc -o CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.o.requires:
 
@@ -4114,17 +4114,17 @@ CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compaction
 
 
 CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc
+CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc
 
 CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc > CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc > CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc -o CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/date_tiered/date_tiered_db_impl.cc -o CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.o.requires:
 
@@ -4138,17 +4138,17 @@ CMakeFiles/rocksdb.dir/utilities/date_tiered/date_tiered_db_impl.cc.o.provides.b
 
 
 CMakeFiles/rocksdb.dir/utilities/debug.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/debug.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/debug.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/rocksdb.dir/utilities/debug.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/debug.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/debug.cc
+CMakeFiles/rocksdb.dir/utilities/debug.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/debug.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/rocksdb.dir/utilities/debug.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/debug.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/debug.cc
 
 CMakeFiles/rocksdb.dir/utilities/debug.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/debug.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/debug.cc > CMakeFiles/rocksdb.dir/utilities/debug.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/debug.cc > CMakeFiles/rocksdb.dir/utilities/debug.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/debug.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/debug.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/debug.cc -o CMakeFiles/rocksdb.dir/utilities/debug.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/debug.cc -o CMakeFiles/rocksdb.dir/utilities/debug.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/debug.cc.o.requires:
 
@@ -4162,17 +4162,17 @@ CMakeFiles/rocksdb.dir/utilities/debug.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/document/document_db.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/document/document_db.cc
+CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/document_db.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/document_db.cc
 
 CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/document/document_db.cc > CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/document_db.cc > CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/document/document_db.cc -o CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/document_db.cc -o CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.o.requires:
 
@@ -4186,17 +4186,17 @@ CMakeFiles/rocksdb.dir/utilities/document/document_db.cc.o.provides.build: CMake
 
 
 CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/document/json_document.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/document/json_document.cc
+CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/json_document.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/json_document.cc
 
 CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/document/json_document.cc > CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/json_document.cc > CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/document/json_document.cc -o CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/json_document.cc -o CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.o.requires:
 
@@ -4210,17 +4210,17 @@ CMakeFiles/rocksdb.dir/utilities/document/json_document.cc.o.provides.build: CMa
 
 
 CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/document/json_document_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/document/json_document_builder.cc
+CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/json_document_builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/json_document_builder.cc
 
 CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/document/json_document_builder.cc > CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/json_document_builder.cc > CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/document/json_document_builder.cc -o CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/document/json_document_builder.cc -o CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.o.requires:
 
@@ -4234,17 +4234,17 @@ CMakeFiles/rocksdb.dir/utilities/document/json_document_builder.cc.o.provides.bu
 
 
 CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/env_mirror.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/env_mirror.cc
+CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/env_mirror.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/env_mirror.cc
 
 CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/env_mirror.cc > CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/env_mirror.cc > CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/env_mirror.cc -o CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/env_mirror.cc -o CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o.requires:
 
@@ -4258,17 +4258,17 @@ CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o.provides.build: CMakeFiles/rock
 
 
 CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/env_timed.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/env_timed.cc
+CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/env_timed.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/env_timed.cc
 
 CMakeFiles/rocksdb.dir/utilities/env_timed.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/env_timed.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/env_timed.cc > CMakeFiles/rocksdb.dir/utilities/env_timed.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/env_timed.cc > CMakeFiles/rocksdb.dir/utilities/env_timed.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/env_timed.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/env_timed.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/env_timed.cc -o CMakeFiles/rocksdb.dir/utilities/env_timed.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/env_timed.cc -o CMakeFiles/rocksdb.dir/utilities/env_timed.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o.requires:
 
@@ -4282,17 +4282,17 @@ CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o.provides.build: CMakeFiles/rocks
 
 
 CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/geodb/geodb_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/geodb/geodb_impl.cc
+CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/geodb/geodb_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/geodb/geodb_impl.cc
 
 CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/geodb/geodb_impl.cc > CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/geodb/geodb_impl.cc > CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/geodb/geodb_impl.cc -o CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/geodb/geodb_impl.cc -o CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.o.requires:
 
@@ -4306,17 +4306,17 @@ CMakeFiles/rocksdb.dir/utilities/geodb/geodb_impl.cc.o.provides.build: CMakeFile
 
 
 CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/leveldb_options/leveldb_options.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/leveldb_options/leveldb_options.cc
+CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/leveldb_options/leveldb_options.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/leveldb_options/leveldb_options.cc
 
 CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/leveldb_options/leveldb_options.cc > CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/leveldb_options/leveldb_options.cc > CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/leveldb_options/leveldb_options.cc -o CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/leveldb_options/leveldb_options.cc -o CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o.requires:
 
@@ -4330,17 +4330,17 @@ CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o.provides.b
 
 
 CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/lua/rocks_lua_compaction_filter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/lua/rocks_lua_compaction_filter.cc
+CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/lua/rocks_lua_compaction_filter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/lua/rocks_lua_compaction_filter.cc
 
 CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/lua/rocks_lua_compaction_filter.cc > CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/lua/rocks_lua_compaction_filter.cc > CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/lua/rocks_lua_compaction_filter.cc -o CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/lua/rocks_lua_compaction_filter.cc -o CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.o.requires:
 
@@ -4354,17 +4354,17 @@ CMakeFiles/rocksdb.dir/utilities/lua/rocks_lua_compaction_filter.cc.o.provides.b
 
 
 CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/memory/memory_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/memory/memory_util.cc
+CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/memory/memory_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/memory/memory_util.cc
 
 CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/memory/memory_util.cc > CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/memory/memory_util.cc > CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/memory/memory_util.cc -o CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/memory/memory_util.cc -o CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o.requires:
 
@@ -4378,17 +4378,17 @@ CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o.provides.build: CMakeFi
 
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/bytesxor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/bytesxor.cc
+CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/bytesxor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/bytesxor.cc
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/bytesxor.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/bytesxor.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/bytesxor.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/bytesxor.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o.requires:
 
@@ -4402,17 +4402,17 @@ CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o.provides.build: C
 
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/max.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/max.cc
+CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/max.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/max.cc
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/max.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/max.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/max.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/max.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o.requires:
 
@@ -4426,17 +4426,17 @@ CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o.provides.build: CMakeF
 
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/put.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/put.cc
+CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/put.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/put.cc
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/put.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/put.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/put.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/put.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o.requires:
 
@@ -4450,17 +4450,17 @@ CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o.provides.build: CMakeF
 
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/string_append/stringappend.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/string_append/stringappend.cc
+CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/string_append/stringappend.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/string_append/stringappend.cc
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/string_append/stringappend.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/string_append/stringappend.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/string_append/stringappend.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/string_append/stringappend.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o.requires:
 
@@ -4474,17 +4474,17 @@ CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o
 
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/string_append/stringappend2.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/string_append/stringappend2.cc
+CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/string_append/stringappend2.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/string_append/stringappend2.cc
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/string_append/stringappend2.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/string_append/stringappend2.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/string_append/stringappend2.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/string_append/stringappend2.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.o.requires:
 
@@ -4498,17 +4498,17 @@ CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.
 
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/uint64add.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/uint64add.cc
+CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/uint64add.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/uint64add.cc
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/uint64add.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/uint64add.cc > CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/merge_operators/uint64add.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/merge_operators/uint64add.cc -o CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o.requires:
 
@@ -4522,17 +4522,17 @@ CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o.provides.build: 
 
 
 CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/option_change_migration/option_change_migration.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/option_change_migration/option_change_migration.cc
+CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/option_change_migration/option_change_migration.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/option_change_migration/option_change_migration.cc
 
 CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/option_change_migration/option_change_migration.cc > CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/option_change_migration/option_change_migration.cc > CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/option_change_migration/option_change_migration.cc -o CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/option_change_migration/option_change_migration.cc -o CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.o.requires:
 
@@ -4546,17 +4546,17 @@ CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration
 
 
 CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/options/options_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/options/options_util.cc
+CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/options/options_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/options/options_util.cc
 
 CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/options/options_util.cc > CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/options/options_util.cc > CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/options/options_util.cc -o CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/options/options_util.cc -o CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o.requires:
 
@@ -4570,17 +4570,17 @@ CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o.provides.build: CMake
 
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier.cc
+CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier.cc
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier.cc > CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier.cc > CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier.cc -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier.cc -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o.requires:
 
@@ -4594,17 +4594,17 @@ CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o.provides
 
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc
+CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc > CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc > CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier_file.cc -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o.requires:
 
@@ -4618,17 +4618,17 @@ CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o.pro
 
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc
+CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc > CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc > CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/block_cache_tier_metadata.cc -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o.requires:
 
@@ -4642,17 +4642,17 @@ CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o
 
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc
+CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc > CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc > CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/persistent_cache_tier.cc -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o.requires:
 
@@ -4666,17 +4666,17 @@ CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o.pro
 
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc
+CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc > CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc > CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/volatile_tier_impl.cc -o CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o.requires:
 
@@ -4690,17 +4690,17 @@ CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o.provid
 
 
 CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/redis/redis_lists.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/redis/redis_lists.cc
+CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/redis/redis_lists.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/redis/redis_lists.cc
 
 CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/redis/redis_lists.cc > CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/redis/redis_lists.cc > CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/redis/redis_lists.cc -o CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/redis/redis_lists.cc -o CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.o.requires:
 
@@ -4714,17 +4714,17 @@ CMakeFiles/rocksdb.dir/utilities/redis/redis_lists.cc.o.provides.build: CMakeFil
 
 
 CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/simulator_cache/sim_cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/simulator_cache/sim_cache.cc
+CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/simulator_cache/sim_cache.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/simulator_cache/sim_cache.cc
 
 CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/simulator_cache/sim_cache.cc > CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/simulator_cache/sim_cache.cc > CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/simulator_cache/sim_cache.cc -o CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/simulator_cache/sim_cache.cc -o CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o.requires:
 
@@ -4738,17 +4738,17 @@ CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o.provides.build: 
 
 
 CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/spatialdb/spatial_db.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/spatialdb/spatial_db.cc
+CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/spatialdb/spatial_db.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/spatialdb/spatial_db.cc
 
 CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/spatialdb/spatial_db.cc > CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/spatialdb/spatial_db.cc > CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/spatialdb/spatial_db.cc -o CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/spatialdb/spatial_db.cc -o CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.o.requires:
 
@@ -4762,17 +4762,17 @@ CMakeFiles/rocksdb.dir/utilities/spatialdb/spatial_db.cc.o.provides.build: CMake
 
 
 CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc
+CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc
 
 CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc > CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc > CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc -o CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/table_properties_collectors/compact_on_deletion_collector.cc -o CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.o.requires:
 
@@ -4786,17 +4786,17 @@ CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc > CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc > CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/optimistic_transaction_db_impl.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.o.requires:
 
@@ -4810,17 +4810,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/optimistic_transaction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/optimistic_transaction.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/optimistic_transaction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/optimistic_transaction.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/optimistic_transaction.cc > CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/optimistic_transaction.cc > CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/optimistic_transaction.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/optimistic_transaction.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o.requires:
 
@@ -4834,17 +4834,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o.provid
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/pessimistic_transaction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/pessimistic_transaction.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/pessimistic_transaction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/pessimistic_transaction.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/pessimistic_transaction.cc > CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/pessimistic_transaction.cc > CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/pessimistic_transaction.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/pessimistic_transaction.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o.requires:
 
@@ -4858,17 +4858,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o.provi
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/pessimistic_transaction_db.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/pessimistic_transaction_db.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/pessimistic_transaction_db.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/pessimistic_transaction_db.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/pessimistic_transaction_db.cc > CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/pessimistic_transaction_db.cc > CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/pessimistic_transaction_db.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/pessimistic_transaction_db.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o.requires:
 
@@ -4882,17 +4882,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o.pr
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/snapshot_checker.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/snapshot_checker.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/snapshot_checker.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/snapshot_checker.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/snapshot_checker.cc > CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/snapshot_checker.cc > CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/snapshot_checker.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/snapshot_checker.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o.requires:
 
@@ -4906,17 +4906,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o.provides.bui
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_base.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_base.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_base.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_base.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_base.cc > CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_base.cc > CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_base.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_base.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o.requires:
 
@@ -4930,17 +4930,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o.provides.bui
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc > CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc > CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_db_mutex_impl.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o.requires:
 
@@ -4954,17 +4954,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o.pro
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_lock_mgr.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_lock_mgr.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_lock_mgr.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_lock_mgr.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_lock_mgr.cc > CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_lock_mgr.cc > CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_lock_mgr.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_lock_mgr.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.o.requires:
 
@@ -4978,17 +4978,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.o.provides
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_util.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_util.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_util.cc > CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_util.cc > CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/transaction_util.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/transaction_util.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o.requires:
 
@@ -5002,17 +5002,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o.provides.bui
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/write_prepared_txn.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/write_prepared_txn.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/write_prepared_txn.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/write_prepared_txn.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/write_prepared_txn.cc > CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/write_prepared_txn.cc > CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/write_prepared_txn.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/write_prepared_txn.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o.requires:
 
@@ -5026,17 +5026,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o.provides.b
 
 
 CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/transactions/write_prepared_txn_db.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/transactions/write_prepared_txn_db.cc
+CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/write_prepared_txn_db.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/write_prepared_txn_db.cc
 
 CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/transactions/write_prepared_txn_db.cc > CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/write_prepared_txn_db.cc > CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/transactions/write_prepared_txn_db.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/transactions/write_prepared_txn_db.cc -o CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o.requires:
 
@@ -5050,17 +5050,17 @@ CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o.provide
 
 
 CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/ttl/db_ttl_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/ttl/db_ttl_impl.cc
+CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/ttl/db_ttl_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/ttl/db_ttl_impl.cc
 
 CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/ttl/db_ttl_impl.cc > CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/ttl/db_ttl_impl.cc > CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/ttl/db_ttl_impl.cc -o CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/ttl/db_ttl_impl.cc -o CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o.requires:
 
@@ -5074,17 +5074,17 @@ CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o.provides.build: CMakeFiles
 
 
 CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc
+CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc
 
 CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc > CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc > CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc -o CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index.cc -o CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o.requires:
 
@@ -5098,17 +5098,17 @@ CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.c
 
 
 CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc
+CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc
 
 CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc > CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc > CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.i
 
 CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc -o CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/write_batch_with_index/write_batch_with_index_internal.cc -o CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.s
 
 CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o.requires:
 
@@ -5122,17 +5122,17 @@ CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_i
 
 
 CMakeFiles/rocksdb.dir/port/port_posix.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/port/port_posix.cc.o: /var/www/html/jyocoin/external/rocksdb/port/port_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/rocksdb.dir/port/port_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/port/port_posix.cc.o -c /var/www/html/jyocoin/external/rocksdb/port/port_posix.cc
+CMakeFiles/rocksdb.dir/port/port_posix.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/port/port_posix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/rocksdb.dir/port/port_posix.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/port/port_posix.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/port/port_posix.cc
 
 CMakeFiles/rocksdb.dir/port/port_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/port/port_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/port/port_posix.cc > CMakeFiles/rocksdb.dir/port/port_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/port/port_posix.cc > CMakeFiles/rocksdb.dir/port/port_posix.cc.i
 
 CMakeFiles/rocksdb.dir/port/port_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/port/port_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/port/port_posix.cc -o CMakeFiles/rocksdb.dir/port/port_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/port/port_posix.cc -o CMakeFiles/rocksdb.dir/port/port_posix.cc.s
 
 CMakeFiles/rocksdb.dir/port/port_posix.cc.o.requires:
 
@@ -5146,17 +5146,17 @@ CMakeFiles/rocksdb.dir/port/port_posix.cc.o.provides.build: CMakeFiles/rocksdb.d
 
 
 CMakeFiles/rocksdb.dir/env/env_posix.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/env/env_posix.cc.o: /var/www/html/jyocoin/external/rocksdb/env/env_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/rocksdb.dir/env/env_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/env_posix.cc.o -c /var/www/html/jyocoin/external/rocksdb/env/env_posix.cc
+CMakeFiles/rocksdb.dir/env/env_posix.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_posix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/rocksdb.dir/env/env_posix.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/env_posix.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_posix.cc
 
 CMakeFiles/rocksdb.dir/env/env_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/env/env_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/env/env_posix.cc > CMakeFiles/rocksdb.dir/env/env_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_posix.cc > CMakeFiles/rocksdb.dir/env/env_posix.cc.i
 
 CMakeFiles/rocksdb.dir/env/env_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/env/env_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/env/env_posix.cc -o CMakeFiles/rocksdb.dir/env/env_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/env_posix.cc -o CMakeFiles/rocksdb.dir/env/env_posix.cc.s
 
 CMakeFiles/rocksdb.dir/env/env_posix.cc.o.requires:
 
@@ -5170,17 +5170,17 @@ CMakeFiles/rocksdb.dir/env/env_posix.cc.o.provides.build: CMakeFiles/rocksdb.dir
 
 
 CMakeFiles/rocksdb.dir/env/io_posix.cc.o: CMakeFiles/rocksdb.dir/flags.make
-CMakeFiles/rocksdb.dir/env/io_posix.cc.o: /var/www/html/jyocoin/external/rocksdb/env/io_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/rocksdb.dir/env/io_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/io_posix.cc.o -c /var/www/html/jyocoin/external/rocksdb/env/io_posix.cc
+CMakeFiles/rocksdb.dir/env/io_posix.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/io_posix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/rocksdb.dir/env/io_posix.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rocksdb.dir/env/io_posix.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/io_posix.cc
 
 CMakeFiles/rocksdb.dir/env/io_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rocksdb.dir/env/io_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/env/io_posix.cc > CMakeFiles/rocksdb.dir/env/io_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/io_posix.cc > CMakeFiles/rocksdb.dir/env/io_posix.cc.i
 
 CMakeFiles/rocksdb.dir/env/io_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rocksdb.dir/env/io_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/env/io_posix.cc -o CMakeFiles/rocksdb.dir/env/io_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/env/io_posix.cc -o CMakeFiles/rocksdb.dir/env/io_posix.cc.s
 
 CMakeFiles/rocksdb.dir/env/io_posix.cc.o.requires:
 
@@ -5412,7 +5412,7 @@ rocksdb_OBJECTS = \
 
 # External object files for target rocksdb
 rocksdb_EXTERNAL_OBJECTS = \
-"/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/build_version.dir/build_version.cc.o"
+"/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/build_version.dir/build_version.cc.o"
 
 librocksdb.a: CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o
 librocksdb.a: CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o
@@ -5631,7 +5631,7 @@ librocksdb.a: CMakeFiles/rocksdb.dir/env/io_posix.cc.o
 librocksdb.a: CMakeFiles/build_version.dir/build_version.cc.o
 librocksdb.a: CMakeFiles/rocksdb.dir/build.make
 librocksdb.a: CMakeFiles/rocksdb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Linking CXX static library librocksdb.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Linking CXX static library librocksdb.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/rocksdb.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rocksdb.dir/link.txt --verbose=$(VERBOSE)
 
@@ -5862,6 +5862,6 @@ CMakeFiles/rocksdb.dir/clean:
 .PHONY : CMakeFiles/rocksdb.dir/clean
 
 CMakeFiles/rocksdb.dir/depend:
-	cd /var/www/html/jyocoin/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/rocksdb.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/rocksdb.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rocksdb.dir/depend
 

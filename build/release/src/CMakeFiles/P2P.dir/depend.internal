@@ -66,8 +66,8 @@ src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp
- /var/www/html/jyocoin/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.h
 src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -87,10 +87,10 @@ src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/P2p/IP2pNodeInternal.cpp
- /var/www/html/jyocoin/src/P2p/IP2pNodeInternal.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolDefinitions.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolTypes.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/IP2pNodeInternal.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/IP2pNodeInternal.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolDefinitions.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -107,8 +107,8 @@ src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o
  ../../src/Serialization/KVBinaryInputStreamSerializer.h
  ../../src/Serialization/KVBinaryOutputStreamSerializer.h
  ../../src/Serialization/MemoryStream.h
- /var/www/html/jyocoin/src/P2p/LevinProtocol.cpp
- /var/www/html/jyocoin/src/P2p/LevinProtocol.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/LevinProtocol.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/LevinProtocol.h
 src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o
  ../../external/miniupnpc/bsdqueue.h
  ../../external/miniupnpc/declspec.h
@@ -191,16 +191,16 @@ src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/P2p/ConnectionContext.h
- /var/www/html/jyocoin/src/P2p/LevinProtocol.h
- /var/www/html/jyocoin/src/P2p/NetNode.cpp
- /var/www/html/jyocoin/src/P2p/NetNode.h
- /var/www/html/jyocoin/src/P2p/NetNodeCommon.h
- /var/www/html/jyocoin/src/P2p/NetNodeConfig.h
- /var/www/html/jyocoin/src/P2p/P2pNetworks.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolDefinitions.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolTypes.h
- /var/www/html/jyocoin/src/P2p/PeerListManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/ConnectionContext.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/LevinProtocol.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/NetNode.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/NetNode.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/NetNodeCommon.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/NetNodeConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNetworks.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolDefinitions.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolTypes.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/PeerListManager.h
  version/version.h
 src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o
  ../../include/CryptoTypes.h
@@ -215,9 +215,9 @@ src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/P2p/NetNodeConfig.cpp
- /var/www/html/jyocoin/src/P2p/NetNodeConfig.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolTypes.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/NetNodeConfig.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/NetNodeConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -257,19 +257,19 @@ src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/P2p/IP2pNodeInternal.h
- /var/www/html/jyocoin/src/P2p/LevinProtocol.h
- /var/www/html/jyocoin/src/P2p/NetNodeConfig.h
- /var/www/html/jyocoin/src/P2p/P2pConnectionProxy.cpp
- /var/www/html/jyocoin/src/P2p/P2pConnectionProxy.h
- /var/www/html/jyocoin/src/P2p/P2pContext.h
- /var/www/html/jyocoin/src/P2p/P2pContextOwner.h
- /var/www/html/jyocoin/src/P2p/P2pInterfaces.h
- /var/www/html/jyocoin/src/P2p/P2pNode.h
- /var/www/html/jyocoin/src/P2p/P2pNodeConfig.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolDefinitions.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolTypes.h
- /var/www/html/jyocoin/src/P2p/PeerListManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/IP2pNodeInternal.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/LevinProtocol.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/NetNodeConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pConnectionProxy.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pConnectionProxy.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContext.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContextOwner.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pInterfaces.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNode.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNodeConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolDefinitions.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolTypes.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/PeerListManager.h
 src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -307,12 +307,12 @@ src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/P2p/LevinProtocol.h
- /var/www/html/jyocoin/src/P2p/P2pContext.cpp
- /var/www/html/jyocoin/src/P2p/P2pContext.h
- /var/www/html/jyocoin/src/P2p/P2pInterfaces.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolDefinitions.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolTypes.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/LevinProtocol.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContext.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContext.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pInterfaces.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolDefinitions.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -346,18 +346,18 @@ src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/P2p/LevinProtocol.h
- /var/www/html/jyocoin/src/P2p/P2pContext.h
- /var/www/html/jyocoin/src/P2p/P2pContextOwner.cpp
- /var/www/html/jyocoin/src/P2p/P2pContextOwner.h
- /var/www/html/jyocoin/src/P2p/P2pInterfaces.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolDefinitions.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolTypes.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/LevinProtocol.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContext.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContextOwner.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContextOwner.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pInterfaces.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolDefinitions.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
- /var/www/html/jyocoin/src/P2p/P2pInterfaces.cpp
- /var/www/html/jyocoin/src/P2p/P2pInterfaces.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pInterfaces.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pInterfaces.h
 src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -405,28 +405,28 @@ src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/P2p/IP2pNodeInternal.h
- /var/www/html/jyocoin/src/P2p/LevinProtocol.h
- /var/www/html/jyocoin/src/P2p/NetNodeConfig.h
- /var/www/html/jyocoin/src/P2p/P2pConnectionProxy.h
- /var/www/html/jyocoin/src/P2p/P2pContext.h
- /var/www/html/jyocoin/src/P2p/P2pContextOwner.h
- /var/www/html/jyocoin/src/P2p/P2pInterfaces.h
- /var/www/html/jyocoin/src/P2p/P2pNetworks.h
- /var/www/html/jyocoin/src/P2p/P2pNode.cpp
- /var/www/html/jyocoin/src/P2p/P2pNode.h
- /var/www/html/jyocoin/src/P2p/P2pNodeConfig.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolDefinitions.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolTypes.h
- /var/www/html/jyocoin/src/P2p/PeerListManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/IP2pNodeInternal.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/LevinProtocol.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/NetNodeConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pConnectionProxy.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContext.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pContextOwner.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pInterfaces.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNetworks.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNode.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNode.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNodeConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolDefinitions.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolTypes.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/PeerListManager.h
 src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.o
  ../../src/Common/StringTools.h
  ../../src/CryptoNoteConfig.h
- /var/www/html/jyocoin/src/P2p/NetNodeConfig.h
- /var/www/html/jyocoin/src/P2p/P2pNetworks.h
- /var/www/html/jyocoin/src/P2p/P2pNodeConfig.cpp
- /var/www/html/jyocoin/src/P2p/P2pNodeConfig.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolTypes.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/NetNodeConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNetworks.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNodeConfig.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pNodeConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o
  ../../src/Common/StringTools.h
  ../../src/Common/StringView.h
@@ -434,6 +434,6 @@ src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o
  ../../src/Serialization/ISerializer.h
  ../../src/Serialization/SerializationOverloads.h
  ../../src/System/Ipv4Address.h
- /var/www/html/jyocoin/src/P2p/P2pProtocolTypes.h
- /var/www/html/jyocoin/src/P2p/PeerListManager.cpp
- /var/www/html/jyocoin/src/P2p/PeerListManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/P2pProtocolTypes.h
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/PeerListManager.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/P2p/PeerListManager.h

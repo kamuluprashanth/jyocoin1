@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/var/www/html/jyocoin/external/miniupnpc/connecthostport.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/igd_desc_parse.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/minisoap.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/minissdpc.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/miniupnpc.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/miniwget.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/minixml.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/portlistingparse.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/receivedata.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/upnpc.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/upnpcommands.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/upnperrors.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o"
-  "/var/www/html/jyocoin/external/miniupnpc/upnpreplyparse.c" "/var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/connecthostport.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/igd_desc_parse.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minisoap.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minissdpc.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/miniupnpc.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/miniwget.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minixml.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/portlistingparse.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/receivedata.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpc.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpcommands.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnperrors.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpreplyparse.c" "/home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

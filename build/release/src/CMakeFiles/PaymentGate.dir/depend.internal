@@ -30,14 +30,14 @@ src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/PaymentGate/NodeFactory.cpp
- /var/www/html/jyocoin/src/PaymentGate/NodeFactory.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/NodeFactory.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/NodeFactory.h
 src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.o
  ../../src/Common/StringView.h
  ../../src/Serialization/ISerializer.h
  ../../src/Serialization/SerializationOverloads.h
- /var/www/html/jyocoin/src/PaymentGate/PaymentServiceJsonRpcMessages.cpp
- /var/www/html/jyocoin/src/PaymentGate/PaymentServiceJsonRpcMessages.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/PaymentServiceJsonRpcMessages.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/PaymentServiceJsonRpcMessages.h
 src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -81,10 +81,10 @@ src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/PaymentGate/PaymentServiceJsonRpcMessages.h
- /var/www/html/jyocoin/src/PaymentGate/PaymentServiceJsonRpcServer.cpp
- /var/www/html/jyocoin/src/PaymentGate/PaymentServiceJsonRpcServer.h
- /var/www/html/jyocoin/src/PaymentGate/WalletService.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/PaymentServiceJsonRpcMessages.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/PaymentServiceJsonRpcServer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/PaymentServiceJsonRpcServer.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/WalletService.h
 src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -154,11 +154,11 @@ src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/PaymentGate/NodeFactory.h
- /var/www/html/jyocoin/src/PaymentGate/PaymentServiceJsonRpcMessages.h
- /var/www/html/jyocoin/src/PaymentGate/WalletService.cpp
- /var/www/html/jyocoin/src/PaymentGate/WalletService.h
- /var/www/html/jyocoin/src/PaymentGate/WalletServiceErrorCategory.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/NodeFactory.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/PaymentServiceJsonRpcMessages.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/WalletService.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/WalletService.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/WalletServiceErrorCategory.h
 src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.o
- /var/www/html/jyocoin/src/PaymentGate/WalletServiceErrorCategory.cpp
- /var/www/html/jyocoin/src/PaymentGate/WalletServiceErrorCategory.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/WalletServiceErrorCategory.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGate/WalletServiceErrorCategory.h

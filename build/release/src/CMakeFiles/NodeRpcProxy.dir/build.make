@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/NodeRpcProxy.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/NodeRpcProxy.dir/flags.make
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o: src/CMakeFiles/NodeRpcProxy.dir/flags.make
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o: ../../src/NodeRpcProxy/NodeErrors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o -c /var/www/html/jyocoin/src/NodeRpcProxy/NodeErrors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o -c /home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeErrors.cpp
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/src/NodeRpcProxy/NodeErrors.cpp > CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeErrors.cpp > CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.i
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/src/NodeRpcProxy/NodeErrors.cpp -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeErrors.cpp -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.s
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o.provides.build: sr
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o: src/CMakeFiles/NodeRpcProxy.dir/flags.make
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o: ../../src/NodeRpcProxy/NodeRpcProxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o -c /var/www/html/jyocoin/src/NodeRpcProxy/NodeRpcProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o -c /home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeRpcProxy.cpp
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/src/NodeRpcProxy/NodeRpcProxy.cpp > CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeRpcProxy.cpp > CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/src/NodeRpcProxy/NodeRpcProxy.cpp -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeRpcProxy.cpp -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.requires:
 
@@ -117,9 +117,9 @@ src/libNodeRpcProxy.a: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.c
 src/libNodeRpcProxy.a: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o
 src/libNodeRpcProxy.a: src/CMakeFiles/NodeRpcProxy.dir/build.make
 src/libNodeRpcProxy.a: src/CMakeFiles/NodeRpcProxy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libNodeRpcProxy.a"
-	cd /var/www/html/jyocoin/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/NodeRpcProxy.dir/cmake_clean_target.cmake
-	cd /var/www/html/jyocoin/build/release/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NodeRpcProxy.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libNodeRpcProxy.a"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/NodeRpcProxy.dir/cmake_clean_target.cmake
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NodeRpcProxy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/NodeRpcProxy.dir/build: src/libNodeRpcProxy.a
@@ -132,10 +132,10 @@ src/CMakeFiles/NodeRpcProxy.dir/requires: src/CMakeFiles/NodeRpcProxy.dir/NodeRp
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/requires
 
 src/CMakeFiles/NodeRpcProxy.dir/clean:
-	cd /var/www/html/jyocoin/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/NodeRpcProxy.dir/cmake_clean.cmake
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/NodeRpcProxy.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/clean
 
 src/CMakeFiles/NodeRpcProxy.dir/depend:
-	cd /var/www/html/jyocoin/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin /var/www/html/jyocoin/src /var/www/html/jyocoin/build/release /var/www/html/jyocoin/build/release/src /var/www/html/jyocoin/build/release/src/CMakeFiles/NodeRpcProxy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1 /home/ubuntu/Desktop/jyocoin1/src /home/ubuntu/Desktop/jyocoin1/build/release /home/ubuntu/Desktop/jyocoin1/build/release/src /home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/NodeRpcProxy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/depend
 

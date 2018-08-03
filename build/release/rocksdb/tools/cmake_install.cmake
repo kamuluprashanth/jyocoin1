@@ -1,4 +1,4 @@
-# Install script for directory: /var/www/html/jyocoin/external/rocksdb/tools
+# Install script for directory: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

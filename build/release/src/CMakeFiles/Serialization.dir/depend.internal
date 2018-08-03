@@ -5,18 +5,18 @@ src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.o
  ../../src/Common/IInputStream.h
  ../../src/Common/StreamTools.h
  ../../src/Common/StringView.h
- /var/www/html/jyocoin/src/Serialization/BinaryInputStreamSerializer.cpp
- /var/www/html/jyocoin/src/Serialization/BinaryInputStreamSerializer.h
- /var/www/html/jyocoin/src/Serialization/ISerializer.h
- /var/www/html/jyocoin/src/Serialization/SerializationOverloads.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/BinaryInputStreamSerializer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/BinaryInputStreamSerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/SerializationOverloads.h
 src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.o
  ../../src/Common/IOutputStream.h
  ../../src/Common/StreamTools.h
  ../../src/Common/StringView.h
- /var/www/html/jyocoin/src/Serialization/BinaryOutputStreamSerializer.cpp
- /var/www/html/jyocoin/src/Serialization/BinaryOutputStreamSerializer.h
- /var/www/html/jyocoin/src/Serialization/ISerializer.h
- /var/www/html/jyocoin/src/Serialization/SerializationOverloads.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/BinaryOutputStreamSerializer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/BinaryOutputStreamSerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/SerializationOverloads.h
 src/CMakeFiles/Serialization.dir/Serialization/BlockchainExplorerDataSerialization.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -34,54 +34,54 @@ src/CMakeFiles/Serialization.dir/Serialization/BlockchainExplorerDataSerializati
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Serialization/BlockchainExplorerDataSerialization.cpp
- /var/www/html/jyocoin/src/Serialization/BlockchainExplorerDataSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/BlockchainExplorerDataSerialization.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/BlockchainExplorerDataSerialization.h
 src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.o
  ../../src/Common/JsonValue.h
  ../../src/Common/StringView.h
  ../../src/Serialization/ISerializer.h
  ../../src/Serialization/JsonInputStreamSerializer.h
  ../../src/Serialization/JsonInputValueSerializer.h
- /var/www/html/jyocoin/src/Serialization/JsonInputStreamSerializer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonInputStreamSerializer.cpp
 src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.o
  ../../src/Common/JsonValue.h
  ../../src/Common/StringTools.h
  ../../src/Common/StringView.h
- /var/www/html/jyocoin/src/Serialization/ISerializer.h
- /var/www/html/jyocoin/src/Serialization/JsonInputValueSerializer.cpp
- /var/www/html/jyocoin/src/Serialization/JsonInputValueSerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonInputValueSerializer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonInputValueSerializer.h
 src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.o
  ../../src/Common/StringTools.h
  ../../src/Common/StringView.h
- /var/www/html/jyocoin/src/Common/JsonValue.h
- /var/www/html/jyocoin/src/Serialization/ISerializer.h
- /var/www/html/jyocoin/src/Serialization/JsonOutputStreamSerializer.cpp
- /var/www/html/jyocoin/src/Serialization/JsonOutputStreamSerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/JsonValue.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonOutputStreamSerializer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonOutputStreamSerializer.h
 src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.o
  ../../src/Common/IInputStream.h
  ../../src/Common/JsonValue.h
  ../../src/Common/StreamTools.h
  ../../src/Common/StringView.h
- /var/www/html/jyocoin/src/Serialization/ISerializer.h
- /var/www/html/jyocoin/src/Serialization/JsonInputValueSerializer.h
- /var/www/html/jyocoin/src/Serialization/KVBinaryCommon.h
- /var/www/html/jyocoin/src/Serialization/KVBinaryInputStreamSerializer.cpp
- /var/www/html/jyocoin/src/Serialization/KVBinaryInputStreamSerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonInputValueSerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryCommon.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryInputStreamSerializer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryInputStreamSerializer.h
 src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.o
  ../../src/Common/IOutputStream.h
  ../../src/Common/StreamTools.h
  ../../src/Common/StringView.h
- /var/www/html/jyocoin/src/Serialization/ISerializer.h
- /var/www/html/jyocoin/src/Serialization/KVBinaryCommon.h
- /var/www/html/jyocoin/src/Serialization/KVBinaryOutputStreamSerializer.cpp
- /var/www/html/jyocoin/src/Serialization/KVBinaryOutputStreamSerializer.h
- /var/www/html/jyocoin/src/Serialization/MemoryStream.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryCommon.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryOutputStreamSerializer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryOutputStreamSerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/MemoryStream.h
 src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.o
  ../../src/Common/IOutputStream.h
- /var/www/html/jyocoin/src/Serialization/MemoryStream.cpp
- /var/www/html/jyocoin/src/Serialization/MemoryStream.h
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/MemoryStream.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/MemoryStream.h
 src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.o
  ../../src/Common/StringView.h
  ../../src/Serialization/ISerializer.h
  ../../src/Serialization/SerializationOverloads.h
- /var/www/html/jyocoin/src/Serialization/SerializationOverloads.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Serialization/SerializationOverloads.cpp

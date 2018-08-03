@@ -1,0 +1,10 @@
+2018-Aug-03 16:13:57.863525 INFO    [simplewallet] Jyocoin wallet v3.2.0.1000 ()
+2018-Aug-03 16:14:03.955308 INFO    [simplewallet] Generated new wallet: fyT38JLN5N8BiB14D9dcM7hhkvKevUgHhKxDWsbSPaPnUTW9cPKVekKZ239oe2Wo4dfARqCtZ5SMo2WCYrPrgsK5399jgMDL3
+2018-Aug-03 16:14:03.955308 INFO    [simplewallet] view key: cb16205d11b8cd06736e06860ecaa99fe4ba83003e3c12574be86dff93951606
+2018-Aug-03 16:14:03.955708 INFO    [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************

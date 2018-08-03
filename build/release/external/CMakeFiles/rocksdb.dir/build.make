@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release
 
 # Utility rule file for rocksdb.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release
 include external/CMakeFiles/rocksdb.dir/progress.make
 
 external/CMakeFiles/rocksdb:
-	cd /var/www/html/jyocoin/build/release/rocksdb && $(MAKE) rocksdb
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb && $(MAKE) rocksdb
 
 rocksdb: external/CMakeFiles/rocksdb
 rocksdb: external/CMakeFiles/rocksdb.dir/build.make
@@ -67,10 +67,10 @@ external/CMakeFiles/rocksdb.dir/build: rocksdb
 .PHONY : external/CMakeFiles/rocksdb.dir/build
 
 external/CMakeFiles/rocksdb.dir/clean:
-	cd /var/www/html/jyocoin/build/release/external && $(CMAKE_COMMAND) -P CMakeFiles/rocksdb.dir/cmake_clean.cmake
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external && $(CMAKE_COMMAND) -P CMakeFiles/rocksdb.dir/cmake_clean.cmake
 .PHONY : external/CMakeFiles/rocksdb.dir/clean
 
 external/CMakeFiles/rocksdb.dir/depend:
-	cd /var/www/html/jyocoin/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin /var/www/html/jyocoin/external /var/www/html/jyocoin/build/release /var/www/html/jyocoin/build/release/external /var/www/html/jyocoin/build/release/external/CMakeFiles/rocksdb.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1 /home/ubuntu/Desktop/jyocoin1/external /home/ubuntu/Desktop/jyocoin1/build/release /home/ubuntu/Desktop/jyocoin1/build/release/external /home/ubuntu/Desktop/jyocoin1/build/release/external/CMakeFiles/rocksdb.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/CMakeFiles/rocksdb.dir/depend
 

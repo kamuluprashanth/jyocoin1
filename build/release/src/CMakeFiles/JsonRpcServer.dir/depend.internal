@@ -22,5 +22,5 @@ src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.o
  ../../src/System/Event.h
  ../../src/System/Ipv4Address.h
  ../../src/System/TcpStream.h
- /var/www/html/jyocoin/src/JsonRpcServer/JsonRpcServer.cpp
- /var/www/html/jyocoin/src/JsonRpcServer/JsonRpcServer.h
+ /home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/JsonRpcServer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/JsonRpcServer.h

@@ -1,4 +1,4 @@
-# Install script for directory: /var/www/html/jyocoin/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest
+# Install script for directory: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

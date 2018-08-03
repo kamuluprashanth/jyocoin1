@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/Crypto.dir/depend.make
@@ -57,354 +57,18 @@ include src/CMakeFiles/Crypto.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/Crypto.dir/flags.make
 
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o: ../../src/crypto/hash-extra-jh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o   -c /var/www/html/jyocoin/src/crypto/hash-extra-jh.c
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/hash-extra-jh.c > CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/hash-extra-jh.c -o CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o: ../../src/crypto/oaes_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o   -c /var/www/html/jyocoin/src/crypto/oaes_lib.c
-
-src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/oaes_lib.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/oaes_lib.c > CMakeFiles/Crypto.dir/crypto/oaes_lib.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/oaes_lib.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/oaes_lib.c -o CMakeFiles/Crypto.dir/crypto/oaes_lib.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/random.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/random.c.o: ../../src/crypto/random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/Crypto.dir/crypto/random.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/random.c.o   -c /var/www/html/jyocoin/src/crypto/random.c
-
-src/CMakeFiles/Crypto.dir/crypto/random.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/random.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/random.c > CMakeFiles/Crypto.dir/crypto/random.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/random.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/random.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/random.c -o CMakeFiles/Crypto.dir/crypto/random.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/random.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/random.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/random.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/random.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/random.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/random.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/random.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/random.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/hash.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/hash.c.o: ../../src/crypto/hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/Crypto.dir/crypto/hash.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/hash.c.o   -c /var/www/html/jyocoin/src/crypto/hash.c
-
-src/CMakeFiles/Crypto.dir/crypto/hash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/hash.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/hash.c > CMakeFiles/Crypto.dir/crypto/hash.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/hash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/hash.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/hash.c -o CMakeFiles/Crypto.dir/crypto/hash.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/hash.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/hash.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/hash.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/hash.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/hash.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o: ../../src/crypto/chacha8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/chacha8.c.o   -c /var/www/html/jyocoin/src/crypto/chacha8.c
-
-src/CMakeFiles/Crypto.dir/crypto/chacha8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/chacha8.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/chacha8.c > CMakeFiles/Crypto.dir/crypto/chacha8.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/chacha8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/chacha8.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/chacha8.c -o CMakeFiles/Crypto.dir/crypto/chacha8.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o: ../../src/crypto/crypto-ops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o   -c /var/www/html/jyocoin/src/crypto/crypto-ops.c
-
-src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/crypto-ops.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/crypto-ops.c > CMakeFiles/Crypto.dir/crypto/crypto-ops.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/crypto-ops.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/crypto-ops.c -o CMakeFiles/Crypto.dir/crypto/crypto-ops.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/keccak.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/keccak.c.o: ../../src/crypto/keccak.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/Crypto.dir/crypto/keccak.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/keccak.c.o   -c /var/www/html/jyocoin/src/crypto/keccak.c
-
-src/CMakeFiles/Crypto.dir/crypto/keccak.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/keccak.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/keccak.c > CMakeFiles/Crypto.dir/crypto/keccak.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/keccak.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/keccak.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/keccak.c -o CMakeFiles/Crypto.dir/crypto/keccak.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/keccak.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/groestl.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/groestl.c.o: ../../src/crypto/groestl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/Crypto.dir/crypto/groestl.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/groestl.c.o   -c /var/www/html/jyocoin/src/crypto/groestl.c
-
-src/CMakeFiles/Crypto.dir/crypto/groestl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/groestl.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/groestl.c > CMakeFiles/Crypto.dir/crypto/groestl.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/groestl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/groestl.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/groestl.c -o CMakeFiles/Crypto.dir/crypto/groestl.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/groestl.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o: ../../src/crypto/crypto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Crypto.dir/crypto/crypto.cpp.o -c /var/www/html/jyocoin/src/crypto/crypto.cpp
-
-src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Crypto.dir/crypto/crypto.cpp.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/src/crypto/crypto.cpp > CMakeFiles/Crypto.dir/crypto/crypto.cpp.i
-
-src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crypto.dir/crypto/crypto.cpp.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/src/crypto/crypto.cpp -o CMakeFiles/Crypto.dir/crypto/crypto.cpp.s
-
-src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.provides: src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/blake256.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/blake256.c.o: ../../src/crypto/blake256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/Crypto.dir/crypto/blake256.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/blake256.c.o   -c /var/www/html/jyocoin/src/crypto/blake256.c
-
-src/CMakeFiles/Crypto.dir/crypto/blake256.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/blake256.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/blake256.c > CMakeFiles/Crypto.dir/crypto/blake256.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/blake256.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/blake256.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/blake256.c -o CMakeFiles/Crypto.dir/crypto/blake256.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/blake256.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o: ../../src/crypto/hash-extra-blake.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o   -c /var/www/html/jyocoin/src/crypto/hash-extra-blake.c
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/hash-extra-blake.c > CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/hash-extra-blake.c -o CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o: ../../src/crypto/slow-hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/slow-hash.c.o   -c /var/www/html/jyocoin/src/crypto/slow-hash.c
-
-src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/slow-hash.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/slow-hash.c > CMakeFiles/Crypto.dir/crypto/slow-hash.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/slow-hash.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/slow-hash.c -o CMakeFiles/Crypto.dir/crypto/slow-hash.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o: ../../src/crypto/hash-extra-groestl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o   -c /var/www/html/jyocoin/src/crypto/hash-extra-groestl.c
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/hash-extra-groestl.c > CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/hash-extra-groestl.c -o CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o
-
-
-src/CMakeFiles/Crypto.dir/crypto/jh.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/jh.c.o: ../../src/crypto/jh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/Crypto.dir/crypto/jh.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/jh.c.o   -c /var/www/html/jyocoin/src/crypto/jh.c
-
-src/CMakeFiles/Crypto.dir/crypto/jh.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/jh.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/jh.c > CMakeFiles/Crypto.dir/crypto/jh.c.i
-
-src/CMakeFiles/Crypto.dir/crypto/jh.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/jh.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/jh.c -o CMakeFiles/Crypto.dir/crypto/jh.c.s
-
-src/CMakeFiles/Crypto.dir/crypto/jh.c.o.requires:
-
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/jh.c.o.requires
-
-src/CMakeFiles/Crypto.dir/crypto/jh.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/jh.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/jh.c.o.provides
-
-src/CMakeFiles/Crypto.dir/crypto/jh.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/jh.c.o
-
-
 src/CMakeFiles/Crypto.dir/crypto/skein.c.o: src/CMakeFiles/Crypto.dir/flags.make
 src/CMakeFiles/Crypto.dir/crypto/skein.c.o: ../../src/crypto/skein.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/Crypto.dir/crypto/skein.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/skein.c.o   -c /var/www/html/jyocoin/src/crypto/skein.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/Crypto.dir/crypto/skein.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/skein.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/skein.c
 
 src/CMakeFiles/Crypto.dir/crypto/skein.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/skein.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/skein.c > CMakeFiles/Crypto.dir/crypto/skein.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/skein.c > CMakeFiles/Crypto.dir/crypto/skein.c.i
 
 src/CMakeFiles/Crypto.dir/crypto/skein.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/skein.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/skein.c -o CMakeFiles/Crypto.dir/crypto/skein.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/skein.c -o CMakeFiles/Crypto.dir/crypto/skein.c.s
 
 src/CMakeFiles/Crypto.dir/crypto/skein.c.o.requires:
 
@@ -417,66 +81,90 @@ src/CMakeFiles/Crypto.dir/crypto/skein.c.o.provides: src/CMakeFiles/Crypto.dir/c
 src/CMakeFiles/Crypto.dir/crypto/skein.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/skein.c.o
 
 
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o: ../../src/crypto/hash-extra-skein.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o   -c /var/www/html/jyocoin/src/crypto/hash-extra-skein.c
+src/CMakeFiles/Crypto.dir/crypto/random.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/random.c.o: ../../src/crypto/random.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/Crypto.dir/crypto/random.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/random.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/random.c
 
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/hash-extra-skein.c > CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.i
+src/CMakeFiles/Crypto.dir/crypto/random.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/random.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/random.c > CMakeFiles/Crypto.dir/crypto/random.c.i
 
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/hash-extra-skein.c -o CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.s
+src/CMakeFiles/Crypto.dir/crypto/random.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/random.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/random.c -o CMakeFiles/Crypto.dir/crypto/random.c.s
 
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.requires:
+src/CMakeFiles/Crypto.dir/crypto/random.c.o.requires:
 
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.requires
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/random.c.o.requires
 
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.provides
+src/CMakeFiles/Crypto.dir/crypto/random.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/random.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/random.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/random.c.o.provides
 
-src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o
+src/CMakeFiles/Crypto.dir/crypto/random.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/random.c.o
 
 
-src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o: src/CMakeFiles/Crypto.dir/flags.make
-src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o: ../../src/crypto/tree-hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/tree-hash.c.o   -c /var/www/html/jyocoin/src/crypto/tree-hash.c
+src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o: ../../src/crypto/crypto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Crypto.dir/crypto/crypto.cpp.o -c /home/ubuntu/Desktop/jyocoin1/src/crypto/crypto.cpp
 
-src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/tree-hash.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/tree-hash.c > CMakeFiles/Crypto.dir/crypto/tree-hash.c.i
+src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Crypto.dir/crypto/crypto.cpp.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/crypto.cpp > CMakeFiles/Crypto.dir/crypto/crypto.cpp.i
 
-src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/tree-hash.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/tree-hash.c -o CMakeFiles/Crypto.dir/crypto/tree-hash.c.s
+src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crypto.dir/crypto/crypto.cpp.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/crypto.cpp -o CMakeFiles/Crypto.dir/crypto/crypto.cpp.s
 
-src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.requires:
+src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.requires
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.requires
 
-src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.requires
-	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.provides.build
-.PHONY : src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.provides
+src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.provides: src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.provides
 
-src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o
+src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o: ../../src/crypto/hash-extra-jh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-jh.c
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-jh.c > CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-jh.c -o CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o
 
 
 src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o: src/CMakeFiles/Crypto.dir/flags.make
 src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o: ../../src/crypto/crypto-ops-data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o   -c /var/www/html/jyocoin/src/crypto/crypto-ops-data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/crypto-ops-data.c
 
 src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/src/crypto/crypto-ops-data.c > CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/crypto-ops-data.c > CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.i
 
 src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/src/crypto/crypto-ops-data.c -o CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/crypto-ops-data.c -o CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.s
 
 src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o.requires:
 
@@ -489,18 +177,306 @@ src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o.provides: src/CMakeFiles/Cr
 src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o
 
 
+src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o: ../../src/crypto/oaes_lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/oaes_lib.c
+
+src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/oaes_lib.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/oaes_lib.c > CMakeFiles/Crypto.dir/crypto/oaes_lib.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/oaes_lib.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/oaes_lib.c -o CMakeFiles/Crypto.dir/crypto/oaes_lib.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/blake256.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/blake256.c.o: ../../src/crypto/blake256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/Crypto.dir/crypto/blake256.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/blake256.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/blake256.c
+
+src/CMakeFiles/Crypto.dir/crypto/blake256.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/blake256.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/blake256.c > CMakeFiles/Crypto.dir/crypto/blake256.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/blake256.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/blake256.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/blake256.c -o CMakeFiles/Crypto.dir/crypto/blake256.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/blake256.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o: ../../src/crypto/crypto-ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/crypto-ops.c
+
+src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/crypto-ops.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/crypto-ops.c > CMakeFiles/Crypto.dir/crypto/crypto-ops.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/crypto-ops.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/crypto-ops.c -o CMakeFiles/Crypto.dir/crypto/crypto-ops.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o: ../../src/crypto/hash-extra-groestl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-groestl.c
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-groestl.c > CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-groestl.c -o CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o: ../../src/crypto/slow-hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/slow-hash.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/slow-hash.c
+
+src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/slow-hash.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/slow-hash.c > CMakeFiles/Crypto.dir/crypto/slow-hash.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/slow-hash.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/slow-hash.c -o CMakeFiles/Crypto.dir/crypto/slow-hash.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/hash.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/hash.c.o: ../../src/crypto/hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/Crypto.dir/crypto/hash.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/hash.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.c
+
+src/CMakeFiles/Crypto.dir/crypto/hash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/hash.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.c > CMakeFiles/Crypto.dir/crypto/hash.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/hash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/hash.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.c -o CMakeFiles/Crypto.dir/crypto/hash.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/hash.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/hash.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/hash.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/hash.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/hash.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/jh.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/jh.c.o: ../../src/crypto/jh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/Crypto.dir/crypto/jh.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/jh.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/jh.c
+
+src/CMakeFiles/Crypto.dir/crypto/jh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/jh.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/jh.c > CMakeFiles/Crypto.dir/crypto/jh.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/jh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/jh.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/jh.c -o CMakeFiles/Crypto.dir/crypto/jh.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/jh.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/jh.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/jh.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/jh.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/jh.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/jh.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/jh.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o: ../../src/crypto/chacha8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/chacha8.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/chacha8.c
+
+src/CMakeFiles/Crypto.dir/crypto/chacha8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/chacha8.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/chacha8.c > CMakeFiles/Crypto.dir/crypto/chacha8.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/chacha8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/chacha8.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/chacha8.c -o CMakeFiles/Crypto.dir/crypto/chacha8.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o: ../../src/crypto/tree-hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/tree-hash.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/tree-hash.c
+
+src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/tree-hash.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/tree-hash.c > CMakeFiles/Crypto.dir/crypto/tree-hash.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/tree-hash.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/tree-hash.c -o CMakeFiles/Crypto.dir/crypto/tree-hash.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o: ../../src/crypto/hash-extra-blake.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-blake.c
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-blake.c > CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-blake.c -o CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/groestl.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/groestl.c.o: ../../src/crypto/groestl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/Crypto.dir/crypto/groestl.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/groestl.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/groestl.c
+
+src/CMakeFiles/Crypto.dir/crypto/groestl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/groestl.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/groestl.c > CMakeFiles/Crypto.dir/crypto/groestl.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/groestl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/groestl.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/groestl.c -o CMakeFiles/Crypto.dir/crypto/groestl.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/groestl.c.o
+
+
+src/CMakeFiles/Crypto.dir/crypto/keccak.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/keccak.c.o: ../../src/crypto/keccak.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/Crypto.dir/crypto/keccak.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/keccak.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/keccak.c
+
+src/CMakeFiles/Crypto.dir/crypto/keccak.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/keccak.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/keccak.c > CMakeFiles/Crypto.dir/crypto/keccak.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/keccak.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/keccak.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/keccak.c -o CMakeFiles/Crypto.dir/crypto/keccak.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/keccak.c.o
+
+
 src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o: src/CMakeFiles/Crypto.dir/flags.make
 src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o: ../../src/crypto/cn_context.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o -c /var/www/html/jyocoin/src/crypto/cn_context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o -c /home/ubuntu/Desktop/jyocoin1/src/crypto/cn_context.cpp
 
 src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Crypto.dir/crypto/cn_context.cpp.i"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/src/crypto/cn_context.cpp > CMakeFiles/Crypto.dir/crypto/cn_context.cpp.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/cn_context.cpp > CMakeFiles/Crypto.dir/crypto/cn_context.cpp.i
 
 src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Crypto.dir/crypto/cn_context.cpp.s"
-	cd /var/www/html/jyocoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/src/crypto/cn_context.cpp -o CMakeFiles/Crypto.dir/crypto/cn_context.cpp.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/cn_context.cpp -o CMakeFiles/Crypto.dir/crypto/cn_context.cpp.s
 
 src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o.requires:
 
@@ -513,88 +489,112 @@ src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o.provides: src/CMakeFiles/Crypt
 src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o
 
 
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o: src/CMakeFiles/Crypto.dir/flags.make
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o: ../../src/crypto/hash-extra-skein.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o   -c /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-skein.c
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.i"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-skein.c > CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.i
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.s"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-skein.c -o CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.s
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.requires:
+
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.requires
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.provides: src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.requires
+	$(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.provides.build
+.PHONY : src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.provides
+
+src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.provides.build: src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o
+
+
 # Object files for target Crypto
 Crypto_OBJECTS = \
-"CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o" \
-"CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o" \
-"CMakeFiles/Crypto.dir/crypto/random.c.o" \
-"CMakeFiles/Crypto.dir/crypto/hash.c.o" \
-"CMakeFiles/Crypto.dir/crypto/chacha8.c.o" \
-"CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o" \
-"CMakeFiles/Crypto.dir/crypto/keccak.c.o" \
-"CMakeFiles/Crypto.dir/crypto/groestl.c.o" \
-"CMakeFiles/Crypto.dir/crypto/crypto.cpp.o" \
-"CMakeFiles/Crypto.dir/crypto/blake256.c.o" \
-"CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o" \
-"CMakeFiles/Crypto.dir/crypto/slow-hash.c.o" \
-"CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o" \
-"CMakeFiles/Crypto.dir/crypto/jh.c.o" \
 "CMakeFiles/Crypto.dir/crypto/skein.c.o" \
-"CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o" \
-"CMakeFiles/Crypto.dir/crypto/tree-hash.c.o" \
+"CMakeFiles/Crypto.dir/crypto/random.c.o" \
+"CMakeFiles/Crypto.dir/crypto/crypto.cpp.o" \
+"CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o" \
 "CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o" \
-"CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o"
+"CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o" \
+"CMakeFiles/Crypto.dir/crypto/blake256.c.o" \
+"CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o" \
+"CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o" \
+"CMakeFiles/Crypto.dir/crypto/slow-hash.c.o" \
+"CMakeFiles/Crypto.dir/crypto/hash.c.o" \
+"CMakeFiles/Crypto.dir/crypto/jh.c.o" \
+"CMakeFiles/Crypto.dir/crypto/chacha8.c.o" \
+"CMakeFiles/Crypto.dir/crypto/tree-hash.c.o" \
+"CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o" \
+"CMakeFiles/Crypto.dir/crypto/groestl.c.o" \
+"CMakeFiles/Crypto.dir/crypto/keccak.c.o" \
+"CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o" \
+"CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o"
 
 # External object files for target Crypto
 Crypto_EXTERNAL_OBJECTS =
 
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/random.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/hash.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/keccak.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/groestl.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/blake256.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/jh.c.o
 src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/skein.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o
-src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/random.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o
 src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/blake256.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/hash.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/jh.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/groestl.c.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/keccak.c.o
 src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o
+src/libCrypto.a: src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o
 src/libCrypto.a: src/CMakeFiles/Crypto.dir/build.make
 src/libCrypto.a: src/CMakeFiles/Crypto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library libCrypto.a"
-	cd /var/www/html/jyocoin/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/Crypto.dir/cmake_clean_target.cmake
-	cd /var/www/html/jyocoin/build/release/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Crypto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library libCrypto.a"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/Crypto.dir/cmake_clean_target.cmake
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Crypto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/Crypto.dir/build: src/libCrypto.a
 
 .PHONY : src/CMakeFiles/Crypto.dir/build
 
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/random.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/hash.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/jh.c.o.requires
 src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/skein.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.requires
-src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/random.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o.requires
 src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/blake256.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/hash.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/jh.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/groestl.c.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/keccak.c.o.requires
 src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o.requires
+src/CMakeFiles/Crypto.dir/requires: src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o.requires
 
 .PHONY : src/CMakeFiles/Crypto.dir/requires
 
 src/CMakeFiles/Crypto.dir/clean:
-	cd /var/www/html/jyocoin/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/Crypto.dir/cmake_clean.cmake
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/Crypto.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Crypto.dir/clean
 
 src/CMakeFiles/Crypto.dir/depend:
-	cd /var/www/html/jyocoin/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin /var/www/html/jyocoin/src /var/www/html/jyocoin/build/release /var/www/html/jyocoin/build/release/src /var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1 /home/ubuntu/Desktop/jyocoin1/src /home/ubuntu/Desktop/jyocoin1/build/release /home/ubuntu/Desktop/jyocoin1/build/release/src /home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Crypto.dir/depend
 

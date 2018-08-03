@@ -77,14 +77,14 @@ src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Wallet/LegacyKeysImporter.cpp
- /var/www/html/jyocoin/src/Wallet/LegacyKeysImporter.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/LegacyKeysImporter.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/LegacyKeysImporter.h
 src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.o
- /var/www/html/jyocoin/src/Wallet/WalletAsyncContextCounter.cpp
- /var/www/html/jyocoin/src/Wallet/WalletAsyncContextCounter.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletAsyncContextCounter.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletAsyncContextCounter.h
 src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.o
- /var/www/html/jyocoin/src/Wallet/WalletErrors.cpp
- /var/www/html/jyocoin/src/Wallet/WalletErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletErrors.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletErrors.h
 src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -158,14 +158,14 @@ src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Wallet/IFusionManager.h
- /var/www/html/jyocoin/src/Wallet/WalletErrors.h
- /var/www/html/jyocoin/src/Wallet/WalletGreen.cpp
- /var/www/html/jyocoin/src/Wallet/WalletGreen.h
- /var/www/html/jyocoin/src/Wallet/WalletIndices.h
- /var/www/html/jyocoin/src/Wallet/WalletSerializationV1.h
- /var/www/html/jyocoin/src/Wallet/WalletSerializationV2.h
- /var/www/html/jyocoin/src/Wallet/WalletUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/IFusionManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletGreen.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletGreen.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletIndices.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletSerializationV1.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletSerializationV2.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletUtils.h
 src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -249,10 +249,10 @@ src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Wallet/WalletRpcServer.cpp
- /var/www/html/jyocoin/src/Wallet/WalletRpcServer.h
- /var/www/html/jyocoin/src/Wallet/WalletRpcServerCommandsDefinitions.h
- /var/www/html/jyocoin/src/Wallet/WalletRpcServerErrorCodes.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletRpcServer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletRpcServer.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletRpcServerCommandsDefinitions.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletRpcServerErrorCodes.h
 src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV1.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -317,8 +317,8 @@ src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV1.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Wallet/WalletSerializationV1.cpp
- /var/www/html/jyocoin/src/Wallet/WalletSerializationV1.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletSerializationV1.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletSerializationV1.h
 src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV2.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -356,8 +356,8 @@ src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV2.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Wallet/WalletSerializationV2.cpp
- /var/www/html/jyocoin/src/Wallet/WalletSerializationV2.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletSerializationV2.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletSerializationV2.h
 src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -410,8 +410,8 @@ src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Wallet/WalletUtils.cpp
- /var/www/html/jyocoin/src/Wallet/WalletUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletUtils.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Wallet/WalletUtils.h
 src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -430,8 +430,8 @@ src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/WalletLegacy/KeysStorage.cpp
- /var/www/html/jyocoin/src/WalletLegacy/KeysStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/KeysStorage.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/KeysStorage.h
 src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -442,8 +442,8 @@ src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
- /var/www/html/jyocoin/src/WalletLegacy/WalletHelper.cpp
- /var/www/html/jyocoin/src/WalletLegacy/WalletHelper.h
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletHelper.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletHelper.h
 src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -508,8 +508,8 @@ src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/WalletLegacy/WalletLegacy.cpp
- /var/www/html/jyocoin/src/WalletLegacy/WalletLegacy.h
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletLegacy.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletLegacy.h
 src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -532,8 +532,8 @@ src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/WalletLegacy/WalletLegacySerialization.cpp
- /var/www/html/jyocoin/src/WalletLegacy/WalletLegacySerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletLegacySerialization.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletLegacySerialization.h
 src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -600,8 +600,8 @@ src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/WalletLegacy/WalletLegacySerializer.cpp
- /var/www/html/jyocoin/src/WalletLegacy/WalletLegacySerializer.h
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletLegacySerializer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletLegacySerializer.h
 src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -658,7 +658,7 @@ src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/WalletLegacy/WalletTransactionSender.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletTransactionSender.cpp
 src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -690,8 +690,8 @@ src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/WalletLegacy/WalletUnconfirmedTransactions.cpp
- /var/www/html/jyocoin/src/WalletLegacy/WalletUnconfirmedTransactions.h
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletUnconfirmedTransactions.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletUnconfirmedTransactions.h
 src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -718,4 +718,4 @@ src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/WalletLegacy/WalletUserTransactionsCache.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/WalletLegacy/WalletUserTransactionsCache.cpp

@@ -7,10 +7,10 @@ src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cp
  ../../src/Common/Util.h
  ../../src/P2p/NetNodeConfig.h
  ../../src/P2p/P2pProtocolTypes.h
- /var/www/html/jyocoin/src/PaymentGateService/ConfigurationManager.cpp
- /var/www/html/jyocoin/src/PaymentGateService/ConfigurationManager.h
- /var/www/html/jyocoin/src/PaymentGateService/PaymentServiceConfiguration.h
- /var/www/html/jyocoin/src/PaymentGateService/RpcNodeConfiguration.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/ConfigurationManager.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/ConfigurationManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/PaymentServiceConfiguration.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/RpcNodeConfiguration.h
  version/version.h
 src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.o
  ../../external/rocksdb/include/rocksdb/advanced_options.h
@@ -180,18 +180,18 @@ src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/PaymentGateService/ConfigurationManager.h
- /var/www/html/jyocoin/src/PaymentGateService/PaymentGateService.cpp
- /var/www/html/jyocoin/src/PaymentGateService/PaymentGateService.h
- /var/www/html/jyocoin/src/PaymentGateService/PaymentServiceConfiguration.h
- /var/www/html/jyocoin/src/PaymentGateService/RpcNodeConfiguration.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/ConfigurationManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/PaymentGateService.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/PaymentGateService.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/PaymentServiceConfiguration.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/RpcNodeConfiguration.h
 src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.o
  ../../src/Logging/ILogger.h
- /var/www/html/jyocoin/src/PaymentGateService/PaymentServiceConfiguration.cpp
- /var/www/html/jyocoin/src/PaymentGateService/PaymentServiceConfiguration.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/PaymentServiceConfiguration.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/PaymentServiceConfiguration.h
 src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.o
- /var/www/html/jyocoin/src/PaymentGateService/RpcNodeConfiguration.cpp
- /var/www/html/jyocoin/src/PaymentGateService/RpcNodeConfiguration.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/RpcNodeConfiguration.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/RpcNodeConfiguration.h
 src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -236,9 +236,9 @@ src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/PaymentGateService/ConfigurationManager.h
- /var/www/html/jyocoin/src/PaymentGateService/PaymentGateService.h
- /var/www/html/jyocoin/src/PaymentGateService/PaymentServiceConfiguration.h
- /var/www/html/jyocoin/src/PaymentGateService/RpcNodeConfiguration.h
- /var/www/html/jyocoin/src/PaymentGateService/main.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/ConfigurationManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/PaymentGateService.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/PaymentServiceConfiguration.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/RpcNodeConfiguration.h
+ /home/ubuntu/Desktop/jyocoin1/src/PaymentGateService/main.cpp
  version/version.h

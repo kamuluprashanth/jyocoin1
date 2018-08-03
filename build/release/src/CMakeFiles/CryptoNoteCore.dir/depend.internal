@@ -15,22 +15,22 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Account.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/Account.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Account.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Account.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/AddBlockErrorCondition.cpp.o
- /var/www/html/jyocoin/src/CryptoNoteCore/AddBlockErrorCondition.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/AddBlockErrorCondition.h
- /var/www/html/jyocoin/src/CryptoNoteCore/AddBlockErrors.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockValidationErrors.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionValidationErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/AddBlockErrorCondition.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/AddBlockErrorCondition.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/AddBlockErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockValidationErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionValidationErrors.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/AddBlockErrors.cpp.o
- /var/www/html/jyocoin/src/CryptoNoteCore/AddBlockErrors.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/AddBlockErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/AddBlockErrors.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/AddBlockErrors.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockValidationErrors.cpp.o
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockValidationErrors.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockValidationErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockValidationErrors.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockValidationErrors.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainCache.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -71,25 +71,25 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainCache.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteConfig.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainCache.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedBlock.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedTransaction.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Currency.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Difficulty.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IBlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionValidatiorState.h
- /var/www/html/jyocoin/src/Logging/ILogger.h
- /var/www/html/jyocoin/src/Logging/LoggerMessage.h
- /var/www/html/jyocoin/src/Logging/LoggerRef.h
- /var/www/html/jyocoin/src/crypto/hash.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainCache.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedBlock.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedTransaction.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Currency.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Difficulty.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IBlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionValidatiorState.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
  ../../src/CryptoNoteCore/BlockchainMessages.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainMessages.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainMessages.cpp
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainReadBatch.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -127,23 +127,23 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainReadBatch.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Common/static_assert.h
- /var/www/html/jyocoin/src/CryptoNoteConfig.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainReadBatch.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainReadBatch.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedBlock.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Currency.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DBUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DatabaseCacheData.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Difficulty.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IBlockchainCache.h
- /var/www/html/jyocoin/src/Logging/ILogger.h
- /var/www/html/jyocoin/src/Logging/LoggerMessage.h
- /var/www/html/jyocoin/src/Logging/LoggerRef.h
- /var/www/html/jyocoin/src/crypto/hash-ops.h
- /var/www/html/jyocoin/src/crypto/hash.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/static_assert.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainReadBatch.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainReadBatch.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedBlock.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Currency.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DBUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DatabaseCacheData.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Difficulty.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IBlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainStorage.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -158,10 +158,10 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainStorage.cpp.o
  ../../src/Serialization/BinaryOutputStreamSerializer.h
  ../../src/Serialization/ISerializer.h
  ../../src/Serialization/SerializationOverloads.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainStorage.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/MemoryBlockchainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/SwappedBlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainStorage.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MemoryBlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/SwappedBlockchainStorage.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainUtils.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -184,12 +184,12 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainUtils.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainUtils.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedTransaction.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainUtils.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedTransaction.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainWriteBatch.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -227,23 +227,23 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainWriteBatch.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Common/static_assert.h
- /var/www/html/jyocoin/src/CryptoNoteConfig.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainWriteBatch.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainWriteBatch.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedBlock.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Currency.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DBUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DatabaseCacheData.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Difficulty.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IBlockchainCache.h
- /var/www/html/jyocoin/src/Logging/ILogger.h
- /var/www/html/jyocoin/src/Logging/LoggerMessage.h
- /var/www/html/jyocoin/src/Logging/LoggerRef.h
- /var/www/html/jyocoin/src/crypto/hash-ops.h
- /var/www/html/jyocoin/src/crypto/hash.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/static_assert.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainWriteBatch.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainWriteBatch.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedBlock.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Currency.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DBUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DatabaseCacheData.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Difficulty.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IBlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CachedBlock.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -267,11 +267,11 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CachedBlock.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedBlock.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedBlock.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedBlock.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedBlock.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CachedTransaction.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -295,11 +295,11 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CachedTransaction.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedTransaction.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedTransaction.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedTransaction.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedTransaction.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -315,9 +315,9 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Checkpoints.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/Checkpoints.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Checkpoints.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Checkpoints.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasicImpl.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -372,50 +372,50 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Common/static_assert.h
- /var/www/html/jyocoin/src/CryptoNoteConfig.h
- /var/www/html/jyocoin/src/CryptoNoteCore/AddBlockErrorCondition.h
- /var/www/html/jyocoin/src/CryptoNoteCore/AddBlockErrors.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockValidationErrors.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainMessages.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedBlock.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedTransaction.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Checkpoints.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Core.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/Core.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CoreStatistics.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Currency.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Difficulty.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IBlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IBlockchainCacheFactory.h
- /var/www/html/jyocoin/src/CryptoNoteCore/ICore.h
- /var/www/html/jyocoin/src/CryptoNoteCore/ICoreDefinitions.h
- /var/www/html/jyocoin/src/CryptoNoteCore/ICoreInformation.h
- /var/www/html/jyocoin/src/CryptoNoteCore/ICoreObserver.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IMainChainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/ITransactionPool.h
- /var/www/html/jyocoin/src/CryptoNoteCore/ITransactionPoolCleaner.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IUpgradeManager.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IntrusiveLinkedList.h
- /var/www/html/jyocoin/src/CryptoNoteCore/MessageQueue.h
- /var/www/html/jyocoin/src/CryptoNoteCore/SwappedVector.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionApi.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionValidationErrors.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionValidatiorState.h
- /var/www/html/jyocoin/src/Logging/LoggerRef.h
- /var/www/html/jyocoin/src/crypto/hash-ops.h
- /var/www/html/jyocoin/src/crypto/hash.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/static_assert.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/AddBlockErrorCondition.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/AddBlockErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockValidationErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainMessages.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedBlock.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedTransaction.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Checkpoints.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Core.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Core.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CoreStatistics.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Currency.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Difficulty.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IBlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IBlockchainCacheFactory.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ICore.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ICoreDefinitions.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ICoreInformation.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ICoreObserver.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IMainChainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ITransactionPool.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ITransactionPoolCleaner.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IUpgradeManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IntrusiveLinkedList.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MessageQueue.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/SwappedVector.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionApi.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionValidationErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionValidatiorState.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreErrors.cpp.o
- /var/www/html/jyocoin/src/CryptoNoteCore/CoreErrors.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/CoreErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CoreErrors.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CoreErrors.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -426,8 +426,8 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -452,12 +452,12 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasicImpl.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasicImpl.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -485,14 +485,14 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Account.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteFormatUtils.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionExtra.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Account.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteFormatUtils.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionExtra.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -517,13 +517,13 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Account.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionExtra.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Account.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionExtra.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -546,11 +546,11 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -575,29 +575,29 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.o
  ../../src/crypto/crypto.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Common/Base58.h
- /var/www/html/jyocoin/src/Common/StringTools.h
- /var/www/html/jyocoin/src/Common/int-util.h
- /var/www/html/jyocoin/src/Common/static_assert.h
- /var/www/html/jyocoin/src/CryptoNoteConfig.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Account.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedBlock.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Currency.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/Currency.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Difficulty.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionExtra.h
- /var/www/html/jyocoin/src/CryptoNoteCore/UpgradeDetector.h
- /var/www/html/jyocoin/src/Logging/ILogger.h
- /var/www/html/jyocoin/src/Logging/LoggerMessage.h
- /var/www/html/jyocoin/src/Logging/LoggerRef.h
- /var/www/html/jyocoin/src/crypto/generic-ops.h
- /var/www/html/jyocoin/src/crypto/hash-ops.h
- /var/www/html/jyocoin/src/crypto/hash.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/Base58.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/StringTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/int-util.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/static_assert.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Account.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedBlock.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Currency.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Currency.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Difficulty.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionExtra.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/UpgradeDetector.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/generic-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DBUtils.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -626,8 +626,8 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DBUtils.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DBUtils.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/DBUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DBUtils.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DBUtils.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DataBaseConfig.cpp.o
  ../../include/CryptoTypes.h
  ../../src/Common/CommandLine.h
@@ -641,11 +641,11 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DataBaseConfig.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DataBaseConfig.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/DataBaseConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DataBaseConfig.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DataBaseConfig.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DataBaseErrors.cpp.o
- /var/www/html/jyocoin/src/CryptoNoteCore/DataBaseErrors.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/DataBaseErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DataBaseErrors.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DataBaseErrors.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DatabaseBlockchainCache.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -697,10 +697,10 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DatabaseBlockchainCache.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedTransaction.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DatabaseBlockchainCache.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedTransaction.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DatabaseBlockchainCache.cpp
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DatabaseBlockchainCacheFactory.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -728,24 +728,24 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DatabaseBlockchainCacheFactory.
  ../../src/crypto/crypto.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Common/static_assert.h
- /var/www/html/jyocoin/src/CryptoNoteConfig.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedBlock.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Currency.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DatabaseBlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DatabaseBlockchainCacheFactory.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/DatabaseBlockchainCacheFactory.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Difficulty.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IBlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IBlockchainCacheFactory.h
- /var/www/html/jyocoin/src/Logging/LoggerMessage.h
- /var/www/html/jyocoin/src/Logging/LoggerRef.h
- /var/www/html/jyocoin/src/crypto/generic-ops.h
- /var/www/html/jyocoin/src/crypto/hash-ops.h
- /var/www/html/jyocoin/src/crypto/hash.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/static_assert.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedBlock.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Currency.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DatabaseBlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DatabaseBlockchainCacheFactory.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DatabaseBlockchainCacheFactory.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Difficulty.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IBlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IBlockchainCacheFactory.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/generic-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DatabaseCacheData.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -787,7 +787,7 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/DatabaseCacheData.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DatabaseCacheData.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DatabaseCacheData.cpp
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.o
  ../../include/CryptoTypes.h
  ../../src/Common/int-util.h
@@ -796,11 +796,11 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Difficulty.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/Difficulty.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Difficulty.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Difficulty.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.o
- /var/www/html/jyocoin/src/CryptoNoteCore/ITimeProvider.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/ITimeProvider.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ITimeProvider.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ITimeProvider.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MainChainStorage.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -822,24 +822,24 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MainChainStorage.cpp.o
  ../../src/crypto/crypto.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Common/static_assert.h
- /var/www/html/jyocoin/src/CryptoNoteConfig.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedBlock.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Currency.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Difficulty.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IMainChainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/MainChainStorage.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/MainChainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/SwappedVector.h
- /var/www/html/jyocoin/src/Logging/ILogger.h
- /var/www/html/jyocoin/src/Logging/LoggerMessage.h
- /var/www/html/jyocoin/src/Logging/LoggerRef.h
- /var/www/html/jyocoin/src/crypto/generic-ops.h
- /var/www/html/jyocoin/src/crypto/hash-ops.h
- /var/www/html/jyocoin/src/crypto/hash.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/static_assert.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedBlock.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Currency.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Difficulty.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IMainChainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MainChainStorage.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MainChainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/SwappedVector.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/generic-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MemoryBlockchainCacheFactory.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -857,24 +857,24 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MemoryBlockchainCacheFactory.cp
  ../../src/crypto/crypto.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Common/static_assert.h
- /var/www/html/jyocoin/src/CryptoNoteConfig.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/BlockchainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedBlock.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Currency.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Difficulty.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IBlockchainCache.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IBlockchainCacheFactory.h
- /var/www/html/jyocoin/src/CryptoNoteCore/MemoryBlockchainCacheFactory.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/MemoryBlockchainCacheFactory.h
- /var/www/html/jyocoin/src/Logging/ILogger.h
- /var/www/html/jyocoin/src/Logging/LoggerMessage.h
- /var/www/html/jyocoin/src/Logging/LoggerRef.h
- /var/www/html/jyocoin/src/crypto/generic-ops.h
- /var/www/html/jyocoin/src/crypto/hash-ops.h
- /var/www/html/jyocoin/src/crypto/hash.h
+ /home/ubuntu/Desktop/jyocoin1/src/Common/static_assert.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/BlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedBlock.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Currency.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Difficulty.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IBlockchainCache.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IBlockchainCacheFactory.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MemoryBlockchainCacheFactory.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MemoryBlockchainCacheFactory.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.h
+ /home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/generic-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash-ops.h
+ /home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MemoryBlockchainStorage.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -882,8 +882,8 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MemoryBlockchainStorage.cpp.o
  ../../src/CryptoNoteCore/BlockchainStorage.h
  ../../src/Serialization/ISerializer.h
  ../../src/Serialization/SerializationOverloads.h
- /var/www/html/jyocoin/src/CryptoNoteCore/MemoryBlockchainStorage.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/MemoryBlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MemoryBlockchainStorage.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MemoryBlockchainStorage.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -925,16 +925,16 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Miner.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/Miner.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionExtra.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Miner.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Miner.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionExtra.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.o
  ../../src/Common/CommandLine.h
- /var/www/html/jyocoin/src/CryptoNoteCore/MinerConfig.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/MinerConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MinerConfig.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MinerConfig.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/RocksDBWrapper.cpp.o
  ../../external/rocksdb/include/rocksdb/advanced_options.h
  ../../external/rocksdb/include/rocksdb/cache.h
@@ -971,10 +971,10 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/RocksDBWrapper.cpp.o
  ../../src/Logging/ILogger.h
  ../../src/Logging/LoggerMessage.h
  ../../src/Logging/LoggerRef.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DataBaseConfig.h
- /var/www/html/jyocoin/src/CryptoNoteCore/DataBaseErrors.h
- /var/www/html/jyocoin/src/CryptoNoteCore/RocksDBWrapper.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/RocksDBWrapper.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DataBaseConfig.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/DataBaseErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/RocksDBWrapper.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/RocksDBWrapper.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedBlockchainStorage.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -999,13 +999,13 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedBlockchainStorage.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/ICoreDefinitions.h
- /var/www/html/jyocoin/src/CryptoNoteCore/MemoryBlockchainStorage.h
- /var/www/html/jyocoin/src/CryptoNoteCore/SwappedBlockchainStorage.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/SwappedBlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ICoreDefinitions.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/MemoryBlockchainStorage.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/SwappedBlockchainStorage.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/SwappedBlockchainStorage.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.o
- /var/www/html/jyocoin/src/CryptoNoteCore/SwappedMap.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/SwappedMap.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/SwappedMap.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/SwappedMap.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.o
  ../../src/Common/IInputStream.h
  ../../src/Common/IOutputStream.h
@@ -1016,8 +1016,8 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.o
  ../../src/Serialization/BinaryOutputStreamSerializer.h
  ../../src/Serialization/ISerializer.h
  ../../src/Serialization/SerializationOverloads.h
- /var/www/html/jyocoin/src/CryptoNoteCore/SwappedVector.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/SwappedVector.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/SwappedVector.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/SwappedVector.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -1044,13 +1044,13 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Account.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/Transaction.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionApiExtra.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionExtra.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Account.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/Transaction.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionApiExtra.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionExtra.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionUtils.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -1074,11 +1074,11 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteTools.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionExtra.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionExtra.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteTools.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionExtra.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionExtra.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -1095,12 +1095,12 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedTransaction.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
- /var/www/html/jyocoin/src/CryptoNoteCore/ITransactionPool.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionPool.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionPool.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionValidatiorState.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedTransaction.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ITransactionPool.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionPool.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionPool.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionValidatiorState.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPoolCleaner.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -1121,16 +1121,16 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPoolCleaner.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedTransaction.h
- /var/www/html/jyocoin/src/CryptoNoteCore/ITransactionPool.h
- /var/www/html/jyocoin/src/CryptoNoteCore/ITransactionPoolCleaner.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionPoolCleaner.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionPoolCleaner.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedTransaction.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ITransactionPool.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/ITransactionPoolCleaner.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionPoolCleaner.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionPoolCleaner.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPoolMessages.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
  ../../src/CryptoNoteCore/TransactionPoolMessages.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionPoolMessages.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionPoolMessages.cpp
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -1160,8 +1160,8 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionPrefixImpl.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionPrefixImpl.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionUtils.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -1183,15 +1183,15 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionExtra.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionUtils.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteBasic.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionExtra.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionUtils.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionUtils.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionValidationErrors.cpp.o
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionValidationErrors.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionValidationErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionValidationErrors.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionValidationErrors.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionValidatiorState.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -1202,9 +1202,9 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionValidatiorState.cpp.
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/CachedTransaction.h
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionValidatiorState.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/TransactionValidatiorState.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/CachedTransaction.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionValidatiorState.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/TransactionValidatiorState.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/UpgradeDetector.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -1235,9 +1235,9 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/UpgradeDetector.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IUpgradeDetector.h
- /var/www/html/jyocoin/src/CryptoNoteCore/UpgradeDetector.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/UpgradeDetector.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IUpgradeDetector.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/UpgradeDetector.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/UpgradeDetector.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/UpgradeManager.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -1254,7 +1254,7 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/UpgradeManager.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IUpgradeDetector.h
- /var/www/html/jyocoin/src/CryptoNoteCore/IUpgradeManager.h
- /var/www/html/jyocoin/src/CryptoNoteCore/UpgradeManager.cpp
- /var/www/html/jyocoin/src/CryptoNoteCore/UpgradeManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IUpgradeDetector.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/IUpgradeManager.h
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/UpgradeManager.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/CryptoNoteCore/UpgradeManager.h

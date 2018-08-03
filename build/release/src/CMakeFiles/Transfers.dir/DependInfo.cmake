@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/var/www/html/jyocoin/src/Transfers/BlockchainSynchronizer.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o"
-  "/var/www/html/jyocoin/src/Transfers/SynchronizationState.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o"
-  "/var/www/html/jyocoin/src/Transfers/TransfersConsumer.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o"
-  "/var/www/html/jyocoin/src/Transfers/TransfersContainer.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o"
-  "/var/www/html/jyocoin/src/Transfers/TransfersSubscription.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o"
-  "/var/www/html/jyocoin/src/Transfers/TransfersSynchronizer.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Transfers/BlockchainSynchronizer.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Transfers/SynchronizationState.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Transfers/TransfersConsumer.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Transfers/TransfersContainer.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Transfers/TransfersSubscription.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Transfers/TransfersSynchronizer.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

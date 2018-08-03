@@ -7,11 +7,11 @@ C_FLAGS =  -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings
 
 C_DEFINES = -DSTATICLIB
 
-C_INCLUDES = -I/var/www/html/jyocoin/include -I/var/www/html/jyocoin/src -I/var/www/html/jyocoin/external -I/var/www/html/jyocoin/build/release/version -I/var/www/html/jyocoin/src/Platform/Linux -I/var/www/html/jyocoin/src/Platform/Posix -I/var/www/html/jyocoin/external/rocksdb/include 
+C_INCLUDES = -I/home/ubuntu/Desktop/jyocoin1/include -I/home/ubuntu/Desktop/jyocoin1/src -I/home/ubuntu/Desktop/jyocoin1/external -I/home/ubuntu/Desktop/jyocoin1/build/release/version -I/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux -I/home/ubuntu/Desktop/jyocoin1/src/Platform/Posix -I/home/ubuntu/Desktop/jyocoin1/external/rocksdb/include 
 
 CXX_FLAGS =  -pthread -std=c++11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Wno-reorder -Wno-missing-field-initializers  -maes -O3 -DNDEBUG -Ofast -DNDEBUG -Wno-unused-variable   -D_DEFAULT_SOURCE -D_GNU_SOURCE
 
 CXX_DEFINES = -DSTATICLIB
 
-CXX_INCLUDES = -I/var/www/html/jyocoin/include -I/var/www/html/jyocoin/src -I/var/www/html/jyocoin/external -I/var/www/html/jyocoin/build/release/version -I/var/www/html/jyocoin/src/Platform/Linux -I/var/www/html/jyocoin/src/Platform/Posix -I/var/www/html/jyocoin/external/rocksdb/include 
+CXX_INCLUDES = -I/home/ubuntu/Desktop/jyocoin1/include -I/home/ubuntu/Desktop/jyocoin1/src -I/home/ubuntu/Desktop/jyocoin1/external -I/home/ubuntu/Desktop/jyocoin1/build/release/version -I/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux -I/home/ubuntu/Desktop/jyocoin1/src/Platform/Posix -I/home/ubuntu/Desktop/jyocoin1/external/rocksdb/include 
 

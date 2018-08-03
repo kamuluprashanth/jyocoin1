@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release
 
 # Include any dependencies generated for this target.
 include external/miniupnpc/CMakeFiles/upnpc-static.dir/depend.make
@@ -59,16 +59,16 @@ include external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o: ../../external/miniupnpc/igd_desc_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o   -c /var/www/html/jyocoin/external/miniupnpc/igd_desc_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/igd_desc_parse.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/igd_desc_parse.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/igd_desc_parse.c > CMakeFiles/upnpc-static.dir/igd_desc_parse.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/igd_desc_parse.c > CMakeFiles/upnpc-static.dir/igd_desc_parse.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/igd_desc_parse.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/igd_desc_parse.c -o CMakeFiles/upnpc-static.dir/igd_desc_parse.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/igd_desc_parse.c -o CMakeFiles/upnpc-static.dir/igd_desc_parse.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o.requires:
 
@@ -83,16 +83,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o.provides.build
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o: ../../external/miniupnpc/miniupnpc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/miniupnpc.c.o   -c /var/www/html/jyocoin/external/miniupnpc/miniupnpc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/miniupnpc.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/miniupnpc.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/miniupnpc.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/miniupnpc.c > CMakeFiles/upnpc-static.dir/miniupnpc.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/miniupnpc.c > CMakeFiles/upnpc-static.dir/miniupnpc.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/miniupnpc.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/miniupnpc.c -o CMakeFiles/upnpc-static.dir/miniupnpc.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/miniupnpc.c -o CMakeFiles/upnpc-static.dir/miniupnpc.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o.requires:
 
@@ -107,16 +107,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o.provides.build: ext
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o: ../../external/miniupnpc/minixml.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minixml.c.o   -c /var/www/html/jyocoin/external/miniupnpc/minixml.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minixml.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minixml.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/minixml.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/minixml.c > CMakeFiles/upnpc-static.dir/minixml.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minixml.c > CMakeFiles/upnpc-static.dir/minixml.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/minixml.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/minixml.c -o CMakeFiles/upnpc-static.dir/minixml.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minixml.c -o CMakeFiles/upnpc-static.dir/minixml.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o.requires:
 
@@ -131,16 +131,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o.provides.build: exter
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o: ../../external/miniupnpc/minisoap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minisoap.c.o   -c /var/www/html/jyocoin/external/miniupnpc/minisoap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minisoap.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minisoap.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/minisoap.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/minisoap.c > CMakeFiles/upnpc-static.dir/minisoap.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minisoap.c > CMakeFiles/upnpc-static.dir/minisoap.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/minisoap.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/minisoap.c -o CMakeFiles/upnpc-static.dir/minisoap.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minisoap.c -o CMakeFiles/upnpc-static.dir/minisoap.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o.requires:
 
@@ -155,16 +155,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o.provides.build: exte
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o: ../../external/miniupnpc/miniwget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/miniwget.c.o   -c /var/www/html/jyocoin/external/miniupnpc/miniwget.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/miniwget.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/miniwget.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/miniwget.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/miniwget.c > CMakeFiles/upnpc-static.dir/miniwget.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/miniwget.c > CMakeFiles/upnpc-static.dir/miniwget.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/miniwget.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/miniwget.c -o CMakeFiles/upnpc-static.dir/miniwget.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/miniwget.c -o CMakeFiles/upnpc-static.dir/miniwget.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o.requires:
 
@@ -179,16 +179,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o.provides.build: exte
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o: ../../external/miniupnpc/upnpc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpc.c.o   -c /var/www/html/jyocoin/external/miniupnpc/upnpc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpc.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpc.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/upnpc.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/upnpc.c > CMakeFiles/upnpc-static.dir/upnpc.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpc.c > CMakeFiles/upnpc-static.dir/upnpc.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/upnpc.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/upnpc.c -o CMakeFiles/upnpc-static.dir/upnpc.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpc.c -o CMakeFiles/upnpc-static.dir/upnpc.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o.requires:
 
@@ -203,16 +203,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o.provides.build: externa
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o: ../../external/miniupnpc/upnpcommands.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpcommands.c.o   -c /var/www/html/jyocoin/external/miniupnpc/upnpcommands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpcommands.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpcommands.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/upnpcommands.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/upnpcommands.c > CMakeFiles/upnpc-static.dir/upnpcommands.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpcommands.c > CMakeFiles/upnpc-static.dir/upnpcommands.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/upnpcommands.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/upnpcommands.c -o CMakeFiles/upnpc-static.dir/upnpcommands.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpcommands.c -o CMakeFiles/upnpc-static.dir/upnpcommands.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o.requires:
 
@@ -227,16 +227,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o.provides.build: 
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o: ../../external/miniupnpc/upnpreplyparse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o   -c /var/www/html/jyocoin/external/miniupnpc/upnpreplyparse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpreplyparse.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/upnpreplyparse.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/upnpreplyparse.c > CMakeFiles/upnpc-static.dir/upnpreplyparse.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpreplyparse.c > CMakeFiles/upnpc-static.dir/upnpreplyparse.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/upnpreplyparse.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/upnpreplyparse.c -o CMakeFiles/upnpc-static.dir/upnpreplyparse.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnpreplyparse.c -o CMakeFiles/upnpc-static.dir/upnpreplyparse.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o.requires:
 
@@ -251,16 +251,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o.provides.build
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o: ../../external/miniupnpc/upnperrors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnperrors.c.o   -c /var/www/html/jyocoin/external/miniupnpc/upnperrors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/upnperrors.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnperrors.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/upnperrors.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/upnperrors.c > CMakeFiles/upnpc-static.dir/upnperrors.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnperrors.c > CMakeFiles/upnpc-static.dir/upnperrors.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/upnperrors.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/upnperrors.c -o CMakeFiles/upnpc-static.dir/upnperrors.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/upnperrors.c -o CMakeFiles/upnpc-static.dir/upnperrors.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o.requires:
 
@@ -275,16 +275,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o.provides.build: ex
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o: ../../external/miniupnpc/connecthostport.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/connecthostport.c.o   -c /var/www/html/jyocoin/external/miniupnpc/connecthostport.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/connecthostport.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/connecthostport.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/connecthostport.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/connecthostport.c > CMakeFiles/upnpc-static.dir/connecthostport.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/connecthostport.c > CMakeFiles/upnpc-static.dir/connecthostport.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/connecthostport.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/connecthostport.c -o CMakeFiles/upnpc-static.dir/connecthostport.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/connecthostport.c -o CMakeFiles/upnpc-static.dir/connecthostport.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o.requires:
 
@@ -299,16 +299,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o.provides.buil
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o: ../../external/miniupnpc/portlistingparse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/portlistingparse.c.o   -c /var/www/html/jyocoin/external/miniupnpc/portlistingparse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/portlistingparse.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/portlistingparse.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/portlistingparse.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/portlistingparse.c > CMakeFiles/upnpc-static.dir/portlistingparse.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/portlistingparse.c > CMakeFiles/upnpc-static.dir/portlistingparse.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/portlistingparse.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/portlistingparse.c -o CMakeFiles/upnpc-static.dir/portlistingparse.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/portlistingparse.c -o CMakeFiles/upnpc-static.dir/portlistingparse.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o.requires:
 
@@ -323,16 +323,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o.provides.bui
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o: ../../external/miniupnpc/receivedata.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/receivedata.c.o   -c /var/www/html/jyocoin/external/miniupnpc/receivedata.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/receivedata.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/receivedata.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/receivedata.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/receivedata.c > CMakeFiles/upnpc-static.dir/receivedata.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/receivedata.c > CMakeFiles/upnpc-static.dir/receivedata.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/receivedata.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/receivedata.c -o CMakeFiles/upnpc-static.dir/receivedata.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/receivedata.c -o CMakeFiles/upnpc-static.dir/receivedata.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o.requires:
 
@@ -347,16 +347,16 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o.provides.build: e
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o: external/miniupnpc/CMakeFiles/upnpc-static.dir/flags.make
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o: ../../external/miniupnpc/minissdpc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minissdpc.c.o   -c /var/www/html/jyocoin/external/miniupnpc/minissdpc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upnpc-static.dir/minissdpc.c.o   -c /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minissdpc.c
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upnpc-static.dir/minissdpc.c.i"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/jyocoin/external/miniupnpc/minissdpc.c > CMakeFiles/upnpc-static.dir/minissdpc.c.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minissdpc.c > CMakeFiles/upnpc-static.dir/minissdpc.c.i
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upnpc-static.dir/minissdpc.c.s"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/jyocoin/external/miniupnpc/minissdpc.c -o CMakeFiles/upnpc-static.dir/minissdpc.c.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/miniupnpc/minissdpc.c -o CMakeFiles/upnpc-static.dir/minissdpc.c.s
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o.requires:
 
@@ -403,9 +403,9 @@ external/miniupnpc/libminiupnpc.a: external/miniupnpc/CMakeFiles/upnpc-static.di
 external/miniupnpc/libminiupnpc.a: external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o
 external/miniupnpc/libminiupnpc.a: external/miniupnpc/CMakeFiles/upnpc-static.dir/build.make
 external/miniupnpc/libminiupnpc.a: external/miniupnpc/CMakeFiles/upnpc-static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/jyocoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C static library libminiupnpc.a"
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && $(CMAKE_COMMAND) -P CMakeFiles/upnpc-static.dir/cmake_clean_target.cmake
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/upnpc-static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C static library libminiupnpc.a"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && $(CMAKE_COMMAND) -P CMakeFiles/upnpc-static.dir/cmake_clean_target.cmake
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/upnpc-static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/miniupnpc/CMakeFiles/upnpc-static.dir/build: external/miniupnpc/libminiupnpc.a
@@ -429,10 +429,10 @@ external/miniupnpc/CMakeFiles/upnpc-static.dir/requires: external/miniupnpc/CMak
 .PHONY : external/miniupnpc/CMakeFiles/upnpc-static.dir/requires
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/clean:
-	cd /var/www/html/jyocoin/build/release/external/miniupnpc && $(CMAKE_COMMAND) -P CMakeFiles/upnpc-static.dir/cmake_clean.cmake
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc && $(CMAKE_COMMAND) -P CMakeFiles/upnpc-static.dir/cmake_clean.cmake
 .PHONY : external/miniupnpc/CMakeFiles/upnpc-static.dir/clean
 
 external/miniupnpc/CMakeFiles/upnpc-static.dir/depend:
-	cd /var/www/html/jyocoin/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin /var/www/html/jyocoin/external/miniupnpc /var/www/html/jyocoin/build/release /var/www/html/jyocoin/build/release/external/miniupnpc /var/www/html/jyocoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1 /home/ubuntu/Desktop/jyocoin1/external/miniupnpc /home/ubuntu/Desktop/jyocoin1/build/release /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc /home/ubuntu/Desktop/jyocoin1/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/miniupnpc/CMakeFiles/upnpc-static.dir/depend
 

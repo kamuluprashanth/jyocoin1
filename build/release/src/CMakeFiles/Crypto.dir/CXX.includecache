@@ -36,21 +36,21 @@ sys/param.h
 stdlib.h
 -
 
-/var/www/html/jyocoin/src/Common/static_assert.h
+/home/ubuntu/Desktop/jyocoin1/src/Common/static_assert.h
 
-/var/www/html/jyocoin/src/crypto/cn_context.cpp
+/home/ubuntu/Desktop/jyocoin1/src/crypto/cn_context.cpp
 new
 -
 hash.h
-/var/www/html/jyocoin/src/crypto/hash.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 Windows.h
 -
 sys/mman.h
 -
 
-/var/www/html/jyocoin/src/crypto/crypto-ops.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/crypto-ops.h
 
-/var/www/html/jyocoin/src/crypto/crypto.cpp
+/home/ubuntu/Desktop/jyocoin1/src/crypto/crypto.cpp
 alloca.h
 -
 cassert
@@ -68,17 +68,17 @@ memory
 mutex
 -
 Common/Varint.h
-/var/www/html/jyocoin/src/crypto/Common/Varint.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/Common/Varint.h
 crypto.h
-/var/www/html/jyocoin/src/crypto/crypto.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/crypto.h
 hash.h
-/var/www/html/jyocoin/src/crypto/hash.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 crypto-ops.h
-/var/www/html/jyocoin/src/crypto/crypto-ops.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/crypto-ops.h
 random.h
-/var/www/html/jyocoin/src/crypto/random.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/random.h
 
-/var/www/html/jyocoin/src/crypto/crypto.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/crypto.h
 cstddef
 -
 limits
@@ -92,13 +92,13 @@ vector
 CryptoTypes.h
 -
 generic-ops.h
-/var/www/html/jyocoin/src/crypto/generic-ops.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/generic-ops.h
 hash.h
-/var/www/html/jyocoin/src/crypto/hash.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 random.h
-/var/www/html/jyocoin/src/crypto/random.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/random.h
 
-/var/www/html/jyocoin/src/crypto/generic-ops.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/generic-ops.h
 cstddef
 -
 cstring
@@ -106,7 +106,7 @@ cstring
 functional
 -
 
-/var/www/html/jyocoin/src/crypto/hash-ops.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/hash-ops.h
 assert.h
 -
 stdbool.h
@@ -116,21 +116,21 @@ stddef.h
 stdint.h
 -
 ../Common/static_assert.h
-/var/www/html/jyocoin/src/Common/static_assert.h
+/home/ubuntu/Desktop/jyocoin1/src/Common/static_assert.h
 Common/int-util.h
-/var/www/html/jyocoin/src/crypto/Common/int-util.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/Common/int-util.h
 
-/var/www/html/jyocoin/src/crypto/hash.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/hash.h
 stddef.h
 -
 CryptoTypes.h
 -
 generic-ops.h
-/var/www/html/jyocoin/src/crypto/generic-ops.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/generic-ops.h
 hash-ops.h
-/var/www/html/jyocoin/src/crypto/hash-ops.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/hash-ops.h
 
-/var/www/html/jyocoin/src/crypto/random.h
+/home/ubuntu/Desktop/jyocoin1/src/crypto/random.h
 stddef.h
 -
 

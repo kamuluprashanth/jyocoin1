@@ -6,5 +6,5 @@ CXX_FLAGS =  -pthread -std=c++11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -W
 
 CXX_DEFINES = -DSTATICLIB
 
-CXX_INCLUDES = -I/var/www/html/jyocoin/include -I/var/www/html/jyocoin/src -I/var/www/html/jyocoin/external -I/var/www/html/jyocoin/build/release/version -I/var/www/html/jyocoin/src/Platform/Linux -I/var/www/html/jyocoin/src/Platform/Posix -I/var/www/html/jyocoin/external/rocksdb/include 
+CXX_INCLUDES = -I/home/ubuntu/Desktop/jyocoin1/include -I/home/ubuntu/Desktop/jyocoin1/src -I/home/ubuntu/Desktop/jyocoin1/external -I/home/ubuntu/Desktop/jyocoin1/build/release/version -I/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux -I/home/ubuntu/Desktop/jyocoin1/src/Platform/Posix -I/home/ubuntu/Desktop/jyocoin1/external/rocksdb/include 
 

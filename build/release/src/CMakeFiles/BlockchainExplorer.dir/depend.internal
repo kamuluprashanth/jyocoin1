@@ -44,9 +44,9 @@ src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/BlockchainExplorer/BlockchainExplorer.cpp
- /var/www/html/jyocoin/src/BlockchainExplorer/BlockchainExplorer.h
- /var/www/html/jyocoin/src/BlockchainExplorer/BlockchainExplorerErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/BlockchainExplorer/BlockchainExplorer.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/BlockchainExplorer/BlockchainExplorer.h
+ /home/ubuntu/Desktop/jyocoin1/src/BlockchainExplorer/BlockchainExplorerErrors.h
 src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.o
- /var/www/html/jyocoin/src/BlockchainExplorer/BlockchainExplorerErrors.cpp
- /var/www/html/jyocoin/src/BlockchainExplorer/BlockchainExplorerErrors.h
+ /home/ubuntu/Desktop/jyocoin1/src/BlockchainExplorer/BlockchainExplorerErrors.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/BlockchainExplorer/BlockchainExplorerErrors.h

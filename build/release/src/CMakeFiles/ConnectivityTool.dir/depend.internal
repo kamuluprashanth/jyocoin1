@@ -57,5 +57,5 @@ src/CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/ConnectivityTool/ConnectivityTool.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/ConnectivityTool/ConnectivityTool.cpp
  version/version.h

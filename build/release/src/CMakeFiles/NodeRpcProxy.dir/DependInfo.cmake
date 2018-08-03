@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/var/www/html/jyocoin/src/NodeRpcProxy/NodeErrors.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o"
-  "/var/www/html/jyocoin/src/NodeRpcProxy/NodeRpcProxy.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeErrors.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/NodeRpcProxy/NodeRpcProxy.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/var/www/html/jyocoin/external/rocksdb/util/testharness.cc" "/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/testharness.dir/util/testharness.cc.o"
+  "/home/ubuntu/Desktop/jyocoin1/external/rocksdb/util/testharness.cc" "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/testharness.dir/util/testharness.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,9 +17,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/var/www/html/jyocoin/external/rocksdb"
-  "/var/www/html/jyocoin/external/rocksdb/include"
-  "/var/www/html/jyocoin/external/rocksdb/third-party/gtest-1.7.0/fused-src"
+  "/home/ubuntu/Desktop/jyocoin1/external/rocksdb"
+  "/home/ubuntu/Desktop/jyocoin1/external/rocksdb/include"
+  "/home/ubuntu/Desktop/jyocoin1/external/rocksdb/third-party/gtest-1.7.0/fused-src"
   )
 
 # Targets to which this target links.

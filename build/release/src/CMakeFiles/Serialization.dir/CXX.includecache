@@ -230,7 +230,7 @@ hash-ops.h
 stddef.h
 -
 
-/var/www/html/jyocoin/src/Common/JsonValue.h
+/home/ubuntu/Desktop/jyocoin1/src/Common/JsonValue.h
 cstddef
 -
 cstdint
@@ -242,9 +242,9 @@ string
 vector
 -
 
-/var/www/html/jyocoin/src/Serialization/BinaryInputStreamSerializer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/BinaryInputStreamSerializer.cpp
 BinaryInputStreamSerializer.h
-/var/www/html/jyocoin/src/Serialization/BinaryInputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/BinaryInputStreamSerializer.h
 algorithm
 -
 cassert
@@ -254,37 +254,37 @@ stdexcept
 Common/StreamTools.h
 -
 SerializationOverloads.h
-/var/www/html/jyocoin/src/Serialization/SerializationOverloads.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/SerializationOverloads.h
 
-/var/www/html/jyocoin/src/Serialization/BinaryInputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/BinaryInputStreamSerializer.h
 Common/IInputStream.h
 -
 ISerializer.h
-/var/www/html/jyocoin/src/Serialization/ISerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
 SerializationOverloads.h
-/var/www/html/jyocoin/src/Serialization/SerializationOverloads.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/SerializationOverloads.h
 
-/var/www/html/jyocoin/src/Serialization/BinaryOutputStreamSerializer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/BinaryOutputStreamSerializer.cpp
 BinaryOutputStreamSerializer.h
-/var/www/html/jyocoin/src/Serialization/BinaryOutputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/BinaryOutputStreamSerializer.h
 cassert
 -
 stdexcept
 -
 Common/StreamTools.h
-/var/www/html/jyocoin/src/Serialization/Common/StreamTools.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/Common/StreamTools.h
 
-/var/www/html/jyocoin/src/Serialization/BinaryOutputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/BinaryOutputStreamSerializer.h
 Common/IOutputStream.h
-/var/www/html/jyocoin/src/Serialization/Common/IOutputStream.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/Common/IOutputStream.h
 ISerializer.h
-/var/www/html/jyocoin/src/Serialization/ISerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
 SerializationOverloads.h
-/var/www/html/jyocoin/src/Serialization/SerializationOverloads.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/SerializationOverloads.h
 
-/var/www/html/jyocoin/src/Serialization/BlockchainExplorerDataSerialization.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/BlockchainExplorerDataSerialization.cpp
 BlockchainExplorerDataSerialization.h
-/var/www/html/jyocoin/src/Serialization/BlockchainExplorerDataSerialization.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/BlockchainExplorerDataSerialization.h
 stdexcept
 -
 boost/variant/static_visitor.hpp
@@ -292,17 +292,17 @@ boost/variant/static_visitor.hpp
 boost/variant/apply_visitor.hpp
 -
 CryptoNoteCore/CryptoNoteSerialization.h
-/var/www/html/jyocoin/src/Serialization/CryptoNoteCore/CryptoNoteSerialization.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/CryptoNoteCore/CryptoNoteSerialization.h
 Serialization/SerializationOverloads.h
-/var/www/html/jyocoin/src/Serialization/Serialization/SerializationOverloads.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/Serialization/SerializationOverloads.h
 
-/var/www/html/jyocoin/src/Serialization/BlockchainExplorerDataSerialization.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/BlockchainExplorerDataSerialization.h
 BlockchainExplorerData.h
-/var/www/html/jyocoin/src/Serialization/BlockchainExplorerData.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/BlockchainExplorerData.h
 Serialization/ISerializer.h
-/var/www/html/jyocoin/src/Serialization/Serialization/ISerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/Serialization/ISerializer.h
 
-/var/www/html/jyocoin/src/Serialization/ISerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
 string
 -
 cstdint
@@ -310,55 +310,55 @@ cstdint
 Common/StringView.h
 -
 
-/var/www/html/jyocoin/src/Serialization/JsonInputStreamSerializer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonInputStreamSerializer.cpp
 Serialization/JsonInputStreamSerializer.h
-/var/www/html/jyocoin/src/Serialization/Serialization/JsonInputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/Serialization/JsonInputStreamSerializer.h
 ctype.h
 -
 exception
 -
 
-/var/www/html/jyocoin/src/Serialization/JsonInputValueSerializer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonInputValueSerializer.cpp
 JsonInputValueSerializer.h
-/var/www/html/jyocoin/src/Serialization/JsonInputValueSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonInputValueSerializer.h
 cassert
 -
 stdexcept
 -
 Common/StringTools.h
-/var/www/html/jyocoin/src/Serialization/Common/StringTools.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/Common/StringTools.h
 
-/var/www/html/jyocoin/src/Serialization/JsonInputValueSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonInputValueSerializer.h
 Common/JsonValue.h
-/var/www/html/jyocoin/src/Serialization/Common/JsonValue.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/Common/JsonValue.h
 ISerializer.h
-/var/www/html/jyocoin/src/Serialization/ISerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
 
-/var/www/html/jyocoin/src/Serialization/JsonOutputStreamSerializer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonOutputStreamSerializer.cpp
 JsonOutputStreamSerializer.h
-/var/www/html/jyocoin/src/Serialization/JsonOutputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonOutputStreamSerializer.h
 cassert
 -
 stdexcept
 -
 Common/StringTools.h
-/var/www/html/jyocoin/src/Serialization/Common/StringTools.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/Common/StringTools.h
 
-/var/www/html/jyocoin/src/Serialization/JsonOutputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonOutputStreamSerializer.h
 iostream
 -
 ../Common/JsonValue.h
-/var/www/html/jyocoin/src/Common/JsonValue.h
+/home/ubuntu/Desktop/jyocoin1/src/Common/JsonValue.h
 ISerializer.h
-/var/www/html/jyocoin/src/Serialization/ISerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
 
-/var/www/html/jyocoin/src/Serialization/KVBinaryCommon.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryCommon.h
 cstdint
 -
 
-/var/www/html/jyocoin/src/Serialization/KVBinaryInputStreamSerializer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryInputStreamSerializer.cpp
 KVBinaryInputStreamSerializer.h
-/var/www/html/jyocoin/src/Serialization/KVBinaryInputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryInputStreamSerializer.h
 algorithm
 -
 cassert
@@ -370,21 +370,21 @@ stdexcept
 Common/StreamTools.h
 -
 KVBinaryCommon.h
-/var/www/html/jyocoin/src/Serialization/KVBinaryCommon.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryCommon.h
 
-/var/www/html/jyocoin/src/Serialization/KVBinaryInputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryInputStreamSerializer.h
 Common/IInputStream.h
 -
 ISerializer.h
-/var/www/html/jyocoin/src/Serialization/ISerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
 JsonInputValueSerializer.h
-/var/www/html/jyocoin/src/Serialization/JsonInputValueSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/JsonInputValueSerializer.h
 
-/var/www/html/jyocoin/src/Serialization/KVBinaryOutputStreamSerializer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryOutputStreamSerializer.cpp
 KVBinaryOutputStreamSerializer.h
-/var/www/html/jyocoin/src/Serialization/KVBinaryOutputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryOutputStreamSerializer.h
 KVBinaryCommon.h
-/var/www/html/jyocoin/src/Serialization/KVBinaryCommon.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryCommon.h
 cassert
 -
 stdexcept
@@ -392,21 +392,21 @@ stdexcept
 Common/StreamTools.h
 -
 
-/var/www/html/jyocoin/src/Serialization/KVBinaryOutputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/KVBinaryOutputStreamSerializer.h
 vector
 -
 Common/IOutputStream.h
 -
 ISerializer.h
-/var/www/html/jyocoin/src/Serialization/ISerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
 MemoryStream.h
-/var/www/html/jyocoin/src/Serialization/MemoryStream.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/MemoryStream.h
 
-/var/www/html/jyocoin/src/Serialization/MemoryStream.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/MemoryStream.cpp
 MemoryStream.h
-/var/www/html/jyocoin/src/Serialization/MemoryStream.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/MemoryStream.h
 
-/var/www/html/jyocoin/src/Serialization/MemoryStream.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/MemoryStream.h
 algorithm
 -
 cstdint
@@ -418,15 +418,15 @@ vector
 Common/IOutputStream.h
 -
 
-/var/www/html/jyocoin/src/Serialization/SerializationOverloads.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/SerializationOverloads.cpp
 Serialization/SerializationOverloads.h
-/var/www/html/jyocoin/src/Serialization/Serialization/SerializationOverloads.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/Serialization/SerializationOverloads.h
 limits
 -
 
-/var/www/html/jyocoin/src/Serialization/SerializationOverloads.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/SerializationOverloads.h
 ISerializer.h
-/var/www/html/jyocoin/src/Serialization/ISerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Serialization/ISerializer.h
 array
 -
 cstring

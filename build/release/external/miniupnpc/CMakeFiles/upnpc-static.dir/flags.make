@@ -6,5 +6,5 @@ C_FLAGS =  -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings
 
 C_DEFINES = -DMINIUPNPC_SET_SOCKET_TIMEOUT -D_BSD_SOURCE -D_POSIX_C_SOURCE=1
 
-C_INCLUDES = -I/var/www/html/jyocoin/include -I/var/www/html/jyocoin/src -I/var/www/html/jyocoin/external -I/var/www/html/jyocoin/build/release/version -I/var/www/html/jyocoin/src/Platform/Linux -I/var/www/html/jyocoin/src/Platform/Posix -I/var/www/html/jyocoin/build/release 
+C_INCLUDES = -I/home/ubuntu/Desktop/jyocoin1/include -I/home/ubuntu/Desktop/jyocoin1/src -I/home/ubuntu/Desktop/jyocoin1/external -I/home/ubuntu/Desktop/jyocoin1/build/release/version -I/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux -I/home/ubuntu/Desktop/jyocoin1/src/Platform/Posix -I/home/ubuntu/Desktop/jyocoin1/build/release 
 

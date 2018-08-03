@@ -150,8 +150,8 @@ src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Daemon/Daemon.cpp
- /var/www/html/jyocoin/src/Daemon/DaemonCommandsHandler.h
+ /home/ubuntu/Desktop/jyocoin1/src/Daemon/Daemon.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Daemon/DaemonCommandsHandler.h
  version/version.h
 src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.o
  ../../include/BlockchainExplorerData.h
@@ -258,6 +258,6 @@ src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /var/www/html/jyocoin/src/Daemon/DaemonCommandsHandler.cpp
- /var/www/html/jyocoin/src/Daemon/DaemonCommandsHandler.h
+ /home/ubuntu/Desktop/jyocoin1/src/Daemon/DaemonCommandsHandler.cpp
+ /home/ubuntu/Desktop/jyocoin1/src/Daemon/DaemonCommandsHandler.h
  version/version.h

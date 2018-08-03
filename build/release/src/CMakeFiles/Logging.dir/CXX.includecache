@@ -10,7 +10,7 @@
 cstdint
 -
 
-/var/www/html/jyocoin/src/Common/JsonValue.h
+/home/ubuntu/Desktop/jyocoin1/src/Common/JsonValue.h
 cstddef
 -
 cstdint
@@ -22,19 +22,19 @@ string
 vector
 -
 
-/var/www/html/jyocoin/src/Logging/CommonLogger.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Logging/CommonLogger.cpp
 CommonLogger.h
-/var/www/html/jyocoin/src/Logging/CommonLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/CommonLogger.h
 
-/var/www/html/jyocoin/src/Logging/CommonLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/CommonLogger.h
 set
 -
 ILogger.h
-/var/www/html/jyocoin/src/Logging/ILogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
 
-/var/www/html/jyocoin/src/Logging/ConsoleLogger.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Logging/ConsoleLogger.cpp
 ConsoleLogger.h
-/var/www/html/jyocoin/src/Logging/ConsoleLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/ConsoleLogger.h
 iostream
 -
 unordered_map
@@ -42,27 +42,27 @@ unordered_map
 Common/ConsoleTools.h
 -
 
-/var/www/html/jyocoin/src/Logging/ConsoleLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/ConsoleLogger.h
 mutex
 -
 CommonLogger.h
-/var/www/html/jyocoin/src/Logging/CommonLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/CommonLogger.h
 
-/var/www/html/jyocoin/src/Logging/FileLogger.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Logging/FileLogger.cpp
 FileLogger.h
-/var/www/html/jyocoin/src/Logging/FileLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/FileLogger.h
 
-/var/www/html/jyocoin/src/Logging/FileLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/FileLogger.h
 fstream
 -
 StreamLogger.h
-/var/www/html/jyocoin/src/Logging/StreamLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/StreamLogger.h
 
-/var/www/html/jyocoin/src/Logging/ILogger.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.cpp
 ILogger.h
-/var/www/html/jyocoin/src/Logging/ILogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
 
-/var/www/html/jyocoin/src/Logging/ILogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
 string
 -
 array
@@ -70,29 +70,29 @@ array
 boost/date_time/posix_time/posix_time.hpp
 -
 
-/var/www/html/jyocoin/src/Logging/LoggerGroup.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerGroup.cpp
 LoggerGroup.h
-/var/www/html/jyocoin/src/Logging/LoggerGroup.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerGroup.h
 algorithm
 -
 
-/var/www/html/jyocoin/src/Logging/LoggerGroup.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerGroup.h
 vector
 -
 CommonLogger.h
-/var/www/html/jyocoin/src/Logging/CommonLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/CommonLogger.h
 
-/var/www/html/jyocoin/src/Logging/LoggerManager.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerManager.cpp
 LoggerManager.h
-/var/www/html/jyocoin/src/Logging/LoggerManager.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerManager.h
 thread
 -
 ConsoleLogger.h
-/var/www/html/jyocoin/src/Logging/ConsoleLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/ConsoleLogger.h
 FileLogger.h
-/var/www/html/jyocoin/src/Logging/FileLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/FileLogger.h
 
-/var/www/html/jyocoin/src/Logging/LoggerManager.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerManager.h
 list
 -
 memory
@@ -100,41 +100,41 @@ memory
 mutex
 -
 ../Common/JsonValue.h
-/var/www/html/jyocoin/src/Common/JsonValue.h
+/home/ubuntu/Desktop/jyocoin1/src/Common/JsonValue.h
 LoggerGroup.h
-/var/www/html/jyocoin/src/Logging/LoggerGroup.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerGroup.h
 
-/var/www/html/jyocoin/src/Logging/LoggerMessage.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.cpp
 LoggerMessage.h
-/var/www/html/jyocoin/src/Logging/LoggerMessage.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.h
 
-/var/www/html/jyocoin/src/Logging/LoggerMessage.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.h
 iostream
 -
 ILogger.h
-/var/www/html/jyocoin/src/Logging/ILogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
 
-/var/www/html/jyocoin/src/Logging/LoggerRef.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.cpp
 LoggerRef.h
-/var/www/html/jyocoin/src/Logging/LoggerRef.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.h
 
-/var/www/html/jyocoin/src/Logging/LoggerRef.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerRef.h
 ILogger.h
-/var/www/html/jyocoin/src/Logging/ILogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/ILogger.h
 LoggerMessage.h
-/var/www/html/jyocoin/src/Logging/LoggerMessage.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/LoggerMessage.h
 
-/var/www/html/jyocoin/src/Logging/StreamLogger.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Logging/StreamLogger.cpp
 StreamLogger.h
-/var/www/html/jyocoin/src/Logging/StreamLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/StreamLogger.h
 iostream
 -
 sstream
 -
 
-/var/www/html/jyocoin/src/Logging/StreamLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/StreamLogger.h
 mutex
 -
 CommonLogger.h
-/var/www/html/jyocoin/src/Logging/CommonLogger.h
+/home/ubuntu/Desktop/jyocoin1/src/Logging/CommonLogger.h
 

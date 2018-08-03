@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/var/www/html/jyocoin/src/Platform/Linux/System/Dispatcher.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.o"
-  "/var/www/html/jyocoin/src/Platform/Linux/System/ErrorMessage.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.o"
-  "/var/www/html/jyocoin/src/Platform/Linux/System/Ipv4Resolver.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.o"
-  "/var/www/html/jyocoin/src/Platform/Linux/System/TcpConnection.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.o"
-  "/var/www/html/jyocoin/src/Platform/Linux/System/TcpConnector.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.o"
-  "/var/www/html/jyocoin/src/Platform/Linux/System/TcpListener.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.o"
-  "/var/www/html/jyocoin/src/Platform/Linux/System/Timer.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.o"
-  "/var/www/html/jyocoin/src/Platform/Posix/System/MemoryMappedFile.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/Platform/Posix/System/MemoryMappedFile.cpp.o"
-  "/var/www/html/jyocoin/src/System/ContextGroup.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/System/ContextGroup.cpp.o"
-  "/var/www/html/jyocoin/src/System/ContextGroupTimeout.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.o"
-  "/var/www/html/jyocoin/src/System/Event.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/System/Event.cpp.o"
-  "/var/www/html/jyocoin/src/System/EventLock.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/System/EventLock.cpp.o"
-  "/var/www/html/jyocoin/src/System/InterruptedException.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/System/InterruptedException.cpp.o"
-  "/var/www/html/jyocoin/src/System/Ipv4Address.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/System/Ipv4Address.cpp.o"
-  "/var/www/html/jyocoin/src/System/RemoteEventLock.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.o"
-  "/var/www/html/jyocoin/src/System/TcpStream.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/System.dir/System/TcpStream.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Dispatcher.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/ErrorMessage.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Ipv4Resolver.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpConnection.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpConnector.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/TcpListener.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Platform/Linux/System/Timer.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/Platform/Posix/System/MemoryMappedFile.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/Platform/Posix/System/MemoryMappedFile.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/System/ContextGroup.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/System/ContextGroup.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/System/ContextGroupTimeout.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/System/Event.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/System/Event.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/System/EventLock.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/System/EventLock.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/System/InterruptedException.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/System/InterruptedException.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/System/Ipv4Address.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/System/Ipv4Address.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/System/RemoteEventLock.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/System/TcpStream.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/System.dir/System/TcpStream.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

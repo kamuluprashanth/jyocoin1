@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /var/www/html/jyocoin/external/rocksdb
-# Build directory: /var/www/html/jyocoin/build/release/rocksdb
+# Source directory: /home/ubuntu/Desktop/jyocoin1/external/rocksdb
+# Build directory: /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -138,6 +138,6 @@ add_test(transaction_test "transaction_test")
 add_test(write_prepared_transaction_test "write_prepared_transaction_test")
 add_test(ttl_test "ttl_test")
 add_test(write_batch_with_index_test "write_batch_with_index_test")
-add_test(c_test "/var/www/html/jyocoin/build/release/rocksdb/c_test")
+add_test(c_test "/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/c_test")
 subdirs(third-party/gtest-1.7.0/fused-src/gtest)
 subdirs(tools)

@@ -5,23 +5,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/var/www/html/jyocoin/src/crypto/blake256.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/blake256.c.o"
-  "/var/www/html/jyocoin/src/crypto/chacha8.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o"
-  "/var/www/html/jyocoin/src/crypto/crypto-ops-data.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o"
-  "/var/www/html/jyocoin/src/crypto/crypto-ops.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o"
-  "/var/www/html/jyocoin/src/crypto/groestl.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/groestl.c.o"
-  "/var/www/html/jyocoin/src/crypto/hash-extra-blake.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o"
-  "/var/www/html/jyocoin/src/crypto/hash-extra-groestl.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o"
-  "/var/www/html/jyocoin/src/crypto/hash-extra-jh.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o"
-  "/var/www/html/jyocoin/src/crypto/hash-extra-skein.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o"
-  "/var/www/html/jyocoin/src/crypto/hash.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/hash.c.o"
-  "/var/www/html/jyocoin/src/crypto/jh.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/jh.c.o"
-  "/var/www/html/jyocoin/src/crypto/keccak.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/keccak.c.o"
-  "/var/www/html/jyocoin/src/crypto/oaes_lib.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o"
-  "/var/www/html/jyocoin/src/crypto/random.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/random.c.o"
-  "/var/www/html/jyocoin/src/crypto/skein.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/skein.c.o"
-  "/var/www/html/jyocoin/src/crypto/slow-hash.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o"
-  "/var/www/html/jyocoin/src/crypto/tree-hash.c" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/blake256.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/blake256.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/chacha8.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/crypto-ops-data.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/crypto-ops.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/groestl.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/groestl.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-blake.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-groestl.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-jh.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/hash-extra-skein.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/hash.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/hash.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/jh.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/jh.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/keccak.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/keccak.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/oaes_lib.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/random.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/random.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/skein.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/skein.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/slow-hash.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/tree-hash.c" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -41,8 +41,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../external/rocksdb/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/var/www/html/jyocoin/src/crypto/cn_context.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o"
-  "/var/www/html/jyocoin/src/crypto/crypto.cpp" "/var/www/html/jyocoin/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/cn_context.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/cn_context.cpp.o"
+  "/home/ubuntu/Desktop/jyocoin1/src/crypto/crypto.cpp" "/home/ubuntu/Desktop/jyocoin1/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

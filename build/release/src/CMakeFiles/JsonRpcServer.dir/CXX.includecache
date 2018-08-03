@@ -166,9 +166,9 @@ cstdint
 streambuf
 -
 
-/var/www/html/jyocoin/src/JsonRpcServer/JsonRpcServer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/JsonRpcServer.cpp
 JsonRpcServer.h
-/var/www/html/jyocoin/src/JsonRpcServer/JsonRpcServer.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/JsonRpcServer.h
 fstream
 -
 future
@@ -180,7 +180,7 @@ memory
 sstream
 -
 HTTP/HttpParserErrorCodes.h
-/var/www/html/jyocoin/src/JsonRpcServer/HTTP/HttpParserErrorCodes.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/HTTP/HttpParserErrorCodes.h
 System/TcpConnection.h
 -
 System/TcpListener.h
@@ -190,17 +190,17 @@ System/TcpStream.h
 System/Ipv4Address.h
 -
 HTTP/HttpParser.h
-/var/www/html/jyocoin/src/JsonRpcServer/HTTP/HttpParser.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/HTTP/HttpParser.h
 HTTP/HttpResponse.h
-/var/www/html/jyocoin/src/JsonRpcServer/HTTP/HttpResponse.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/HTTP/HttpResponse.h
 Common/JsonValue.h
-/var/www/html/jyocoin/src/JsonRpcServer/Common/JsonValue.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/Common/JsonValue.h
 Serialization/JsonInputValueSerializer.h
-/var/www/html/jyocoin/src/JsonRpcServer/Serialization/JsonInputValueSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/Serialization/JsonInputValueSerializer.h
 Serialization/JsonOutputStreamSerializer.h
-/var/www/html/jyocoin/src/JsonRpcServer/Serialization/JsonOutputStreamSerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/Serialization/JsonOutputStreamSerializer.h
 
-/var/www/html/jyocoin/src/JsonRpcServer/JsonRpcServer.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/JsonRpcServer.h
 system_error
 -
 System/Dispatcher.h
@@ -208,9 +208,9 @@ System/Dispatcher.h
 System/Event.h
 -
 Logging/ILogger.h
-/var/www/html/jyocoin/src/JsonRpcServer/Logging/ILogger.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/Logging/ILogger.h
 Logging/LoggerRef.h
-/var/www/html/jyocoin/src/JsonRpcServer/Logging/LoggerRef.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/Logging/LoggerRef.h
 Rpc/HttpServer.h
-/var/www/html/jyocoin/src/JsonRpcServer/Rpc/HttpServer.h
+/home/ubuntu/Desktop/jyocoin1/src/JsonRpcServer/Rpc/HttpServer.h
 

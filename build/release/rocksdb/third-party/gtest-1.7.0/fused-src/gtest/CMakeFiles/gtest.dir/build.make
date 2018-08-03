@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin/external/rocksdb
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1/external/rocksdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release/rocksdb
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb
 
 # Include any dependencies generated for this target.
 include third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/depend.make
@@ -58,17 +58,17 @@ include third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/progress.ma
 include third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/flags.make
 
 third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.o: third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/flags.make
-third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.o: /var/www/html/jyocoin/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.o"
-	cd /var/www/html/jyocoin/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/gtest-all.cc.o -c /var/www/html/jyocoin/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/gtest-all.cc
+third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.o"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/gtest-all.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/gtest-all.cc
 
 third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/gtest-all.cc.i"
-	cd /var/www/html/jyocoin/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/gtest-all.cc > CMakeFiles/gtest.dir/gtest-all.cc.i
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/gtest-all.cc > CMakeFiles/gtest.dir/gtest-all.cc.i
 
 third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/gtest-all.cc.s"
-	cd /var/www/html/jyocoin/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/gtest-all.cc -o CMakeFiles/gtest.dir/gtest-all.cc.s
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/gtest-all.cc -o CMakeFiles/gtest.dir/gtest-all.cc.s
 
 third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.o.requires:
 
@@ -91,9 +91,9 @@ gtest_EXTERNAL_OBJECTS =
 third-party/gtest-1.7.0/fused-src/gtest/libgtest.a: third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/gtest-all.cc.o
 third-party/gtest-1.7.0/fused-src/gtest/libgtest.a: third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build.make
 third-party/gtest-1.7.0/fused-src/gtest/libgtest.a: third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
-	cd /var/www/html/jyocoin/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd /var/www/html/jyocoin/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/build: third-party/gtest-1.7.0/fused-src/gtest/libgtest.a
@@ -105,10 +105,10 @@ third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/requires: third-par
 .PHONY : third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/requires
 
 third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/clean:
-	cd /var/www/html/jyocoin/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/clean
 
 third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/depend:
-	cd /var/www/html/jyocoin/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest /var/www/html/jyocoin/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/external/rocksdb/third-party/gtest-1.7.0/fused-src/gtest /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/gtest-1.7.0/fused-src/gtest/CMakeFiles/gtest.dir/depend
 

@@ -1114,29 +1114,29 @@ hash-ops.h
 stddef.h
 -
 
-/var/www/html/jyocoin/src/Rpc/CoreRpcServerCommandsDefinitions.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CoreRpcServerCommandsDefinitions.h
 CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
-/var/www/html/jyocoin/src/Rpc/CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
 CryptoNoteCore/CryptoNoteBasic.h
-/var/www/html/jyocoin/src/Rpc/CryptoNoteCore/CryptoNoteBasic.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CryptoNoteCore/CryptoNoteBasic.h
 CryptoNoteCore/Difficulty.h
-/var/www/html/jyocoin/src/Rpc/CryptoNoteCore/Difficulty.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CryptoNoteCore/Difficulty.h
 crypto/hash.h
-/var/www/html/jyocoin/src/Rpc/crypto/hash.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/crypto/hash.h
 BlockchainExplorerData.h
-/var/www/html/jyocoin/src/Rpc/BlockchainExplorerData.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/BlockchainExplorerData.h
 Serialization/SerializationOverloads.h
-/var/www/html/jyocoin/src/Rpc/Serialization/SerializationOverloads.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/Serialization/SerializationOverloads.h
 Serialization/BlockchainExplorerDataSerialization.h
-/var/www/html/jyocoin/src/Rpc/Serialization/BlockchainExplorerDataSerialization.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/Serialization/BlockchainExplorerDataSerialization.h
 CryptoNoteCore/ICoreDefinitions.h
 -
 
-/var/www/html/jyocoin/src/Rpc/CoreRpcServerErrorCodes.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CoreRpcServerErrorCodes.h
 
-/var/www/html/jyocoin/src/Rpc/HttpClient.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/HttpClient.cpp
 HttpClient.h
-/var/www/html/jyocoin/src/Rpc/HttpClient.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/HttpClient.h
 HTTP/HttpParser.h
 -
 System/Ipv4Resolver.h
@@ -1146,7 +1146,7 @@ System/Ipv4Address.h
 System/TcpConnector.h
 -
 
-/var/www/html/jyocoin/src/Rpc/HttpClient.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/HttpClient.h
 memory
 -
 HTTP/HttpRequest.h
@@ -1158,11 +1158,11 @@ System/TcpConnection.h
 System/TcpStream.h
 -
 Serialization/SerializationTools.h
-/var/www/html/jyocoin/src/Rpc/Serialization/SerializationTools.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/Serialization/SerializationTools.h
 
-/var/www/html/jyocoin/src/Rpc/HttpServer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/HttpServer.cpp
 HttpServer.h
-/var/www/html/jyocoin/src/Rpc/HttpServer.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/HttpServer.h
 boost/scope_exit.hpp
 -
 HTTP/HttpParser.h
@@ -1174,7 +1174,7 @@ System/TcpStream.h
 System/Ipv4Address.h
 -
 
-/var/www/html/jyocoin/src/Rpc/HttpServer.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/HttpServer.h
 unordered_set
 -
 HTTP/HttpRequest.h
@@ -1194,13 +1194,13 @@ System/Event.h
 Logging/LoggerRef.h
 -
 
-/var/www/html/jyocoin/src/Rpc/JsonRpc.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/JsonRpc.cpp
 JsonRpc.h
-/var/www/html/jyocoin/src/Rpc/JsonRpc.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/JsonRpc.h
 Rpc/HttpClient.h
-/var/www/html/jyocoin/src/Rpc/Rpc/HttpClient.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/Rpc/HttpClient.h
 
-/var/www/html/jyocoin/src/Rpc/JsonRpc.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/JsonRpc.h
 boost/optional.hpp
 -
 boost/foreach.hpp
@@ -1208,47 +1208,47 @@ boost/foreach.hpp
 functional
 -
 CoreRpcServerCommandsDefinitions.h
-/var/www/html/jyocoin/src/Rpc/CoreRpcServerCommandsDefinitions.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CoreRpcServerCommandsDefinitions.h
 Common/JsonValue.h
 -
 Serialization/ISerializer.h
-/var/www/html/jyocoin/src/Rpc/Serialization/ISerializer.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/Serialization/ISerializer.h
 Serialization/SerializationTools.h
-/var/www/html/jyocoin/src/Rpc/Serialization/SerializationTools.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/Serialization/SerializationTools.h
 
-/var/www/html/jyocoin/src/Rpc/RpcServer.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/RpcServer.cpp
 RpcServer.h
-/var/www/html/jyocoin/src/Rpc/RpcServer.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/RpcServer.h
 future
 -
 unordered_map
 -
 Common/StringTools.h
-/var/www/html/jyocoin/src/Rpc/Common/StringTools.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/Common/StringTools.h
 CryptoNoteCore/CryptoNoteTools.h
-/var/www/html/jyocoin/src/Rpc/CryptoNoteCore/CryptoNoteTools.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CryptoNoteCore/CryptoNoteTools.h
 CryptoNoteCore/Core.h
-/var/www/html/jyocoin/src/Rpc/CryptoNoteCore/Core.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CryptoNoteCore/Core.h
 CryptoNoteCore/Miner.h
-/var/www/html/jyocoin/src/Rpc/CryptoNoteCore/Miner.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CryptoNoteCore/Miner.h
 CryptoNoteCore/TransactionExtra.h
-/var/www/html/jyocoin/src/Rpc/CryptoNoteCore/TransactionExtra.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CryptoNoteCore/TransactionExtra.h
 CryptoNoteCore/CryptoNoteFormatUtils.h
-/var/www/html/jyocoin/src/Rpc/CryptoNoteCore/CryptoNoteFormatUtils.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CryptoNoteCore/CryptoNoteFormatUtils.h
 CryptoNoteProtocol/CryptoNoteProtocolHandlerCommon.h
-/var/www/html/jyocoin/src/Rpc/CryptoNoteProtocol/CryptoNoteProtocolHandlerCommon.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CryptoNoteProtocol/CryptoNoteProtocolHandlerCommon.h
 P2p/NetNode.h
-/var/www/html/jyocoin/src/Rpc/P2p/NetNode.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/P2p/NetNode.h
 CoreRpcServerErrorCodes.h
-/var/www/html/jyocoin/src/Rpc/CoreRpcServerErrorCodes.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CoreRpcServerErrorCodes.h
 JsonRpc.h
-/var/www/html/jyocoin/src/Rpc/JsonRpc.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/JsonRpc.h
 version.h
-/var/www/html/jyocoin/src/Rpc/version.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/version.h
 
-/var/www/html/jyocoin/src/Rpc/RpcServer.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/RpcServer.h
 HttpServer.h
-/var/www/html/jyocoin/src/Rpc/HttpServer.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/HttpServer.h
 functional
 -
 unordered_map
@@ -1256,19 +1256,19 @@ unordered_map
 Logging/LoggerRef.h
 -
 Common/Math.h
-/var/www/html/jyocoin/src/Rpc/Common/Math.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/Common/Math.h
 CoreRpcServerCommandsDefinitions.h
-/var/www/html/jyocoin/src/Rpc/CoreRpcServerCommandsDefinitions.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CoreRpcServerCommandsDefinitions.h
 
-/var/www/html/jyocoin/src/Rpc/RpcServerConfig.cpp
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/RpcServerConfig.cpp
 RpcServerConfig.h
-/var/www/html/jyocoin/src/Rpc/RpcServerConfig.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/RpcServerConfig.h
 Common/CommandLine.h
-/var/www/html/jyocoin/src/Rpc/Common/CommandLine.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/Common/CommandLine.h
 CryptoNoteConfig.h
-/var/www/html/jyocoin/src/Rpc/CryptoNoteConfig.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/CryptoNoteConfig.h
 
-/var/www/html/jyocoin/src/Rpc/RpcServerConfig.h
+/home/ubuntu/Desktop/jyocoin1/src/Rpc/RpcServerConfig.h
 boost/program_options.hpp
 -
 

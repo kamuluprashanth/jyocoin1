@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/jyocoin/external/rocksdb
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/jyocoin1/external/rocksdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/jyocoin/build/release/rocksdb
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hash_table_bench.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/hash_table_bench.dir/progress.make
 include CMakeFiles/hash_table_bench.dir/flags.make
 
 CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.o: CMakeFiles/hash_table_bench.dir/flags.make
-CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.o: /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/hash_table_bench.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.o -c /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/hash_table_bench.cc
+CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.o: /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/hash_table_bench.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.o -c /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/hash_table_bench.cc
 
 CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/hash_table_bench.cc > CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/hash_table_bench.cc > CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.i
 
 CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/jyocoin/external/rocksdb/utilities/persistent_cache/hash_table_bench.cc -o CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/jyocoin1/external/rocksdb/utilities/persistent_cache/hash_table_bench.cc -o CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.s
 
 CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.o.requires:
 
@@ -87,7 +87,7 @@ hash_table_bench_OBJECTS = \
 
 # External object files for target hash_table_bench
 hash_table_bench_EXTERNAL_OBJECTS = \
-"/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/testharness.dir/util/testharness.cc.o"
+"/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/testharness.dir/util/testharness.cc.o"
 
 hash_table_bench: CMakeFiles/hash_table_bench.dir/utilities/persistent_cache/hash_table_bench.cc.o
 hash_table_bench: CMakeFiles/testharness.dir/util/testharness.cc.o
@@ -95,7 +95,7 @@ hash_table_bench: CMakeFiles/hash_table_bench.dir/build.make
 hash_table_bench: third-party/gtest-1.7.0/fused-src/gtest/libgtest.a
 hash_table_bench: librocksdb.so.5.12.2
 hash_table_bench: CMakeFiles/hash_table_bench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/jyocoin/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hash_table_bench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hash_table_bench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hash_table_bench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -112,6 +112,6 @@ CMakeFiles/hash_table_bench.dir/clean:
 .PHONY : CMakeFiles/hash_table_bench.dir/clean
 
 CMakeFiles/hash_table_bench.dir/depend:
-	cd /var/www/html/jyocoin/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/external/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb /var/www/html/jyocoin/build/release/rocksdb/CMakeFiles/hash_table_bench.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/external/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb /home/ubuntu/Desktop/jyocoin1/build/release/rocksdb/CMakeFiles/hash_table_bench.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hash_table_bench.dir/depend
 
